@@ -26,18 +26,18 @@
   box-sizing: border-box;
 }
 .gt-container a {
-  color: #6190e8;
+  color: #4395cd;
 }
 .gt-container a:hover {
-  color: #81a6ed;
-  border-color: #81a6ed;
+  color: #6ac36e;
+  border-color: #70b9d8;
 }
 .gt-container a.is--active {
-  color: #333;
+  color: #e71010;
   cursor: default !important;
 }
 .gt-container a.is--active:hover {
-  color: #333;
+  color: #d61515;
 }
 .gt-container .hide {
   display: none !important;
@@ -51,7 +51,7 @@
 .gt-container .gt-svg svg {
   width: 100%;
   height: 100%;
-  fill: #6190e8;
+  fill: #465f8f;
 }
 .gt-container .gt-ico {
   display: inline-block;
@@ -84,7 +84,7 @@
   margin-top: -0.1875em;
   margin-left: -0.375em;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 1px solid #b1aaaa;
   border-top-color: #6190e8;
   -webkit-animation: gt-kf-rotate 0.6s linear infinite;
   animation: gt-kf-rotate 0.6s linear infinite;
@@ -111,7 +111,7 @@
   margin-left: -0.1875em;
   width: 0.375em;
   height: 0.375em;
-  background-color: #999;
+  background-color: #cf8282;
   border-radius: 50%;
 }
 .gt-container .gt-avatar {
@@ -147,9 +147,9 @@
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
-  border: 1px solid #6190e8;
+  border: 1px solid #d6f366;
   border-radius: 5px;
-  background-color: #6190e8;
+  background-color: #77d1ea;
   color: #fff;
   outline: none;
   font-size: 0.75em;
@@ -178,16 +178,16 @@
 }
 .gt-container .gt-btn-preview:hover {
   background-color: #f2f2f2;
-  border-color: #81a6ed;
+  border-color: #57cfc7;
 }
 .gt-container .gt-btn-public:hover {
-  background-color: #81a6ed;
-  border-color: #81a6ed;
+  background-color: #81eda1;
+  border-color: #5bc79f;
 }
 .gt-container .gt-error {
   text-align: center;
   margin: 0.625em;
-  color: #ff3860;
+  color: #ce6677;
 }
 .gt-container .gt-initing {
   padding: 1.25em 0;
@@ -202,7 +202,7 @@
   text-align: center;
 }
 .gt-container .gt-link {
-  border-bottom: 1px dotted #6190e8;
+  border-bottom: 1px dotted #e8b261;
 }
 .gt-container .gt-link-counts,
 .gt-container .gt-link-project {
@@ -250,10 +250,10 @@
   fill: inherit;
 }
 .gt-container .gt-user .is--poping .gt-ico svg {
-  fill: #6190e8;
+  fill: #61e87c;
 }
 .gt-container .gt-version {
-  color: #a1a1a1;
+  color: #3932a1;
   margin-left: 0.375em;
 }
 .gt-container .gt-copyright {
