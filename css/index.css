@@ -3291,22 +3291,6 @@ figure.highlight pre .javascript .function {
   width: auto;
   vertical-align: text-bottom;
 }
-:root {
-  --mark-bg: transparent;
-}
-#page-header {
-  position: relative;
-  width: 100%;
-  background-color: var(--mark-bg); /* 这里会使用--mark-bg的值 */
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  transition: all 0.5s;
-}
 #page-header {
   position: relative;
   width: 100%;
