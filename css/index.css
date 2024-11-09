@@ -3294,7 +3294,7 @@ figure.highlight pre .javascript .function {
 #page-header {
   position: relative;
   width: 100%;
-  background-color: $light-yellow;
+  background-image: url("/img/404.jpg"); /* 更新为实际图片路径 */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
