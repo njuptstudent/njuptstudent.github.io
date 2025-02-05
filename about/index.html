@@ -40,30 +40,38 @@
 <body class="loading">
     <span id="config-title" style="display:none">Mr.Smith de house</span>
     <div id="loader"></div>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css"> <!-- 确保有样式文件 -->
-</head>
-<body>
-    <header>
-        <h1>{{ page.title }}</h1>
-    </header>
-    <main>
-        <section class="profile">
-            <img src="{{ page.profile.avatar }}" alt="Profile Avatar">
-            <h2>{{ page.profile.career }}</h2>
-            <p>{{ page.profile.introduction }}</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
-    </footer>
-</body>
-</html>
+    <div id="single" class="page">
+    <div id="top">
+        <a class="iconfont icon-left image-icon" href="javascript:history.back()"></a>
+    </div>
+    <div class="section">
+        <div class="article">
+            <div class="main">
+                <div class="content">
+                
+                        <h2 id="个人简介"><a href="#个人简介" class="headerlink" title="个人简介"></a>个人简介</h2><p><img src="/img/323.jpg" alt="头像" title="我的头像"> <!-- 替换为你的头像路径 --></p>
+<p><strong>职业</strong>：搬砖人<br><strong>简介</strong>：赚钱养猫养狗！</p>
+<h2 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h2><ul>
+<li><strong>兴趣</strong>：阅读、编程、旅行</li>
+<li><strong>技能</strong>：JavaScript、Python、C++</li>
+<li><strong>联系方式</strong>：<ul>
+<li><strong>GitHub</strong>：<a target="_blank" rel="noopener" href="https://github.com/njuptstudent">https://github.com/njuptstudent</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="我的座右铭"><a href="#我的座右铭" class="headerlink" title="我的座右铭"></a>我的座右铭</h2><blockquote>
+<p>生活不止眼前的苟且，还有诗和远方。</p>
+</blockquote>
+<hr>
+<p>希望你喜欢我的网站！</p>
+
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 
 
