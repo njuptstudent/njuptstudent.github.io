@@ -40,24 +40,30 @@
 <body class="loading">
     <span id="config-title" style="display:none">Mr.Smith de house</span>
     <div id="loader"></div>
-    <div id="single" class="page">
-    <div id="top">
-        <a class="iconfont icon-left image-icon" href="javascript:history.back()"></a>
-    </div>
-    <div class="section">
-        <div class="article">
-            <div class="main">
-                <div class="content">
-                
-                        <p>profile:<br>  avatar: &#x2F;img&#x2F;323.jpg<br>  career: 搬砖人<br>  introduction: 赚钱养猫养狗!</p>
-
-                
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/style.css"> <!-- 确保有样式文件 -->
+</head>
+<body>
+    <header>
+        <h1>{{ page.title }}</h1>
+    </header>
+    <main>
+        <section class="profile">
+            <img src="{{ page.profile.avatar }}" alt="Profile Avatar">
+            <h2>{{ page.profile.career }}</h2>
+            <p>{{ page.profile.introduction }}</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+    </footer>
+</body>
+</html>
 </body>
 
 
