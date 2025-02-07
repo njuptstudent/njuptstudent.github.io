@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>类与对象之小task - Mr.Smith</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    <meta name="description" content="FBI warning,task​	设计一个产品类Product,允许通过如下方式创建产品对象。
+
+通过指定产品名创建。
+通过指定产品名和产品价格创建。
+通过指定产品名，产品价格，出厂日期（对象成员）创建。
+Product,"> 
+    <meta name="author" content="t1g3r"> 
+    <link rel="alternative" href="atom.xml" title="Mr.Smith" type="application/atom+xml"> 
+    <link rel="icon" href="/img/323.jpg"> 
+    
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="类与对象之小task - Mr.Smith"/>
+    <meta name="twitter:description" content="FBI warning,task​	设计一个产品类Product,允许通过如下方式创建产品对象。
+
+通过指定产品名创建。
+通过指定产品名和产品价格创建。
+通过指定产品名，产品价格，出厂日期（对象成员）创建。
+Product,"/>
+    
+    
+    
+    
+    <meta property="og:site_name" content="Mr.Smith"/>
+    <meta property="og:type" content="object"/>
+    <meta property="og:title" content="类与对象之小task - Mr.Smith"/>
+    <meta property="og:description" content="FBI warning,task​	设计一个产品类Product,允许通过如下方式创建产品对象。
+
+通过指定产品名创建。
+通过指定产品名和产品价格创建。
+通过指定产品名，产品价格，出厂日期（对象成员）创建。
+Product,"/>
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script>window.searchDbPath = "/search.xml";</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Mr.Smith</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://njuptstudent.github.io"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">类与对象之小task</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">类与对象之小task</h1>
+        <div class="stuff">
+            <span>二月 07, 2025</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/grammar/" rel="tag">grammar</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h1 id="task"><a href="#task" class="headerlink" title="task"></a>task</h1><p>​	设计一个产品类Product,允许通过如下方式创建产品对象。</p>
+<ol>
+<li>通过指定产品名创建。</li>
+<li>通过指定产品名和产品价格创建。</li>
+<li>通过指定产品名，产品价格，出厂日期（对象成员）创建。</li>
+<li>Product还应该包含如下属性：生产厂家，易碎标记，有效日期（使用对象成员）。设计该类时，至少增加3个其他属性。成员函数包括访问和修改这些属性的操作。</li>
+<li>在main()中定义对象，并输出相关信息。</li>
+</ol>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Product</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Product</span>();</span><br><span class="line">	<span class="built_in">Product</span>(string na);</span><br><span class="line">	<span class="built_in">Product</span>(string na, <span class="type">double</span> pr);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">output</span><span class="params">()</span></span>;</span><br><span class="line">	~<span class="built_in">Product</span>();</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">double</span> price;</span><br><span class="line">	string factory;</span><br><span class="line">	<span class="type">bool</span> easy_break;</span><br><span class="line">	string color;</span><br><span class="line">	<span class="type">double</span> high;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na, <span class="type">double</span> pr)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">	pr = price;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	name = na;</span><br><span class="line">	price = pr;</span><br><span class="line">	factory = fa;</span><br><span class="line">	easy_break = ea;</span><br><span class="line">	color = co;</span><br><span class="line">	high = h;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::output</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; price &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; factory&lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; easy_break &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; color &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; high &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::~<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Product <span class="title">p1</span><span class="params">(<span class="string">&quot;car&quot;</span>)</span></span>;</span><br><span class="line">	<span class="function">Product <span class="title">p2</span><span class="params">(<span class="string">&quot;glass&quot;</span>, <span class="number">3.00</span>)</span></span>;</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">SetProduct</span>(<span class="string">&quot;car&quot;</span>, <span class="number">100000.0</span>, <span class="string">&quot;nj&quot;</span>, <span class="number">0</span>, <span class="string">&quot;red&quot;</span>, <span class="number">1.5</span>);</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">output</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">car 100000</span><br><span class="line">nj 0</span><br><span class="line">red 1.5</span><br></pre></td></tr></table></figure>
+
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
+                        
+                    
+                        
+                            <li title="1" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="false"
+        data-ae="false"
+        data-ci=""
+        data-cs=""
+        data-r=""
+        data-o=""
+        data-a=""
+        data-d="false"
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class="side">
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#task"><span class="toc-number">1.</span> <span class="toc-text">task</span></a></li></ol>
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+
+</html>
