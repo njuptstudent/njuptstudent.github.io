@@ -1,45 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>前端那些事NO.1</title>
-    <url>/2025/02/05/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8BNO-1/</url>
-    <content><![CDATA[<h3 id="基本标签"><a href="#基本标签" class="headerlink" title="基本标签"></a>基本标签</h3><h5 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h6</span>&gt;</span><span class="tag">&lt;/<span class="name">h6</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h5 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">hr</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">em</span>&gt;</span><span class="tag">&lt;/<span class="name">em</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="字体加粗"><a href="#字体加粗" class="headerlink" title="字体加粗"></a>字体加粗</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">strong</span>&gt;</span><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h5><pre><code>ctrl /
-</code></pre>
-<h3 id="图片标签"><a href="#图片标签" class="headerlink" title="图片标签"></a>图片标签</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span>&gt;</span>src=&quot;&quot;alt=&quot;&quot;<span class="tag">&lt;/<span class="name">img</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span>click<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="标签嵌套"><a href="#标签嵌套" class="headerlink" title="标签嵌套"></a>标签嵌套</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot; &quot;</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="功能性标签"><a href="#功能性标签" class="headerlink" title="功能性标签"></a>功能性标签</h3><h5 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h5><ol>
-<li>空格 &amp;nbsp</li>
-<li>版权 &amp;copy</li>
-<li>引号 &amp;quot</li>
-</ol>
-<h2 id="come-on"><a href="#come-on" class="headerlink" title="come on"></a>come on</h2>]]></content>
-      <categories>
-        <category>tech</category>
-      </categories>
-      <tags>
-        <tag>grammar</tag>
-        <tag>HTML</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2025/02/04/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -61,6 +22,101 @@
       </categories>
       <tags>
         <tag>begining</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>typora&amp;markdown</title>
+    <url>/2025/02/04/typora-markdown/</url>
+    <content><![CDATA[<h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><h4 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h4><p>​	Typora 是一款由Abner Lee开发的轻量级 Markdown 编辑器。Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML （或HTML）文档。</p>
+<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>​	下载地址：<a href="https://typora.io/releases/all%EF%BC%8C%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8D%B3%E5%8F%AF%E3%80%82">https://typora.io/releases/all，下载安装即可。</a></p>
+<h4 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h4><p>​	打开Typora后，会显示空白的编辑页，左上角会显示7个菜单入口，简单认识下常用的功能。</p>
+<p><img src="/img/101.png"></p>
+<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><h4 id="块"><a href="#块" class="headerlink" title="块"></a>块</h4><h5 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h5><p>​	标题在行的开头使用1-6个<code>#</code>字符，对应于标题级别1-6。在Typora中输入<code># 标题内容</code>即可创建标题。注意：<code>#</code>与标题内容之间有个空格。</p>
+<p>快捷键：<code>Ctrl+1</code>、<code>Ctrl+2</code>、<code>Ctrl+3</code>、<code>Ctrl+4</code>、<code>Ctrl+5</code>、<code>Ctrl+6</code>；Ctrl+1-6 对应标题级别1-6。</p>
+<h5 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h5><p>​	引用在行的开头使用<code>&gt;</code>字符进行块引用。在Typora中输入<code>&gt;引用内容</code>即可生成块引用。块引用中继续输入<code>&gt;引用内容</code>，可以内嵌块引用。</p>
+<p>快捷键：<code>Ctrl+Shift+Q</code>。</p>
+<h5 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h5><h6 id="有序"><a href="#有序" class="headerlink" title="有序"></a>有序</h6><p>​	有序列表在行的开头输入<code>数字. 列表内容</code>可以创建有序列表，再按回车即可自动生成<code>数字+1.</code>的有序列表，即<code>1. 列表内容</code>回车后生成<code>2. 列表内容</code>。注意：<code>.</code>与列表内容之间有个空格。</p>
+<blockquote>
+<p>快捷键：<code>Ctrl+Shift+[</code>。</p>
+</blockquote>
+<p>第一个列表</p>
+<p>第二个列表</p>
+<h6 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h6><p>​	无序列表在行的开头输入<code>- 列表内容</code>可以创建无序列表，再按回车即可自动生成下个无序列表。注意：<code>-</code>与列表内容之间有个空格。</p>
+<blockquote>
+<p>快捷键：<code>Ctrl+Shift+]</code>。</p>
+</blockquote>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> 第一个列表</span><br><span class="line"><span class="bullet">-</span> 第二个列表</span><br></pre></td></tr></table></figure>
+
+<h6 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h6><p>​	任务列表在行的开头输入<code>- [ ] 列表内容</code> 、<code>- [x] 列表内容</code>可以创建未完成与已完成的任务列表。注意：<code>- [ ]</code>与列表内容之间有个空格。</p>
+<blockquote>
+<p>快捷键：<code>Ctrl+Shift+X</code>。</p>
+</blockquote>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> [ ] 未完成</span><br><span class="line"><span class="bullet">-</span> [x] 已完成</span><br></pre></td></tr></table></figure>
+
+<h6 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h6><p>​	代码块在行的开头输入&#96;&#96;&#96;语言标识符，再按回车即可生成对应语言的代码块，包含语法高亮功能。</p>
+<p>快捷键：Ctrl+Shift+K+ 对应的代码格式（python、java、shell）。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<h6 id="数学的模块"><a href="#数学的模块" class="headerlink" title="数学的模块"></a>数学的模块</h6><p>​	数学公式块在行的开头输入$$ + 回车键，即可生成接受Tex&#x2F;Latex源代码输入的区域。LaTex格式的数学表达式学习请参考LaTex&#x2F;数学。</p>
+<p>快捷键：Ctrl+Shift+M。</p>
+<p>$$<br>\lim\limits_{x \to \infty} \exp(-x) &#x3D; 0<br>$$</p>
+<h6 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h6><p>​	表格推荐直接使用快捷键<code>Ctrl+T</code>，可以自定义生成几行几列的表格，</p>
+<blockquote>
+<p>快捷键：<code>Ctrl+T</code>。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>\</th>
+<th>1</th>
+<th>2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h6 id="水平分割线"><a href="#水平分割线" class="headerlink" title="水平分割线"></a>水平分割线</h6><p>​	水平线在行的开头输入<code>---</code> + 回车键即可生成水平线。</p>
+<hr>
+<h6 id="内容目录"><a href="#内容目录" class="headerlink" title="内容目录"></a>内容目录</h6><p>​	目录在行的开头输入<code>[toc]</code>+回车，即可生成文章目录，自动更新。</p>
+<blockquote>
+<p>快捷键：<code>鼠标右键-&gt;插入-&gt;内容目录</code>。</p>
+</blockquote>
+<h6 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h6><p>​	Typora 支持, sequence, flowchart and mermaid, 使用前要先从偏好设置—&gt;Markdown—&gt;面板—&gt;Markdown扩展语法中，勾选图表选项来启用该功能。</p>
+<h6 id="序列图"><a href="#序列图" class="headerlink" title="序列图"></a>序列图</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">jpdsg-&gt;&gt;spreng: Says Hello</span><br><span class="line">Note right of spreng: spreng thinks\nabout it</span><br><span class="line">spreng--&gt;&gt;jpdsg: How are you?</span><br><span class="line">jpdsg-&gt;&gt;spreng: I am good thanks!</span><br></pre></td></tr></table></figure>
+
+<h5 id="Span-元素"><a href="#Span-元素" class="headerlink" title="Span 元素"></a>Span 元素</h5><h6 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h6><p>​	快捷键：<code>Ctrl+K</code>。</p>
+<p><a href="https://njuptstudent.github.io/">nnn</a></p>
+<h6 id="URL网址"><a href="#URL网址" class="headerlink" title="URL网址"></a>URL网址</h6><p>​	文章中输入<code>&lt;URL网址&gt;</code>即可生成支持跳转的链接。使用<code>Ctrl</code>+点击此链接的方式跳转。Typora也支持自动链接标准URL。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">&lt;https://www.baidu.com/&gt;</span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">www.baidu.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<h6 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h6><p>​	文章中输入<code>**文本**</code>即可给文本加粗。</p>
+<h6 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h6><p>​	文章中输入<code>^文本^</code>即可给文本添加上标效果。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">X^2^</span><br></pre></td></tr></table></figure>
+
+<h6 id="下标"><a href="#下标" class="headerlink" title="下标"></a>下标</h6><p>​	文章中输入<code>~文本~</code>即可给文本添加下标效果。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
+
+<h5 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h5><h6 id="嵌入内容"><a href="#嵌入内容" class="headerlink" title="嵌入内容"></a>嵌入内容</h6><p>​	文章中输入&lt;#iframe #src&#x3D;”在线视频嵌入代码或链接” #width&#x3D;”视频宽度” #height&#x3D;”视频高度”&gt;</iframe>即可插入视频。也可以通过在视频页面点击 “分享”&gt;“嵌入” 获取嵌入代码，然后在 Typora 中插入。（删去#</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>grammar</tag>
+        <tag>typora</tag>
       </tags>
   </entry>
   <entry>
@@ -95,6 +151,47 @@
 
 
 
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>grammar</tag>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前端那些事NO.3</title>
+    <url>/2025/02/06/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8BNO-3/</url>
+    <content><![CDATA[<h2 id="创建CSS"><a href="#创建CSS" class="headerlink" title="创建CSS"></a>创建CSS</h2><p>​	当读到一个样式表时，浏览器会根据它来格式化 HTML 文档。</p>
+<h4 id="如何插入样式表"><a href="#如何插入样式表" class="headerlink" title="如何插入样式表"></a>如何插入样式表</h4><p>插入样式表的方法有三种:</p>
+<ul>
+<li>外部样式表(External style sheet)</li>
+<li>内部样式表(Internal style sheet)</li>
+<li>内联样式(Inline style)</li>
+</ul>
+<h4 id="外部样式表"><a href="#外部样式表" class="headerlink" title="外部样式表"></a>外部样式表</h4><p>​	当样式需要应用于很多页面时，外部样式表将是理想的选择。在使用外部样式表的情况下，你可以通过改变一个文件来改变整个站点的外观。每个页面使用 <link> 标签链接到样式表。 <link> 标签在（文档的）头部：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span> <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;mystyle.css&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>​	浏览器会从文件 mystyle.css 中读到样式声明，并根据它来格式文档。</p>
+<p>​	外部样式表可以在任何文本编辑器中进行编辑。文件不能包含任何的 html 标签。样式表应该以 .css 扩展名进行保存。下面是一个样式表文件的例子：</p>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">hr &#123;<span class="attribute">color</span>:sienna;&#125; <span class="selector-tag">p</span> &#123;<span class="attribute">margin-left</span>:<span class="number">20px</span>;&#125; <span class="selector-tag">body</span> &#123;<span class="attribute">background-image</span>:<span class="built_in">url</span>(<span class="string">&quot;/images/back40.gif&quot;</span>);&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<blockquote>
+<p><img src="https://www.runoob.com/images/lamp.gif" alt="Remark"> 不要在属性值与单位之间留有空格（如：”margin-left: 20 px” ），正确的写法是 “margin-left: 20px” 。</p>
+</blockquote>
+<h4 id="内部样式表"><a href="#内部样式表" class="headerlink" title="内部样式表"></a>内部样式表</h4><p>​	当单个文档需要特殊的样式时，就应该使用内部样式表。你可以使用 <style> 标签在文档头部定义内部样式表，就像这样:</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span> <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"> hr &#123;<span class="attribute">color</span>:sienna;&#125; <span class="selector-tag">p</span> &#123;<span class="attribute">margin-left</span>:<span class="number">20px</span>;&#125; <span class="selector-tag">body</span> &#123;<span class="attribute">background-image</span>:<span class="built_in">url</span>(<span class="string">&quot;images/back40.gif&quot;</span>);&#125; </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span> <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="内联样式"><a href="#内联样式" class="headerlink" title="内联样式"></a>内联样式</h4><p>​	由于要将表现和内容混杂在一起，内联样式会损失掉样式表的许多优势。请慎用这种方法，例如当样式仅需要在一个元素上应用一次时。要使用内联样式，你需要在相关的标签内使用样式（style）属性。Style 属性可以包含任何 CSS 属性。本例展示如何改变段落的颜色和左外边距：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color:sienna;margin-left:20px&quot;</span>&gt;</span>这是一个段落。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h4 id="多重样式优先级"><a href="#多重样式优先级" class="headerlink" title="多重样式优先级"></a>多重样式优先级</h4><p>​	样式表允许以多种方式规定样式信息。样式可以规定在单个的 HTML 元素中，在 HTML 页的头元素中，或在一个外部的 CSS 文件中。甚至可以在同一个 HTML 文档内部引用多个外部样式表。</p>
+<p>一般情况下，优先级如下：*（内联样式）Inline style &gt; （内部样式）Internal style sheet &gt;（外部样式）External style sheet &gt; 浏览器默认样式  *</p>
 ]]></content>
       <categories>
         <category>tech</category>
@@ -157,44 +254,84 @@
       </tags>
   </entry>
   <entry>
-    <title>前端那些事NO.3</title>
-    <url>/2025/02/06/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8BNO-3/</url>
-    <content><![CDATA[<h2 id="创建CSS"><a href="#创建CSS" class="headerlink" title="创建CSS"></a>创建CSS</h2><p>​	当读到一个样式表时，浏览器会根据它来格式化 HTML 文档。</p>
-<h4 id="如何插入样式表"><a href="#如何插入样式表" class="headerlink" title="如何插入样式表"></a>如何插入样式表</h4><p>插入样式表的方法有三种:</p>
+    <title>类与对象之this指针</title>
+    <url>/2025/02/09/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8Bthis%E6%8C%87%E9%92%88/</url>
+    <content><![CDATA[<p>​	this指针是隐含每一个非静态成员函数内的一种指针，this指针不需要定义，直接使用即可。</p>
+<p>this指针的用途：</p>
 <ul>
-<li>外部样式表(External style sheet)</li>
-<li>内部样式表(Internal style sheet)</li>
-<li>内联样式(Inline style)</li>
+<li>当形参和成员变量同名时，可用this指针来区分</li>
+<li>在类的非静态成员函数中返回对象本身，可使用return *this</li>
+<li>存放当前对象的地址</li>
 </ul>
-<h4 id="外部样式表"><a href="#外部样式表" class="headerlink" title="外部样式表"></a>外部样式表</h4><p>​	当样式需要应用于很多页面时，外部样式表将是理想的选择。在使用外部样式表的情况下，你可以通过改变一个文件来改变整个站点的外观。每个页面使用 <link> 标签链接到样式表。 <link> 标签在（文档的）头部：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span> <span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;mystyle.css&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="简单实例"><a href="#简单实例" class="headerlink" title="简单实例"></a>简单实例</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">int</span> age)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">//当形参与成员变量相同时，用this指针区别</span></span><br><span class="line">		<span class="keyword">this</span>-&gt;age = age;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function">Person&amp; <span class="title">personageAdd</span><span class="params">(Person&amp; p)</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		<span class="keyword">this</span>-&gt;age += p.age;</span><br><span class="line">		<span class="comment">//返回对象本身</span></span><br><span class="line">		<span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<p>​	浏览器会从文件 mystyle.css 中读到样式声明，并根据它来格式文档。</p>
-<p>​	外部样式表可以在任何文本编辑器中进行编辑。文件不能包含任何的 html 标签。样式表应该以 .css 扩展名进行保存。下面是一个样式表文件的例子：</p>
-<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">hr &#123;<span class="attribute">color</span>:sienna;&#125; <span class="selector-tag">p</span> &#123;<span class="attribute">margin-left</span>:<span class="number">20px</span>;&#125; <span class="selector-tag">body</span> &#123;<span class="attribute">background-image</span>:<span class="built_in">url</span>(<span class="string">&quot;/images/back40.gif&quot;</span>);&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">test01</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Person <span class="title">p1</span><span class="params">(<span class="number">10</span>)</span></span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年龄是：&quot;</span> &lt;&lt; p<span class="number">1.</span>age &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test02</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Person <span class="title">p1</span><span class="params">(<span class="number">10</span>)</span></span>;</span><br><span class="line">	<span class="function">Person <span class="title">p2</span><span class="params">(<span class="number">10</span>)</span></span>;</span><br><span class="line">    <span class="comment">//链式法则</span></span><br><span class="line">	p<span class="number">2.</span><span class="built_in">personageAdd</span>(p1).<span class="built_in">personageAdd</span>(p1).<span class="built_in">personageAdd</span>(p1);</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年龄是：&quot;</span> &lt;&lt; p<span class="number">2.</span>age &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">test01</span>();</span><br><span class="line">	<span class="built_in">test02</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">年龄是：10</span><br><span class="line">年龄是：40</span><br></pre></td></tr></table></figure>
 
-<blockquote>
-<p><img src="https://www.runoob.com/images/lamp.gif" alt="Remark"> 不要在属性值与单位之间留有空格（如：”margin-left: 20 px” ），正确的写法是 “margin-left: 20px” 。</p>
-</blockquote>
-<h4 id="内部样式表"><a href="#内部样式表" class="headerlink" title="内部样式表"></a>内部样式表</h4><p>​	当单个文档需要特殊的样式时，就应该使用内部样式表。你可以使用 <style> 标签在文档头部定义内部样式表，就像这样:</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span> <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"> hr &#123;<span class="attribute">color</span>:sienna;&#125; <span class="selector-tag">p</span> &#123;<span class="attribute">margin-left</span>:<span class="number">20px</span>;&#125; <span class="selector-tag">body</span> &#123;<span class="attribute">background-image</span>:<span class="built_in">url</span>(<span class="string">&quot;images/back40.gif&quot;</span>);&#125; </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span> <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="课本实例"><a href="#课本实例" class="headerlink" title="课本实例"></a>课本实例</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Cdate</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> Date_Year, Date_Month, Date_Day;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">SetDate</span><span class="params">(<span class="type">int</span>, <span class="type">int</span>, <span class="type">int</span>)</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<h4 id="内联样式"><a href="#内联样式" class="headerlink" title="内联样式"></a>内联样式</h4><p>​	由于要将表现和内容混杂在一起，内联样式会损失掉样式表的许多优势。请慎用这种方法，例如当样式仅需要在一个元素上应用一次时。要使用内联样式，你需要在相关的标签内使用样式（style）属性。Style 属性可以包含任何 CSS 属性。本例展示如何改变段落的颜色和左外边距：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;color:sienna;margin-left:20px&quot;</span>&gt;</span>这是一个段落。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Cdate::SetDate</span><span class="params">(<span class="type">int</span> y, <span class="type">int</span> m, <span class="type">int</span> d)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Date_Day = d;</span><br><span class="line">	Date_Month = m;</span><br><span class="line">	Date_Year = y;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Cdate::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;调用该函数的this指针:&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="keyword">this</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;当前的对象Date_Year成员起始地址：&quot;</span>;</span><br><span class="line">	cout &lt;&lt; &amp;<span class="keyword">this</span>-&gt;Date_Year &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="keyword">this</span>-&gt;Date_Year &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; <span class="keyword">this</span>-&gt;Date_Month &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; <span class="keyword">this</span>-&gt;Date_Day &lt;&lt; endl;</span><br><span class="line">	cout&lt;&lt; Date_Year &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Month &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt;Date_Day &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Cdate date1;</span><br><span class="line">	date<span class="number">1.</span><span class="built_in">SetDate</span>(<span class="number">2025</span>, <span class="number">2</span>, <span class="number">4</span>);</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;date1地址&quot;</span> &lt;&lt; &amp;date1 &lt;&lt; endl;</span><br><span class="line">	date<span class="number">1.</span><span class="built_in">Display</span>();</span><br><span class="line">	<span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">date1地址0000002A83F1FA48</span><br><span class="line">调用该函数的this指针:0000002A83F1FA48</span><br><span class="line">当前的对象Date_Year成员起始地址：0000002A83F1FA48</span><br><span class="line">2025-2-4</span><br><span class="line">2025-2-4</span><br></pre></td></tr></table></figure>
 
-<h4 id="多重样式优先级"><a href="#多重样式优先级" class="headerlink" title="多重样式优先级"></a>多重样式优先级</h4><p>​	样式表允许以多种方式规定样式信息。样式可以规定在单个的 HTML 元素中，在 HTML 页的头元素中，或在一个外部的 CSS 文件中。甚至可以在同一个 HTML 文档内部引用多个外部样式表。</p>
-<p>一般情况下，优先级如下：*（内联样式）Inline style &gt; （内部样式）Internal style sheet &gt;（外部样式）External style sheet &gt; 浏览器默认样式  *</p>
 ]]></content>
       <categories>
         <category>tech</category>
       </categories>
       <tags>
         <tag>grammar</tag>
-        <tag>CSS</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>类与对象之函数调用规则</title>
+    <url>/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E8%A7%84%E5%88%99/</url>
+    <content><![CDATA[<p>默认情况下，C++编译器至少给一个类添加3个函数</p>
+<ol>
+<li>默认构造函数（无参，函数体为空）</li>
+<li>默认析构函数（无参，函数体为空）</li>
+<li>默认拷贝构造函数；对属性进行拷贝</li>
+</ol>
+<p>构造函数调用规则如下</p>
+<ul>
+<li>如果用户定义有参构造函数c++不在提供默认无参构造函数，但是会提供默认拷贝构造</li>
+<li>如果用户定义默认拷贝函数，c++不会在通过其他构造函数</li>
+</ul>
+<p>举个栗子</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"></span><br><span class="line">	<span class="built_in">Person</span>() &#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;默认构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">int</span> a)</span><br><span class="line">	&#123;</span><br><span class="line">		age = a;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;有参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//Person(const Person&amp; p)</span></span><br><span class="line">	<span class="comment">//&#123;</span></span><br><span class="line">	<span class="comment">//	cout &lt;&lt; &quot;拷贝构造函数。\n&quot;;</span></span><br><span class="line">	<span class="comment">//	age = p.age;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">//&#125;</span></span><br><span class="line">	~<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">有参构造函数。</span><br><span class="line">p2的年龄：10</span><br><span class="line">析构函数。</span><br><span class="line">析构函数。</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>grammar</tag>
+        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
@@ -207,6 +344,30 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_08.h&quot;</span></span></span><br><span class="line"><span class="comment">//传统初始化</span></span><br><span class="line"><span class="comment">//CDate::CDate(int y, int m, int d)</span></span><br><span class="line"><span class="comment">//&#123;</span></span><br><span class="line"><span class="comment">//	cout &lt;&lt; &quot;Excuting constructor...\n&quot;;</span></span><br><span class="line"><span class="comment">//	Date_Day = d;</span></span><br><span class="line"><span class="comment">//	Date_Month = m;</span></span><br><span class="line"><span class="comment">//	Date_Year = y;</span></span><br><span class="line"><span class="comment">//&#125;</span></span><br><span class="line"><span class="comment">//初始化列表</span></span><br><span class="line">CDate::<span class="built_in">CDate</span>(<span class="type">int</span> y, <span class="type">int</span> m, <span class="type">int</span> d):<span class="built_in">Date_Year</span>(y),<span class="built_in">Date_Month</span>(m),<span class="built_in">Date_Day</span>(d)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Excuting constructor...\n&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">CDate::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; Date_Year &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Month &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Day &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_08.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">// 定义一个CDate对象initiateday，使用默认构造函数初始化</span></span><br><span class="line">	CDate initiateday;</span><br><span class="line">	<span class="comment">// 定义一个CDate对象newday，使用带年份参数的构造函数初始化</span></span><br><span class="line">	<span class="function">CDate <span class="title">newday</span><span class="params">(<span class="number">2019</span>)</span></span>;</span><br><span class="line">	<span class="comment">// 定义一个CDate对象today，使用带年、月、日参数的构造函数初始化</span></span><br><span class="line">	<span class="function">CDate <span class="title">today</span><span class="params">(<span class="number">2019</span>, <span class="number">3</span>, <span class="number">9</span>)</span></span>;</span><br><span class="line">	<span class="comment">// 输出initiateday的日期信息</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Inintiateday is:&quot;</span>;</span><br><span class="line">	initiateday.<span class="built_in">Display</span>();</span><br><span class="line">	<span class="comment">// 输出newday的日期信息</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Newday is:&quot;</span>;</span><br><span class="line">	newday.<span class="built_in">Display</span>();</span><br><span class="line">	<span class="comment">// 输出today的日期信息</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Today is:&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>grammar</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>类与对象之小task</title>
+    <url>/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%B0%8Ftask/</url>
+    <content><![CDATA[<h1 id="task"><a href="#task" class="headerlink" title="task"></a>task</h1><p>​	设计一个产品类Product,允许通过如下方式创建产品对象。</p>
+<ol>
+<li>通过指定产品名创建。</li>
+<li>通过指定产品名和产品价格创建。</li>
+<li>通过指定产品名，产品价格，出厂日期（对象成员）创建。</li>
+<li>Product还应该包含如下属性：生产厂家，易碎标记，有效日期（使用对象成员）。设计该类时，至少增加3个其他属性。成员函数包括访问和修改这些属性的操作。</li>
+<li>在main()中定义对象，并输出相关信息。</li>
+</ol>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Product</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Product</span>();</span><br><span class="line">	<span class="built_in">Product</span>(string na);</span><br><span class="line">	<span class="built_in">Product</span>(string na, <span class="type">double</span> pr);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">output</span><span class="params">()</span></span>;</span><br><span class="line">	~<span class="built_in">Product</span>();</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">double</span> price;</span><br><span class="line">	string factory;</span><br><span class="line">	<span class="type">bool</span> easy_break;</span><br><span class="line">	string color;</span><br><span class="line">	<span class="type">double</span> high;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na, <span class="type">double</span> pr)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">	pr = price;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	name = na;</span><br><span class="line">	price = pr;</span><br><span class="line">	factory = fa;</span><br><span class="line">	easy_break = ea;</span><br><span class="line">	color = co;</span><br><span class="line">	high = h;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::output</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; price &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; factory&lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; easy_break &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; color &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; high &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::~<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Product <span class="title">p1</span><span class="params">(<span class="string">&quot;car&quot;</span>)</span></span>;</span><br><span class="line">	<span class="function">Product <span class="title">p2</span><span class="params">(<span class="string">&quot;glass&quot;</span>, <span class="number">3.00</span>)</span></span>;</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">SetProduct</span>(<span class="string">&quot;car&quot;</span>, <span class="number">100000.0</span>, <span class="string">&quot;nj&quot;</span>, <span class="number">0</span>, <span class="string">&quot;red&quot;</span>, <span class="number">1.5</span>);</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">output</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">car 100000</span><br><span class="line">nj 0</span><br><span class="line">red 1.5</span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
@@ -240,19 +401,83 @@
       </tags>
   </entry>
   <entry>
-    <title>类与对象之小task</title>
-    <url>/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%B0%8Ftask/</url>
-    <content><![CDATA[<h1 id="task"><a href="#task" class="headerlink" title="task"></a>task</h1><p>​	设计一个产品类Product,允许通过如下方式创建产品对象。</p>
+    <title>类与对象之构造函数</title>
+    <url>/2025/02/06/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<h2 id="Main-Point"><a href="#Main-Point" class="headerlink" title="Main Point"></a>Main Point</h2><ul>
+<li>掌握构造函数的定义，特点和作用</li>
+<li>掌握无参构造函数与带默认参数值的构造函数的定义与使用</li>
+<li>掌握复制构造函数的定义与使用</li>
+<li>掌握析构函数的定义与使用</li>
+</ul>
+<h2 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h2><p>​	构造函数是类的一种特殊的成员函数。</p>
+<p>特点：</p>
 <ol>
-<li>通过指定产品名创建。</li>
-<li>通过指定产品名和产品价格创建。</li>
-<li>通过指定产品名，产品价格，出厂日期（对象成员）创建。</li>
-<li>Product还应该包含如下属性：生产厂家，易碎标记，有效日期（使用对象成员）。设计该类时，至少增加3个其他属性。成员函数包括访问和修改这些属性的操作。</li>
-<li>在main()中定义对象，并输出相关信息。</li>
+<li>无返回值，不用void</li>
+<li>函数名与类名相同</li>
+<li>构造函数可以有参数，可以发生重载</li>
+<li>创建对象的时候，构造函数会自动调用，而且只调用一次</li>
 </ol>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Product</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Product</span>();</span><br><span class="line">	<span class="built_in">Product</span>(string na);</span><br><span class="line">	<span class="built_in">Product</span>(string na, <span class="type">double</span> pr);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">output</span><span class="params">()</span></span>;</span><br><span class="line">	~<span class="built_in">Product</span>();</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">double</span> price;</span><br><span class="line">	string factory;</span><br><span class="line">	<span class="type">bool</span> easy_break;</span><br><span class="line">	string color;</span><br><span class="line">	<span class="type">double</span> high;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na, <span class="type">double</span> pr)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">	pr = price;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	name = na;</span><br><span class="line">	price = pr;</span><br><span class="line">	factory = fa;</span><br><span class="line">	easy_break = ea;</span><br><span class="line">	color = co;</span><br><span class="line">	high = h;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::output</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; price &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; factory&lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; easy_break &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; color &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; high &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::~<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Product <span class="title">p1</span><span class="params">(<span class="string">&quot;car&quot;</span>)</span></span>;</span><br><span class="line">	<span class="function">Product <span class="title">p2</span><span class="params">(<span class="string">&quot;glass&quot;</span>, <span class="number">3.00</span>)</span></span>;</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">SetProduct</span>(<span class="string">&quot;car&quot;</span>, <span class="number">100000.0</span>, <span class="string">&quot;nj&quot;</span>, <span class="number">0</span>, <span class="string">&quot;red&quot;</span>, <span class="number">1.5</span>);</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">output</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="析构函数"><a href="#析构函数" class="headerlink" title="析构函数"></a>析构函数</h2><p>​	创建类的对象时，系统会自动调用构造函数。同样，当对象生命结束时，需要释放所占的内存资源，程序将自动调用类的析构函数来完成。</p>
+<p>特点：</p>
+<ol>
+<li>进行清理操作</li>
+<li>无返回值，不用void</li>
+<li>函数名于类名名称前加~</li>
+<li>析构函数无参，不能重载</li>
+<li>对象在销毁前会自动调用析构函数，而且仅调用一次</li>
+</ol>
+<h2 id="构造函数和析构函数实例"><a href="#构造函数和析构函数实例" class="headerlink" title="构造函数和析构函数实例"></a>构造函数和析构函数实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CDate</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> Date_Year, Date_Month, Date_Day;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="comment">//构造函数</span></span><br><span class="line">	<span class="comment">//无返回值无void</span></span><br><span class="line">	<span class="comment">//函数名与类名相同</span></span><br><span class="line">	<span class="comment">//可以有参数，可以重载</span></span><br><span class="line">	<span class="comment">//创建对象时，构造函数会自动调用，并且只调用一次</span></span><br><span class="line">	<span class="built_in">CDate</span>(<span class="type">int</span>, <span class="type">int</span>, <span class="type">int</span>);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">car 100000</span><br><span class="line">nj 0</span><br><span class="line">red 1.5</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_07.h&quot;</span></span></span><br><span class="line">CDate::<span class="built_in">CDate</span>(<span class="type">int</span> y, <span class="type">int</span> m, <span class="type">int</span> d)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Executing constructor...&quot;</span>;</span><br><span class="line">	Date_Year = y;</span><br><span class="line">	Date_Month = m;</span><br><span class="line">	Date_Day = d;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">CDate::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; Date_Year &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Month &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Day &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_07.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">CDate <span class="title">today</span><span class="params">(<span class="number">2025</span>, <span class="number">2</span>, <span class="number">5</span>)</span></span>;<span class="comment">//定义对象同时完成初始化</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;today is...\n&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	today = <span class="built_in">CDate</span>(<span class="number">2010</span>, <span class="number">3</span>, <span class="number">4</span>);<span class="comment">//定义无名对象</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;today is...\n&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">Executing constructor...today is...</span><br><span class="line">2025-2-5</span><br><span class="line">Executing constructor...today is...</span><br><span class="line">2010-3-4</span><br></pre></td></tr></table></figure>
+
+<h2 id="构造函数分类及调用"><a href="#构造函数分类及调用" class="headerlink" title="构造函数分类及调用"></a>构造函数分类及调用</h2><h4 id="两种分类方式"><a href="#两种分类方式" class="headerlink" title="两种分类方式"></a>两种分类方式</h4><ul>
+<li><p>有参</p>
+</li>
+<li><p>无参</p>
+</li>
+</ul>
+<h4 id="三种分类方式"><a href="#三种分类方式" class="headerlink" title="三种分类方式"></a>三种分类方式</h4><ul>
+<li>括号法</li>
+<li>显示法</li>
+<li>隐式转换法</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="comment">//普通构造函数</span></span><br><span class="line">	<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;无参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">int</span> a)</span><br><span class="line">	&#123;</span><br><span class="line">		age = a;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;有参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//拷贝构造函数</span></span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">const</span> Person&amp; p)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">//将传入的人身上所有的属性拷贝到我身上。</span></span><br><span class="line">		age = p.age;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;拷贝构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">task1</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//括号法</span></span><br><span class="line">	<span class="comment">//Person p1;//默认构造函数</span></span><br><span class="line">	<span class="comment">//Person p2(10);//有参构造函数</span></span><br><span class="line">	<span class="comment">//Person p3(p2);//拷贝构造函数</span></span><br><span class="line">	<span class="comment">//默认构造函数不能写（）</span></span><br><span class="line">	<span class="comment">//显示法</span></span><br><span class="line">	Person p1;</span><br><span class="line">	Person p2 = <span class="built_in">Person</span>(<span class="number">10</span>);</span><br><span class="line">	Person p3 = <span class="built_in">Person</span> (p2);</span><br><span class="line">	<span class="comment">//Person(10);匿名对象</span></span><br><span class="line">	<span class="comment">//cout &lt;&lt; &quot;a\n&quot;;</span></span><br><span class="line">	<span class="comment">//隐式写法</span></span><br><span class="line">	Person p4 = <span class="number">10</span>;<span class="comment">//等价于Person p4=Person(10)</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">task1</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">无参构造函数。</span><br><span class="line">有参构造函数。</span><br><span class="line">拷贝构造函数。</span><br><span class="line">有参构造函数。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ]]></content>
       <categories>
@@ -278,7 +503,7 @@
 <p>其中x,y 是普通的数据成员，而obj_a,obj_b是类类型A和B实例化的对象，再次作为C的数据成员出现，称之为对象成员。</p>
 <p>​	注：对象成员和任何其他成员一样，存在服务属性问题。如果对象成员在新类中被定义为private，则只能从新类内部引用，如果将对象成员在新类中定义为public，就可以在新类外部对其进行访问，但是对象成员本身的私有属性成员仍然是不可直接访问的。</p>
 <h3 id="二-对象成员的构造与析构"><a href="#二-对象成员的构造与析构" class="headerlink" title="二.对象成员的构造与析构"></a>二.对象成员的构造与析构</h3><p>​	与普通对象一样，对象成员在创建时需要调用构造函数，在生命周期结束时需要调用析构函数。</p>
-<h5 id="构造与析构函数的调用次序"><a href="#构造与析构函数的调用次序" class="headerlink" title="构造与析构函数的调用次序"></a>构造与析构函数的调用次序</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">A</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;创建A\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">A</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构A\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span></span><br><span class="line">&#123;</span><br><span class="line">	A a;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">B</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;创建B\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">B</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构B\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	B obj;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="构造与析构函数的调用次序"><a href="#构造与析构函数的调用次序" class="headerlink" title="构造与析构函数的调用次序"></a>构造与析构函数的调用次序</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">A</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">A</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;创建A\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">A</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构A\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span></span><br><span class="line">&#123;</span><br><span class="line">	A a;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">B</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;创建B\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">B</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构B\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	B obj;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建A</span><br><span class="line">创建B</span><br><span class="line">析构B</span><br><span class="line">析构A</span><br></pre></td></tr></table></figure>
 
@@ -299,52 +524,6 @@
 
 
 <h3 id="三-总结"><a href="#三-总结" class="headerlink" title="三.总结"></a>三.总结</h3><p>​	在实际应用中，在已有的简单类的基础上构建新的复杂类，不仅能提高开发行了，而且增加代码的可维护性。</p>
-]]></content>
-      <categories>
-        <category>tech</category>
-      </categories>
-      <tags>
-        <tag>grammar</tag>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>类与对象之函数调用规则</title>
-    <url>/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E8%A7%84%E5%88%99/</url>
-    <content><![CDATA[<p>默认情况下，C++编译器至少给一个类添加3个函数</p>
-<ol>
-<li>默认构造函数（无参，函数体为空）</li>
-<li>默认析构函数（无参，函数体为空）</li>
-<li>默认拷贝构造函数；对属性进行拷贝</li>
-</ol>
-<p>构造函数调用规则如下</p>
-<ul>
-<li>如果用户定义有参构造函数c++不在提供默认无参构造函数，但是会提供默认拷贝构造</li>
-<li>如果用户定义默认拷贝函数，c++不会在通过其他构造函数</li>
-</ul>
-<p>举个栗子</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"></span><br><span class="line">	<span class="built_in">Person</span>() &#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;默认构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">int</span> a)</span><br><span class="line">	&#123;</span><br><span class="line">		age = a;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;有参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//Person(const Person&amp; p)</span></span><br><span class="line">	<span class="comment">//&#123;</span></span><br><span class="line">	<span class="comment">//	cout &lt;&lt; &quot;拷贝构造函数。\n&quot;;</span></span><br><span class="line">	<span class="comment">//	age = p.age;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">//&#125;</span></span><br><span class="line">	~<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">有参构造函数。</span><br><span class="line">p2的年龄：10</span><br><span class="line">析构函数。</span><br><span class="line">析构函数。</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]]></content>
       <categories>
         <category>tech</category>
@@ -445,101 +624,6 @@
       </tags>
   </entry>
   <entry>
-    <title>typora&amp;markdown</title>
-    <url>/2025/02/04/typora-markdown/</url>
-    <content><![CDATA[<h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><h4 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h4><p>​	Typora 是一款由Abner Lee开发的轻量级 Markdown 编辑器。Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML （或HTML）文档。</p>
-<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>​	下载地址：<a href="https://typora.io/releases/all%EF%BC%8C%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8D%B3%E5%8F%AF%E3%80%82">https://typora.io/releases/all，下载安装即可。</a></p>
-<h4 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h4><p>​	打开Typora后，会显示空白的编辑页，左上角会显示7个菜单入口，简单认识下常用的功能。</p>
-<p><img src="/img/101.png"></p>
-<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><h4 id="块"><a href="#块" class="headerlink" title="块"></a>块</h4><h5 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h5><p>​	标题在行的开头使用1-6个<code>#</code>字符，对应于标题级别1-6。在Typora中输入<code># 标题内容</code>即可创建标题。注意：<code>#</code>与标题内容之间有个空格。</p>
-<p>快捷键：<code>Ctrl+1</code>、<code>Ctrl+2</code>、<code>Ctrl+3</code>、<code>Ctrl+4</code>、<code>Ctrl+5</code>、<code>Ctrl+6</code>；Ctrl+1-6 对应标题级别1-6。</p>
-<h5 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h5><p>​	引用在行的开头使用<code>&gt;</code>字符进行块引用。在Typora中输入<code>&gt;引用内容</code>即可生成块引用。块引用中继续输入<code>&gt;引用内容</code>，可以内嵌块引用。</p>
-<p>快捷键：<code>Ctrl+Shift+Q</code>。</p>
-<h5 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h5><h6 id="有序"><a href="#有序" class="headerlink" title="有序"></a>有序</h6><p>​	有序列表在行的开头输入<code>数字. 列表内容</code>可以创建有序列表，再按回车即可自动生成<code>数字+1.</code>的有序列表，即<code>1. 列表内容</code>回车后生成<code>2. 列表内容</code>。注意：<code>.</code>与列表内容之间有个空格。</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+Shift+[</code>。</p>
-</blockquote>
-<p>第一个列表</p>
-<p>第二个列表</p>
-<h6 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h6><p>​	无序列表在行的开头输入<code>- 列表内容</code>可以创建无序列表，再按回车即可自动生成下个无序列表。注意：<code>-</code>与列表内容之间有个空格。</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+Shift+]</code>。</p>
-</blockquote>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> 第一个列表</span><br><span class="line"><span class="bullet">-</span> 第二个列表</span><br></pre></td></tr></table></figure>
-
-<h6 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h6><p>​	任务列表在行的开头输入<code>- [ ] 列表内容</code> 、<code>- [x] 列表内容</code>可以创建未完成与已完成的任务列表。注意：<code>- [ ]</code>与列表内容之间有个空格。</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+Shift+X</code>。</p>
-</blockquote>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> [ ] 未完成</span><br><span class="line"><span class="bullet">-</span> [x] 已完成</span><br></pre></td></tr></table></figure>
-
-<h6 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h6><p>​	代码块在行的开头输入&#96;&#96;&#96;语言标识符，再按回车即可生成对应语言的代码块，包含语法高亮功能。</p>
-<p>快捷键：Ctrl+Shift+K+ 对应的代码格式（python、java、shell）。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<h6 id="数学的模块"><a href="#数学的模块" class="headerlink" title="数学的模块"></a>数学的模块</h6><p>​	数学公式块在行的开头输入$$ + 回车键，即可生成接受Tex&#x2F;Latex源代码输入的区域。LaTex格式的数学表达式学习请参考LaTex&#x2F;数学。</p>
-<p>快捷键：Ctrl+Shift+M。</p>
-<p>$$<br>\lim\limits_{x \to \infty} \exp(-x) &#x3D; 0<br>$$</p>
-<h6 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h6><p>​	表格推荐直接使用快捷键<code>Ctrl+T</code>，可以自定义生成几行几列的表格，</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+T</code>。</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>\</th>
-<th>1</th>
-<th>2</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>2</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>3</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h6 id="水平分割线"><a href="#水平分割线" class="headerlink" title="水平分割线"></a>水平分割线</h6><p>​	水平线在行的开头输入<code>---</code> + 回车键即可生成水平线。</p>
-<hr>
-<h6 id="内容目录"><a href="#内容目录" class="headerlink" title="内容目录"></a>内容目录</h6><p>​	目录在行的开头输入<code>[toc]</code>+回车，即可生成文章目录，自动更新。</p>
-<blockquote>
-<p>快捷键：<code>鼠标右键-&gt;插入-&gt;内容目录</code>。</p>
-</blockquote>
-<h6 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h6><p>​	Typora 支持, sequence, flowchart and mermaid, 使用前要先从偏好设置—&gt;Markdown—&gt;面板—&gt;Markdown扩展语法中，勾选图表选项来启用该功能。</p>
-<h6 id="序列图"><a href="#序列图" class="headerlink" title="序列图"></a>序列图</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">jpdsg-&gt;&gt;spreng: Says Hello</span><br><span class="line">Note right of spreng: spreng thinks\nabout it</span><br><span class="line">spreng--&gt;&gt;jpdsg: How are you?</span><br><span class="line">jpdsg-&gt;&gt;spreng: I am good thanks!</span><br></pre></td></tr></table></figure>
-
-<h5 id="Span-元素"><a href="#Span-元素" class="headerlink" title="Span 元素"></a>Span 元素</h5><h6 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h6><p>​	快捷键：<code>Ctrl+K</code>。</p>
-<p><a href="https://njuptstudent.github.io/">nnn</a></p>
-<h6 id="URL网址"><a href="#URL网址" class="headerlink" title="URL网址"></a>URL网址</h6><p>​	文章中输入<code>&lt;URL网址&gt;</code>即可生成支持跳转的链接。使用<code>Ctrl</code>+点击此链接的方式跳转。Typora也支持自动链接标准URL。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">&lt;https://www.baidu.com/&gt;</span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">www.baidu.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<h6 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h6><p>​	文章中输入<code>**文本**</code>即可给文本加粗。</p>
-<h6 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h6><p>​	文章中输入<code>^文本^</code>即可给文本添加上标效果。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">X^2^</span><br></pre></td></tr></table></figure>
-
-<h6 id="下标"><a href="#下标" class="headerlink" title="下标"></a>下标</h6><p>​	文章中输入<code>~文本~</code>即可给文本添加下标效果。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
-
-<h5 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h5><h6 id="嵌入内容"><a href="#嵌入内容" class="headerlink" title="嵌入内容"></a>嵌入内容</h6><p>​	文章中输入&lt;#iframe #src&#x3D;”在线视频嵌入代码或链接” #width&#x3D;”视频宽度” #height&#x3D;”视频高度”&gt;</iframe>即可插入视频。也可以通过在视频页面点击 “分享”&gt;“嵌入” 获取嵌入代码，然后在 Typora 中插入。（删去#</p>
-]]></content>
-      <categories>
-        <category>tech</category>
-      </categories>
-      <tags>
-        <tag>grammar</tag>
-        <tag>typora</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>类与对象之析构函数和动态内存分配</title>
     <url>/2025/02/08/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%9E%90%E6%9E%84%E5%87%BD%E6%95%B0%E5%92%8C%E5%8A%A8%E6%80%81%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D/</url>
     <content><![CDATA[<p>​	程序中经常要为类成员申请动态内存空间。比如在构造函数中，使用new操作符申请了一块动态内存空间，那么该对象生命周期结束时，申请的动态内存空间如何释放呢？我们通过一个简单的类来学习在析构函数中释放动态内存空间。</p>
@@ -548,94 +632,6 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_11.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	CMessage Mes1;</span><br><span class="line">	<span class="function">CMessage <span class="title">Mes2</span><span class="params">(<span class="string">&quot;爱我中华！&quot;</span>)</span></span>;</span><br><span class="line">	CMessage* pm = <span class="keyword">new</span> <span class="built_in">CMessage</span>(<span class="string">&quot;我爱我的祖国&quot;</span>);</span><br><span class="line">	Mes<span class="number">1.</span><span class="built_in">show</span>();</span><br><span class="line">	Mes<span class="number">2.</span><span class="built_in">show</span>();</span><br><span class="line">	pm-&gt;<span class="built_in">show</span>();</span><br><span class="line">	<span class="keyword">delete</span> pm;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">中国一点也没有少！</span><br><span class="line">爱我中华！</span><br><span class="line">我爱我的祖国</span><br><span class="line">Destructor called.</span><br><span class="line">Destructor called.</span><br><span class="line">Destructor called.</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>tech</category>
-      </categories>
-      <tags>
-        <tag>grammar</tag>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>类与对象之构造函数</title>
-    <url>/2025/02/06/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<h2 id="Main-Point"><a href="#Main-Point" class="headerlink" title="Main Point"></a>Main Point</h2><ul>
-<li>掌握构造函数的定义，特点和作用</li>
-<li>掌握无参构造函数与带默认参数值的构造函数的定义与使用</li>
-<li>掌握复制构造函数的定义与使用</li>
-<li>掌握析构函数的定义与使用</li>
-</ul>
-<h2 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h2><p>​	构造函数是类的一种特殊的成员函数。</p>
-<p>特点：</p>
-<ol>
-<li>无返回值，不用void</li>
-<li>函数名与类名相同</li>
-<li>构造函数可以有参数，可以发生重载</li>
-<li>创建对象的时候，构造函数会自动调用，而且只调用一次</li>
-</ol>
-<h2 id="析构函数"><a href="#析构函数" class="headerlink" title="析构函数"></a>析构函数</h2><p>​	创建类的对象时，系统会自动调用构造函数。同样，当对象生命结束时，需要释放所占的内存资源，程序将自动调用类的析构函数来完成。</p>
-<p>特点：</p>
-<ol>
-<li>进行清理操作</li>
-<li>无返回值，不用void</li>
-<li>函数名于类名名称前加~</li>
-<li>析构函数无参，不能重载</li>
-<li>对象在销毁前会自动调用析构函数，而且仅调用一次</li>
-</ol>
-<h2 id="构造函数和析构函数实例"><a href="#构造函数和析构函数实例" class="headerlink" title="构造函数和析构函数实例"></a>构造函数和析构函数实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CDate</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> Date_Year, Date_Month, Date_Day;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="comment">//构造函数</span></span><br><span class="line">	<span class="comment">//无返回值无void</span></span><br><span class="line">	<span class="comment">//函数名与类名相同</span></span><br><span class="line">	<span class="comment">//可以有参数，可以重载</span></span><br><span class="line">	<span class="comment">//创建对象时，构造函数会自动调用，并且只调用一次</span></span><br><span class="line">	<span class="built_in">CDate</span>(<span class="type">int</span>, <span class="type">int</span>, <span class="type">int</span>);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_07.h&quot;</span></span></span><br><span class="line">CDate::<span class="built_in">CDate</span>(<span class="type">int</span> y, <span class="type">int</span> m, <span class="type">int</span> d)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Executing constructor...&quot;</span>;</span><br><span class="line">	Date_Year = y;</span><br><span class="line">	Date_Month = m;</span><br><span class="line">	Date_Day = d;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">CDate::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; Date_Year &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Month &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Day &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_07.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">CDate <span class="title">today</span><span class="params">(<span class="number">2025</span>, <span class="number">2</span>, <span class="number">5</span>)</span></span>;<span class="comment">//定义对象同时完成初始化</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;today is...\n&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	today = <span class="built_in">CDate</span>(<span class="number">2010</span>, <span class="number">3</span>, <span class="number">4</span>);<span class="comment">//定义无名对象</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;today is...\n&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">Executing constructor...today is...</span><br><span class="line">2025-2-5</span><br><span class="line">Executing constructor...today is...</span><br><span class="line">2010-3-4</span><br></pre></td></tr></table></figure>
-
-<h2 id="构造函数分类及调用"><a href="#构造函数分类及调用" class="headerlink" title="构造函数分类及调用"></a>构造函数分类及调用</h2><h4 id="两种分类方式"><a href="#两种分类方式" class="headerlink" title="两种分类方式"></a>两种分类方式</h4><ul>
-<li><p>有参</p>
-</li>
-<li><p>无参</p>
-</li>
-</ul>
-<h4 id="三种分类方式"><a href="#三种分类方式" class="headerlink" title="三种分类方式"></a>三种分类方式</h4><ul>
-<li>括号法</li>
-<li>显示法</li>
-<li>隐式转换法</li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="comment">//普通构造函数</span></span><br><span class="line">	<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;无参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">int</span> a)</span><br><span class="line">	&#123;</span><br><span class="line">		age = a;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;有参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//拷贝构造函数</span></span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">const</span> Person&amp; p)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">//将传入的人身上所有的属性拷贝到我身上。</span></span><br><span class="line">		age = p.age;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;拷贝构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">task1</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//括号法</span></span><br><span class="line">	<span class="comment">//Person p1;//默认构造函数</span></span><br><span class="line">	<span class="comment">//Person p2(10);//有参构造函数</span></span><br><span class="line">	<span class="comment">//Person p3(p2);//拷贝构造函数</span></span><br><span class="line">	<span class="comment">//默认构造函数不能写（）</span></span><br><span class="line">	<span class="comment">//显示法</span></span><br><span class="line">	Person p1;</span><br><span class="line">	Person p2 = <span class="built_in">Person</span>(<span class="number">10</span>);</span><br><span class="line">	Person p3 = <span class="built_in">Person</span> (p2);</span><br><span class="line">	<span class="comment">//Person(10);匿名对象</span></span><br><span class="line">	<span class="comment">//cout &lt;&lt; &quot;a\n&quot;;</span></span><br><span class="line">	<span class="comment">//隐式写法</span></span><br><span class="line">	Person p4 = <span class="number">10</span>;<span class="comment">//等价于Person p4=Person(10)</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">task1</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">无参构造函数。</span><br><span class="line">有参构造函数。</span><br><span class="line">拷贝构造函数。</span><br><span class="line">有参构造函数。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ]]></content>
       <categories>
@@ -659,7 +655,7 @@
 <li>所有对象共享同一函数</li>
 <li>静态成员函数只能访问静态成员变量</li>
 </ul>
-<h2 id="简单实例"><a href="#简单实例" class="headerlink" title="简单实例"></a>简单实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Person</span>();</span><br><span class="line">	~<span class="built_in">Person</span>();</span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> m_A;</span><br><span class="line">	<span class="function"><span class="type">static</span> <span class="type">void</span> <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		m_A = <span class="number">2000</span>;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;static void 调用&quot;</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h2 id="简单实例"><a href="#简单实例" class="headerlink" title="简单实例"></a>简单实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Person</span>();</span><br><span class="line">	~<span class="built_in">Person</span>();</span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> m_A;</span><br><span class="line">	<span class="function"><span class="type">static</span> <span class="type">void</span> <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		m_A = <span class="number">2000</span>;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;static void 调用&quot;</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> Person::m_A = <span class="number">10</span>;</span><br><span class="line">Person::<span class="built_in">Person</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Person::~<span class="built_in">Person</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test01</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//通过对象进行访问</span></span><br><span class="line">	Person P;</span><br><span class="line">	<span class="comment">//100</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年龄：&quot;</span> &lt;&lt; P.m_A &lt;&lt; endl;</span><br><span class="line">	Person p2;</span><br><span class="line">	p<span class="number">2.</span>m_A = <span class="number">20</span>;</span><br><span class="line">	<span class="comment">//200</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年龄：&quot;</span> &lt;&lt; P.m_A &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test02</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//通过类名进行访问</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年龄：&quot;</span> &lt;&lt; Person::m_A &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -671,7 +667,7 @@
 
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">test01</span>();</span><br><span class="line">	<span class="built_in">test02</span>();</span><br><span class="line">	<span class="built_in">test03</span>();</span><br><span class="line">	<span class="built_in">test04</span>();</span><br><span class="line">	<span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="书本实例"><a href="#书本实例" class="headerlink" title="书本实例"></a>书本实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Croster</span></span><br><span class="line">&#123;</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">int</span> Math;</span><br><span class="line">	<span class="comment">/*int English;*/</span></span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> Sum;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Croster</span>(string na = <span class="string">&quot;undef&quot;</span>, <span class="type">int</span> m = <span class="number">100</span><span class="comment">/*, int e = 100*/</span>);</span><br><span class="line">	<span class="comment">/*void Display();*/</span></span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> Count;</span><br><span class="line">	<span class="function"><span class="type">static</span> <span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h2 id="书本实例"><a href="#书本实例" class="headerlink" title="书本实例"></a>书本实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Croster</span></span><br><span class="line">&#123;</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">int</span> Math;</span><br><span class="line">	<span class="comment">/*int English;*/</span></span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> Sum;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Croster</span>(string na = <span class="string">&quot;undef&quot;</span>, <span class="type">int</span> m = <span class="number">100</span><span class="comment">/*, int e = 100*/</span>);</span><br><span class="line">	<span class="comment">/*void Display();*/</span></span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> Count;</span><br><span class="line">	<span class="function"><span class="type">static</span> <span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l4_03.h&quot;</span></span></span><br><span class="line"><span class="type">int</span> Croster::Count = <span class="number">100</span>;</span><br><span class="line"><span class="type">int</span> Croster::Sum;</span><br><span class="line">Croster::<span class="built_in">Croster</span>(string na, <span class="type">int</span> m) :<span class="built_in">name</span>(na), <span class="built_in">Math</span>(m)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;欢迎新同学&quot;</span> &lt;&lt; endl;</span><br><span class="line">	Count--;</span><br><span class="line">	Sum += Math;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Croster::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//cout&lt;&lt;&quot;name:&quot;&lt;&lt;name&lt;&lt;endl;</span></span><br><span class="line">	<span class="comment">//静态成员函数不允许访问非静态成员</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Sum:&quot;</span> &lt;&lt; Sum &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">if</span> (Count == <span class="number">100</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;Average=0&quot;</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;Average=&quot;</span> &lt;&lt; Sum * <span class="number">1.0</span> / (<span class="number">100</span> - Count) &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -706,6 +702,45 @@
       <tags>
         <tag>grammar</tag>
         <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前端那些事NO.1</title>
+    <url>/2025/02/05/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8BNO-1/</url>
+    <content><![CDATA[<h3 id="基本标签"><a href="#基本标签" class="headerlink" title="基本标签"></a>基本标签</h3><h5 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h6</span>&gt;</span><span class="tag">&lt;/<span class="name">h6</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h5 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">hr</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">em</span>&gt;</span><span class="tag">&lt;/<span class="name">em</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="字体加粗"><a href="#字体加粗" class="headerlink" title="字体加粗"></a>字体加粗</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">strong</span>&gt;</span><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h5><pre><code>ctrl /
+</code></pre>
+<h3 id="图片标签"><a href="#图片标签" class="headerlink" title="图片标签"></a>图片标签</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span>&gt;</span>src=&quot;&quot;alt=&quot;&quot;<span class="tag">&lt;/<span class="name">img</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span>click<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="标签嵌套"><a href="#标签嵌套" class="headerlink" title="标签嵌套"></a>标签嵌套</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot; &quot;</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="功能性标签"><a href="#功能性标签" class="headerlink" title="功能性标签"></a>功能性标签</h3><h5 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h5><ol>
+<li>空格 &amp;nbsp</li>
+<li>版权 &amp;copy</li>
+<li>引号 &amp;quot</li>
+</ol>
+<h2 id="come-on"><a href="#come-on" class="headerlink" title="come on"></a>come on</h2>]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>grammar</tag>
+        <tag>HTML</tag>
       </tags>
   </entry>
 </search>

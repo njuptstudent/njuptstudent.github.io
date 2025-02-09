@@ -312,14 +312,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2025-02-06
+                    2025-02-09
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    702
+                    713
                 </div>
                 
 
@@ -361,7 +361,7 @@
 <p>其中x,y 是普通的数据成员，而obj_a,obj_b是类类型A和B实例化的对象，再次作为C的数据成员出现，称之为对象成员。</p>
 <p>​	注：对象成员和任何其他成员一样，存在服务属性问题。如果对象成员在新类中被定义为private，则只能从新类内部引用，如果将对象成员在新类中定义为public，就可以在新类外部对其进行访问，但是对象成员本身的私有属性成员仍然是不可直接访问的。</p>
 <h3 id="二-对象成员的构造与析构"><a href="#二-对象成员的构造与析构" class="headerlink" title="二.对象成员的构造与析构"></a>二.对象成员的构造与析构</h3><p>​	与普通对象一样，对象成员在创建时需要调用构造函数，在生命周期结束时需要调用析构函数。</p>
-<h5 id="构造与析构函数的调用次序"><a href="#构造与析构函数的调用次序" class="headerlink" title="构造与析构函数的调用次序"></a>构造与析构函数的调用次序</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">A</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;创建A\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">A</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构A\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span></span><br><span class="line">&#123;</span><br><span class="line">	A a;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">B</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;创建B\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">B</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构B\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	B obj;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="构造与析构函数的调用次序"><a href="#构造与析构函数的调用次序" class="headerlink" title="构造与析构函数的调用次序"></a>构造与析构函数的调用次序</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">A</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">A</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;创建A\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">A</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构A\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span></span><br><span class="line">&#123;</span><br><span class="line">	A a;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">B</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;创建B\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">B</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构B\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	B obj;</span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建A</span><br><span class="line">创建B</span><br><span class="line">析构B</span><br><span class="line">析构A</span><br></pre></td></tr></table></figure>
 
@@ -1091,7 +1091,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total Words:&nbsp;<span
-                        class="white-color">8.6k</span>
+                        class="white-color">9.1k</span>
             
             
             

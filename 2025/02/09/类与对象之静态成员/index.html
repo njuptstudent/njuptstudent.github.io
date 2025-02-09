@@ -15,7 +15,7 @@
 所有对象共享同一函数
 静态成员函数只能访问静态成员变量
 
-简单实例clas">
+简单实例#inc">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -328,7 +328,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    543
+                    562
                 </div>
                 
 
@@ -368,7 +368,7 @@
 <li>所有对象共享同一函数</li>
 <li>静态成员函数只能访问静态成员变量</li>
 </ul>
-<h2 id="简单实例"><a href="#简单实例" class="headerlink" title="简单实例"></a>简单实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Person</span>();</span><br><span class="line">	~<span class="built_in">Person</span>();</span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> m_A;</span><br><span class="line">	<span class="function"><span class="type">static</span> <span class="type">void</span> <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		m_A = <span class="number">2000</span>;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;static void 调用&quot;</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h2 id="简单实例"><a href="#简单实例" class="headerlink" title="简单实例"></a>简单实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Person</span>();</span><br><span class="line">	~<span class="built_in">Person</span>();</span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> m_A;</span><br><span class="line">	<span class="function"><span class="type">static</span> <span class="type">void</span> <span class="title">func</span><span class="params">()</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		m_A = <span class="number">2000</span>;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;static void 调用&quot;</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> Person::m_A = <span class="number">10</span>;</span><br><span class="line">Person::<span class="built_in">Person</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Person::~<span class="built_in">Person</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test01</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//通过对象进行访问</span></span><br><span class="line">	Person P;</span><br><span class="line">	<span class="comment">//100</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年龄：&quot;</span> &lt;&lt; P.m_A &lt;&lt; endl;</span><br><span class="line">	Person p2;</span><br><span class="line">	p<span class="number">2.</span>m_A = <span class="number">20</span>;</span><br><span class="line">	<span class="comment">//200</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年龄：&quot;</span> &lt;&lt; P.m_A &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test02</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//通过类名进行访问</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年龄：&quot;</span> &lt;&lt; Person::m_A &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -380,7 +380,7 @@
 
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">test01</span>();</span><br><span class="line">	<span class="built_in">test02</span>();</span><br><span class="line">	<span class="built_in">test03</span>();</span><br><span class="line">	<span class="built_in">test04</span>();</span><br><span class="line">	<span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="书本实例"><a href="#书本实例" class="headerlink" title="书本实例"></a>书本实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Croster</span></span><br><span class="line">&#123;</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">int</span> Math;</span><br><span class="line">	<span class="comment">/*int English;*/</span></span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> Sum;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Croster</span>(string na = <span class="string">&quot;undef&quot;</span>, <span class="type">int</span> m = <span class="number">100</span><span class="comment">/*, int e = 100*/</span>);</span><br><span class="line">	<span class="comment">/*void Display();*/</span></span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> Count;</span><br><span class="line">	<span class="function"><span class="type">static</span> <span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h2 id="书本实例"><a href="#书本实例" class="headerlink" title="书本实例"></a>书本实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Croster</span></span><br><span class="line">&#123;</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">int</span> Math;</span><br><span class="line">	<span class="comment">/*int English;*/</span></span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> Sum;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Croster</span>(string na = <span class="string">&quot;undef&quot;</span>, <span class="type">int</span> m = <span class="number">100</span><span class="comment">/*, int e = 100*/</span>);</span><br><span class="line">	<span class="comment">/*void Display();*/</span></span><br><span class="line">	<span class="type">static</span> <span class="type">int</span> Count;</span><br><span class="line">	<span class="function"><span class="type">static</span> <span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l4_03.h&quot;</span></span></span><br><span class="line"><span class="type">int</span> Croster::Count = <span class="number">100</span>;</span><br><span class="line"><span class="type">int</span> Croster::Sum;</span><br><span class="line">Croster::<span class="built_in">Croster</span>(string na, <span class="type">int</span> m) :<span class="built_in">name</span>(na), <span class="built_in">Math</span>(m)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;欢迎新同学&quot;</span> &lt;&lt; endl;</span><br><span class="line">	Count--;</span><br><span class="line">	Sum += Math;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Croster::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//cout&lt;&lt;&quot;name:&quot;&lt;&lt;name&lt;&lt;endl;</span></span><br><span class="line">	<span class="comment">//静态成员函数不允许访问非静态成员</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Sum:&quot;</span> &lt;&lt; Sum &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">if</span> (Count == <span class="number">100</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;Average=0&quot;</span> &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;Average=&quot;</span> &lt;&lt; Sum * <span class="number">1.0</span> / (<span class="number">100</span> - Count) &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -823,18 +823,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2025/02/09/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E9%9D%99%E6%80%81%E6%88%90%E5%91%98/">
+                <a href="/2025/02/09/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8Bthis%E6%8C%87%E9%92%88/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="类与对象之静态成员">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="类与对象之this指针">
                         
-                        <span class="card-title">类与对象之静态成员</span>
+                        <span class="card-title">类与对象之this指针</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -844,9 +843,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-09
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2025-02-09
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -859,7 +858,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
@@ -1119,7 +1117,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total Words:&nbsp;<span
-                        class="white-color">8.6k</span>
+                        class="white-color">9.1k</span>
             
             
             

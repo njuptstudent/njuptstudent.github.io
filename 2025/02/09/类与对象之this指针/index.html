@@ -4,18 +4,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="前端那些事NO.1, Mr.Smith">
-    <meta name="description" content="基本标签标题&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;&amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;
+    <meta name="keywords" content="类与对象之this指针, Mr.Smith">
+    <meta name="description" content="​	this指针是隐含每一个非静态成员函数内的一种指针，this指针不需要定义，直接使用即可。
+this指针的用途：
 
-段落&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
-
-
-
-换行&amp;lt;br&amp;gt;
-
-水平线&amp;lt;hr&amp;gt;
-
-斜体&amp;lt;em&amp;gt;&amp;lt;">
+当形参和成员变量同名时，可用this指针来区分
+在类的非静态成员函数中返回对象本身，可使用return *this
+存放">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -27,7 +22,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>前端那些事NO.1 | Mr.Smith</title>
+    <title>类与对象之this指针 | Mr.Smith</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -256,12 +251,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">前端那些事NO.1</h1>
+                    <h1 class="description center-align post-title">类与对象之this指针</h1>
                 </div>
             </div>
         </div>
@@ -289,8 +284,8 @@
                                 <span class="chip bg-color">grammar</span>
                             </a>
                         
-                            <a href="/tags/HTML/">
-                                <span class="chip bg-color">HTML</span>
+                            <a href="/tags/C/">
+                                <span class="chip bg-color">C++</span>
                             </a>
                         
                     </div>
@@ -314,28 +309,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2025-02-05
+                    2025-02-09
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2025-02-06
+                    2025-02-09
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    132
+                    435
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    2 Min
                 </div>
                 
 
@@ -358,34 +353,30 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="基本标签"><a href="#基本标签" class="headerlink" title="基本标签"></a>基本标签</h3><h5 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h6</span>&gt;</span><span class="tag">&lt;/<span class="name">h6</span>&gt;</span></span><br></pre></td></tr></table></figure>
+                <p>​	this指针是隐含每一个非静态成员函数内的一种指针，this指针不需要定义，直接使用即可。</p>
+<p>this指针的用途：</p>
+<ul>
+<li>当形参和成员变量同名时，可用this指针来区分</li>
+<li>在类的非静态成员函数中返回对象本身，可使用return *this</li>
+<li>存放当前对象的地址</li>
+</ul>
+<h3 id="简单实例"><a href="#简单实例" class="headerlink" title="简单实例"></a>简单实例</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">int</span> age)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">//当形参与成员变量相同时，用this指针区别</span></span><br><span class="line">		<span class="keyword">this</span>-&gt;age = age;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function">Person&amp; <span class="title">personageAdd</span><span class="params">(Person&amp; p)</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		<span class="keyword">this</span>-&gt;age += p.age;</span><br><span class="line">		<span class="comment">//返回对象本身</span></span><br><span class="line">		<span class="keyword">return</span> *<span class="keyword">this</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h5 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">test01</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Person <span class="title">p1</span><span class="params">(<span class="number">10</span>)</span></span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年龄是：&quot;</span> &lt;&lt; p<span class="number">1.</span>age &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test02</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Person <span class="title">p1</span><span class="params">(<span class="number">10</span>)</span></span>;</span><br><span class="line">	<span class="function">Person <span class="title">p2</span><span class="params">(<span class="number">10</span>)</span></span>;</span><br><span class="line">    <span class="comment">//链式法则</span></span><br><span class="line">	p<span class="number">2.</span><span class="built_in">personageAdd</span>(p1).<span class="built_in">personageAdd</span>(p1).<span class="built_in">personageAdd</span>(p1);</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年龄是：&quot;</span> &lt;&lt; p<span class="number">2.</span>age &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">test01</span>();</span><br><span class="line">	<span class="built_in">test02</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">年龄是：10</span><br><span class="line">年龄是：40</span><br></pre></td></tr></table></figure>
+
+<h3 id="课本实例"><a href="#课本实例" class="headerlink" title="课本实例"></a>课本实例</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Cdate</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> Date_Year, Date_Month, Date_Day;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">SetDate</span><span class="params">(<span class="type">int</span>, <span class="type">int</span>, <span class="type">int</span>)</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Cdate::SetDate</span><span class="params">(<span class="type">int</span> y, <span class="type">int</span> m, <span class="type">int</span> d)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Date_Day = d;</span><br><span class="line">	Date_Month = m;</span><br><span class="line">	Date_Year = y;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Cdate::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;调用该函数的this指针:&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="keyword">this</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;当前的对象Date_Year成员起始地址：&quot;</span>;</span><br><span class="line">	cout &lt;&lt; &amp;<span class="keyword">this</span>-&gt;Date_Year &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="keyword">this</span>-&gt;Date_Year &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; <span class="keyword">this</span>-&gt;Date_Month &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; <span class="keyword">this</span>-&gt;Date_Day &lt;&lt; endl;</span><br><span class="line">	cout&lt;&lt; Date_Year &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Month &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt;Date_Day &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Cdate date1;</span><br><span class="line">	date<span class="number">1.</span><span class="built_in">SetDate</span>(<span class="number">2025</span>, <span class="number">2</span>, <span class="number">4</span>);</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;date1地址&quot;</span> &lt;&lt; &amp;date1 &lt;&lt; endl;</span><br><span class="line">	date<span class="number">1.</span><span class="built_in">Display</span>();</span><br><span class="line">	<span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">date1地址0000002A83F1FA48</span><br><span class="line">调用该函数的this指针:0000002A83F1FA48</span><br><span class="line">当前的对象Date_Year成员起始地址：0000002A83F1FA48</span><br><span class="line">2025-2-4</span><br><span class="line">2025-2-4</span><br></pre></td></tr></table></figure>
 
 
-
-<h5 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">hr</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">em</span>&gt;</span><span class="tag">&lt;/<span class="name">em</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="字体加粗"><a href="#字体加粗" class="headerlink" title="字体加粗"></a>字体加粗</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">strong</span>&gt;</span><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h5 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h5><pre><code>ctrl /
-</code></pre>
-<h3 id="图片标签"><a href="#图片标签" class="headerlink" title="图片标签"></a>图片标签</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span>&gt;</span>src=&quot;&quot;alt=&quot;&quot;<span class="tag">&lt;/<span class="name">img</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;&quot;</span>&gt;</span>click<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="标签嵌套"><a href="#标签嵌套" class="headerlink" title="标签嵌套"></a>标签嵌套</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot; &quot;</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="功能性标签"><a href="#功能性标签" class="headerlink" title="功能性标签"></a>功能性标签</h3><h5 id="特殊符号"><a href="#特殊符号" class="headerlink" title="特殊符号"></a>特殊符号</h5><ol>
-<li>空格 &amp;nbsp</li>
-<li>版权 &amp;copy</li>
-<li>引号 &amp;quot</li>
-</ol>
-<h2 id="come-on"><a href="#come-on" class="headerlink" title="come on"></a>come on</h2>
                 
             </div>
             <hr/>
@@ -411,7 +402,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://njuptstudent.github.io/2025/02/05/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8BNO-1/">https://njuptstudent.github.io/2025/02/05/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8BNO-1/</a>
+                    <a href="https://njuptstudent.github.io/2025/02/09/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8Bthis%E6%8C%87%E9%92%88/">https://njuptstudent.github.io/2025/02/09/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8Bthis%E6%8C%87%E9%92%88/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -453,8 +444,8 @@
                                     <span class="chip bg-color">grammar</span>
                                 </a>
                             
-                                <a href="/tags/HTML/">
-                                    <span class="chip bg-color">HTML</span>
+                                <a href="/tags/C/">
+                                    <span class="chip bg-color">C++</span>
                                 </a>
                             
                         </div>
@@ -800,17 +791,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2025/02/05/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%AF%B9%E8%B1%A1%E6%88%90%E5%91%98/">
+                <a href="/2025/02/09/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8Bthis%E6%8C%87%E9%92%88/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="类与对象之对象成员">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="类与对象之this指针">
                         
-                        <span class="card-title">类与对象之对象成员</span>
+                        <span class="card-title">类与对象之this指针</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -820,9 +812,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2025-02-05
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-09
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -835,6 +827,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -857,13 +850,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2025/02/04/typora-markdown/">
+                <a href="/2025/02/09/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E9%9D%99%E6%80%81%E6%88%90%E5%91%98/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="typora&amp;markdown">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="类与对象之静态成员">
                         
-                        <span class="card-title">typora&amp;markdown</span>
+                        <span class="card-title">类与对象之静态成员</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -874,7 +867,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-09
                             </span>
                         <span class="publish-author">
                             
@@ -895,8 +888,8 @@
                         <span class="chip bg-color">grammar</span>
                     </a>
                     
-                    <a href="/tags/typora/">
-                        <span class="chip bg-color">typora</span>
+                    <a href="/tags/C/">
+                        <span class="chip bg-color">C++</span>
                     </a>
                     
                 </div>
