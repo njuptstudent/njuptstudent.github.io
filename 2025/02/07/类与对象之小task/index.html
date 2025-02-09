@@ -90,28 +90,6 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/tags" class="waves-effect waves-light">
-      
-      <i class="fas fa-tags" style="zoom: 0.6;"></i>
-      
-      <span>Tags</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/categories" class="waves-effect waves-light">
-      
-      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
-      
-      <span>Categories</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/archives" class="waves-effect waves-light">
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
@@ -168,28 +146,6 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
 			    <i class="fa-fw fas fa-home"></i>
 			
 			Index
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/tags" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-tags"></i>
-			
-			Tags
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
-			
-			Categories
 		</a>
           
         </li>
@@ -389,6 +345,9 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.min.css">
+        
 
         
 
@@ -402,9 +361,9 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
 <li>Product还应该包含如下属性：生产厂家，易碎标记，有效日期（使用对象成员）。设计该类时，至少增加3个其他属性。成员函数包括访问和修改这些属性的操作。</li>
 <li>在main()中定义对象，并输出相关信息。</li>
 </ol>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Product</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Product</span>();</span><br><span class="line">	<span class="built_in">Product</span>(string na);</span><br><span class="line">	<span class="built_in">Product</span>(string na, <span class="type">double</span> pr);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">output</span><span class="params">()</span></span>;</span><br><span class="line">	~<span class="built_in">Product</span>();</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">double</span> price;</span><br><span class="line">	string factory;</span><br><span class="line">	<span class="type">bool</span> easy_break;</span><br><span class="line">	string color;</span><br><span class="line">	<span class="type">double</span> high;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na, <span class="type">double</span> pr)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">	pr = price;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	name = na;</span><br><span class="line">	price = pr;</span><br><span class="line">	factory = fa;</span><br><span class="line">	easy_break = ea;</span><br><span class="line">	color = co;</span><br><span class="line">	high = h;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::output</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; price &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; factory&lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; easy_break &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; color &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; high &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::~<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Product <span class="title">p1</span><span class="params">(<span class="string">&quot;car&quot;</span>)</span></span>;</span><br><span class="line">	<span class="function">Product <span class="title">p2</span><span class="params">(<span class="string">&quot;glass&quot;</span>, <span class="number">3.00</span>)</span></span>;</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">SetProduct</span>(<span class="string">&quot;car&quot;</span>, <span class="number">100000.0</span>, <span class="string">&quot;nj&quot;</span>, <span class="number">0</span>, <span class="string">&quot;red&quot;</span>, <span class="number">1.5</span>);</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">output</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Product</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Product</span>();</span><br><span class="line">	<span class="built_in">Product</span>(string na);</span><br><span class="line">	<span class="built_in">Product</span>(string na, <span class="type">double</span> pr);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">output</span><span class="params">()</span></span>;</span><br><span class="line">	~<span class="built_in">Product</span>();</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">double</span> price;</span><br><span class="line">	string factory;</span><br><span class="line">	<span class="type">bool</span> easy_break;</span><br><span class="line">	string color;</span><br><span class="line">	<span class="type">double</span> high;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na, <span class="type">double</span> pr)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">	pr = price;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	name = na;</span><br><span class="line">	price = pr;</span><br><span class="line">	factory = fa;</span><br><span class="line">	easy_break = ea;</span><br><span class="line">	color = co;</span><br><span class="line">	high = h;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::output</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; price &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; factory&lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; easy_break &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; color &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; high &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::~<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Product <span class="title">p1</span><span class="params">(<span class="string">&quot;car&quot;</span>)</span></span>;</span><br><span class="line">	<span class="function">Product <span class="title">p2</span><span class="params">(<span class="string">&quot;glass&quot;</span>, <span class="number">3.00</span>)</span></span>;</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">SetProduct</span>(<span class="string">&quot;car&quot;</span>, <span class="number">100000.0</span>, <span class="string">&quot;nj&quot;</span>, <span class="number">0</span>, <span class="string">&quot;red&quot;</span>, <span class="number">1.5</span>);</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">output</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">car 100000</span><br><span class="line">nj 0</span><br><span class="line">red 1.5</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">car 100000</span><br><span class="line">nj 0</span><br><span class="line">red 1.5</span><br></pre></td></tr></table></figure>
 
 
                 
@@ -542,6 +501,273 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
     
 
     
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'ajPRUJMtwKoFWXSbhp9PkKlP-gzGzoHsz',
+        appKey: 'evJ0rLCCin700Mq7Wc5CLEG2',
+        serverURLs: 'https://ajprujmt.lc-cn-n1-shared.com',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'en',
+        placeholder: 'just go go'
+    });
+</script>
+
+<!--酷Q推送-->
+
+
+    
 
     
 
@@ -668,6 +894,9 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
 <!-- 代码块功能依赖 -->
 <script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
 
+
+  <!-- 是否加载使用自带的 prismjs. -->
+  <script type="text/javascript" src="/libs/prism/prism.min.js"></script>
 
 
 <!-- 代码语言 -->
@@ -832,11 +1061,11 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
     
 
     <div class="container row center-align"
-         style="margin-bottom: 0px !important;">
+         style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2025</span>
+                <span id="year">2025</span>
             
             <a href="/about" target="_blank">t1g3r</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -866,6 +1095,60 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
             <br>
 
             <!-- 运行天数提醒. -->
+            
+                <span id="sitetime"> Loading ...</span>
+                <script>
+                    var calcSiteTime = function () {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = "2025";
+                        var startMonth = "2";
+                        var startDate = "4";
+                        var startHour = "10";
+                        var startMinute = "6";
+                        var startSecond = "1";
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth() + 1;
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+
+                        // 区分是否有年份.
+                        var language = 'en';
+                        if (startYear === String(todayYear)) {
+                            document.getElementById("year").innerHTML = todayYear;
+                            var daysTip = 'This site has been running for ' + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                daysTip = '本站已运行 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                daysTip = '本站已運行 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = daysTip;
+                        } else {
+                            document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                            var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and '
+                                + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
+                        }
+                    }
+
+                    calcSiteTime();
+                </script>
             
             <br>
             
@@ -1074,7 +1357,7 @@ $(function () {
      
         <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
         <script src="/libs/others/TencentCaptcha.js"></script>
-        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
+        <button id="TencentCaptcha" data-appid="ajPRUJMtwKoFWXSbhp9PkKlP-gzGzoHsz" data-cbfn="callback" type="button" hidden></button>
     
 
     <!-- Baidu Analytics -->

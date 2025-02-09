@@ -7,7 +7,7 @@
     <meta name="keywords" content="类与对象之学生信息管理系统NO.1, Mr.Smith">
     <meta name="description" content="最近准备陆续把之前敲过的代码放进来，顺序就……..(:
 ​	在对类的定义和使用有了初步认识之后，可以尝试面向对象的风格设计一个简单的学生信息管理系统（：
-12345678910111213141516171819202122232425#i">
+#include&amp;lt;iostream&amp;gt;#include&amp;lt;string&amp;">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -87,28 +87,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/tags" class="waves-effect waves-light">
-      
-      <i class="fas fa-tags" style="zoom: 0.6;"></i>
-      
-      <span>Tags</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/categories" class="waves-effect waves-light">
-      
-      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
-      
-      <span>Categories</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/archives" class="waves-effect waves-light">
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
@@ -165,28 +143,6 @@
 			    <i class="fa-fw fas fa-home"></i>
 			
 			Index
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/tags" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-tags"></i>
-			
-			Tags
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
-			
-			Categories
 		</a>
           
         </li>
@@ -364,7 +320,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    882
+                    878
                 </div>
                 
 
@@ -386,6 +342,9 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.min.css">
+        
 
         
 
@@ -393,13 +352,13 @@
             <div id="articleContent">
                 <p>最近准备陆续把之前敲过的代码放进来，顺序就……..(:</p>
 <p>​	在对类的定义和使用有了初步认识之后，可以尝试面向对象的风格设计一个简单的学生信息管理系统（：</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">student</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	string ID;</span><br><span class="line">	string number;</span><br><span class="line">	string speciality;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">student</span>();</span><br><span class="line">	<span class="built_in">student</span>(string na, string id, string num, string spec, <span class="type">int</span> ag);</span><br><span class="line">	<span class="built_in">student</span>(<span class="type">const</span> student&amp; per);</span><br><span class="line">	<span class="function">string <span class="title">GetName</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetID</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetNumber</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetSpec</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">int</span> <span class="title">GetAge</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Input</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">student</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	string ID;</span><br><span class="line">	string number;</span><br><span class="line">	string speciality;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">student</span>();</span><br><span class="line">	<span class="built_in">student</span>(string na, string id, string num, string spec, <span class="type">int</span> ag);</span><br><span class="line">	<span class="built_in">student</span>(<span class="type">const</span> student&amp; per);</span><br><span class="line">	<span class="function">string <span class="title">GetName</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetID</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetNumber</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetSpec</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">int</span> <span class="title">GetAge</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Input</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;student.h&quot;</span></span></span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>()</span><br><span class="line">&#123;</span><br><span class="line">	name = <span class="string">&quot; &quot;</span>;</span><br><span class="line">	age = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>(string na, string id, string num, string spec, <span class="type">int</span> ag):<span class="built_in">name</span>(na),<span class="built_in">ID</span>(id),<span class="built_in">number</span>(num),<span class="built_in">speciality</span>(spec),<span class="built_in">age</span>(age)</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>(<span class="type">const</span> student&amp; per)</span><br><span class="line">&#123;</span><br><span class="line">	name = per.name;</span><br><span class="line">	ID = per.ID;</span><br><span class="line">	number = per.number;</span><br><span class="line">	speciality = per.speciality;</span><br><span class="line">	age = per.age;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetName</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetID</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> ID;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetNumber</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">string</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetSpec</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> speciality;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">student::GetAge</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> age;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">student::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;姓 名：&quot;</span>;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;身份证：&quot;</span> &lt;&lt; ID &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;学 号：&quot;</span> &lt;&lt; number &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;专 业：&quot;</span> &lt;&lt; speciality &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年 龄：&quot;</span> &lt;&lt; age &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">student::Input</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入姓 名：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; name;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入身份证号：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; ID;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入年 龄：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; age;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入专 业：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; speciality;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入学 号：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; number;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;student.h&quot;</span></span></span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>()</span><br><span class="line">&#123;</span><br><span class="line">	name = <span class="string">&quot; &quot;</span>;</span><br><span class="line">	age = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>(string na, string id, string num, string spec, <span class="type">int</span> ag):<span class="built_in">name</span>(na),<span class="built_in">ID</span>(id),<span class="built_in">number</span>(num),<span class="built_in">speciality</span>(spec),<span class="built_in">age</span>(age)</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>(<span class="type">const</span> student&amp; per)</span><br><span class="line">&#123;</span><br><span class="line">	name = per.name;</span><br><span class="line">	ID = per.ID;</span><br><span class="line">	number = per.number;</span><br><span class="line">	speciality = per.speciality;</span><br><span class="line">	age = per.age;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetName</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetID</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> ID;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetNumber</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">string</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetSpec</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> speciality;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">student::GetAge</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> age;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">student::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;姓 名：&quot;</span>;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;身份证：&quot;</span> &lt;&lt; ID &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;学 号：&quot;</span> &lt;&lt; number &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;专 业：&quot;</span> &lt;&lt; speciality &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年 龄：&quot;</span> &lt;&lt; age &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">student::Input</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入姓 名：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; name;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入身份证号：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; ID;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入年 龄：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; age;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入专 业：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; speciality;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入学 号：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; number;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;student.h&quot;</span></span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">menu</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">OutputStu</span><span class="params">(student* array)</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InputStu</span><span class="params">(student* array)</span></span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">SearchStu</span><span class="params">(student* array, string na)</span></span>;</span><br><span class="line"><span class="type">int</span> coo = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	student array[N];</span><br><span class="line">	<span class="type">int</span> choice;</span><br><span class="line">	string na;</span><br><span class="line">	<span class="keyword">do</span> &#123;</span><br><span class="line">		<span class="built_in">menu</span>();</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;Please input your choice:&quot;</span>;</span><br><span class="line">		cin &gt;&gt; choice;</span><br><span class="line">		<span class="keyword">switch</span> (choice)</span><br><span class="line">		&#123;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">1</span>:<span class="built_in">InputStu</span>(array);<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">2</span>:cout &lt;&lt; <span class="string">&quot;Input the name searched:&quot;</span> &lt;&lt; endl;</span><br><span class="line">			cin &gt;&gt; na;</span><br><span class="line">			<span class="type">int</span> i;</span><br><span class="line">			i = <span class="built_in">SearchStu</span>(array, na);</span><br><span class="line">			<span class="keyword">if</span> (i == N)</span><br><span class="line">				cout &lt;&lt; <span class="string">&quot;查无此人！\n&quot;</span>;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">				array[i].<span class="built_in">Display</span>();</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">3</span>:<span class="built_in">OutputStu</span>(array);<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">0</span>:cout &lt;&lt; <span class="string">&quot;Thanks,see you...&quot;</span> &lt;&lt; endl;<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">default</span>:cout &lt;&lt; <span class="string">&quot;Input error!&quot;</span> &lt;&lt; endl;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125; <span class="keyword">while</span> (choice);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">menu</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********1.录入信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********2.查询信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********3.浏览信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********0.退    出*********\n&quot;</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">OutputStu</span><span class="params">(student* array)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;学生总人数=&quot;</span> &lt;&lt; coo &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>;i &lt; coo;i++)</span><br><span class="line">		array[i].<span class="built_in">Display</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InputStu</span><span class="params">(student* array)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">char</span> ch;</span><br><span class="line">	<span class="keyword">do</span> &#123;</span><br><span class="line">		array[coo].<span class="built_in">Input</span>();</span><br><span class="line">		coo++;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;继续输入吗？（Y or N)\n&quot;</span>;</span><br><span class="line">		cin &gt;&gt; ch;</span><br><span class="line">	&#125; <span class="keyword">while</span> ((ch == <span class="string">&#x27;Y&#x27;</span>) || (ch == <span class="string">&#x27;y&#x27;</span>));</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">SearchStu</span><span class="params">(student* array, string na)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> i, j = N;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; coo;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span> (array[i].<span class="built_in">GetName</span>() == na)</span><br><span class="line">			j = i;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> j;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;student.h&quot;</span></span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">menu</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">OutputStu</span><span class="params">(student* array)</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InputStu</span><span class="params">(student* array)</span></span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">SearchStu</span><span class="params">(student* array, string na)</span></span>;</span><br><span class="line"><span class="type">int</span> coo = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	student array[N];</span><br><span class="line">	<span class="type">int</span> choice;</span><br><span class="line">	string na;</span><br><span class="line">	<span class="keyword">do</span> &#123;</span><br><span class="line">		<span class="built_in">menu</span>();</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;Please input your choice:&quot;</span>;</span><br><span class="line">		cin &gt;&gt; choice;</span><br><span class="line">		<span class="keyword">switch</span> (choice)</span><br><span class="line">		&#123;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">1</span>:<span class="built_in">InputStu</span>(array);<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">2</span>:cout &lt;&lt; <span class="string">&quot;Input the name searched:&quot;</span> &lt;&lt; endl;</span><br><span class="line">			cin &gt;&gt; na;</span><br><span class="line">			<span class="type">int</span> i;</span><br><span class="line">			i = <span class="built_in">SearchStu</span>(array, na);</span><br><span class="line">			<span class="keyword">if</span> (i == N)</span><br><span class="line">				cout &lt;&lt; <span class="string">&quot;查无此人！\n&quot;</span>;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">				array[i].<span class="built_in">Display</span>();</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">3</span>:<span class="built_in">OutputStu</span>(array);<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">0</span>:cout &lt;&lt; <span class="string">&quot;Thanks,see you...&quot;</span> &lt;&lt; endl;<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">default</span>:cout &lt;&lt; <span class="string">&quot;Input error!&quot;</span> &lt;&lt; endl;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125; <span class="keyword">while</span> (choice);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">menu</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********1.录入信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********2.查询信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********3.浏览信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********0.退    出*********\n&quot;</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">OutputStu</span><span class="params">(student* array)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;学生总人数=&quot;</span> &lt;&lt; coo &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>;i &lt; coo;i++)</span><br><span class="line">		array[i].<span class="built_in">Display</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InputStu</span><span class="params">(student* array)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">char</span> ch;</span><br><span class="line">	<span class="keyword">do</span> &#123;</span><br><span class="line">		array[coo].<span class="built_in">Input</span>();</span><br><span class="line">		coo++;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;继续输入吗？（Y or N)\n&quot;</span>;</span><br><span class="line">		cin &gt;&gt; ch;</span><br><span class="line">	&#125; <span class="keyword">while</span> ((ch == <span class="string">&#x27;Y&#x27;</span>) || (ch == <span class="string">&#x27;y&#x27;</span>));</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">SearchStu</span><span class="params">(student* array, string na)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> i, j = N;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; coo;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span> (array[i].<span class="built_in">GetName</span>() == na)</span><br><span class="line">			j = i;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> j;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:1</span><br><span class="line">输入姓 名：zhangcheng</span><br><span class="line">输入身份证号：320106200101011819</span><br><span class="line">输入年 龄：18</span><br><span class="line">输入专 业：computer</span><br><span class="line">输入学 号：19070302</span><br><span class="line">继续输入吗？（Y or N)</span><br><span class="line">Y</span><br><span class="line">输入姓 名：wangcheng</span><br><span class="line">输入身份证号：320101200201014011</span><br><span class="line">输入年 龄：17</span><br><span class="line">输入专 业：accounting</span><br><span class="line">输入学 号：19070320</span><br><span class="line">继续输入吗？（Y or N)</span><br><span class="line">N</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:2</span><br><span class="line">Input the name searched:</span><br><span class="line">zhangcheng</span><br><span class="line">姓 名：zhangcheng</span><br><span class="line">身份证：320106200101011819</span><br><span class="line">学 号：19070302</span><br><span class="line">专 业：computer</span><br><span class="line">年 龄：18</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:3</span><br><span class="line">学生总人数=2</span><br><span class="line">姓 名：zhangcheng</span><br><span class="line">身份证：320106200101011819</span><br><span class="line">学 号：19070302</span><br><span class="line">专 业：computer</span><br><span class="line">年 龄：18</span><br><span class="line">姓 名：wangcheng</span><br><span class="line">身份证：320101200201014011</span><br><span class="line">学 号：19070320</span><br><span class="line">专 业：accounting</span><br><span class="line">年 龄：17</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:0</span><br><span class="line">Thanks,see you...</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:1</span><br><span class="line">输入姓 名：zhangcheng</span><br><span class="line">输入身份证号：320106200101011819</span><br><span class="line">输入年 龄：18</span><br><span class="line">输入专 业：computer</span><br><span class="line">输入学 号：19070302</span><br><span class="line">继续输入吗？（Y or N)</span><br><span class="line">Y</span><br><span class="line">输入姓 名：wangcheng</span><br><span class="line">输入身份证号：320101200201014011</span><br><span class="line">输入年 龄：17</span><br><span class="line">输入专 业：accounting</span><br><span class="line">输入学 号：19070320</span><br><span class="line">继续输入吗？（Y or N)</span><br><span class="line">N</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:2</span><br><span class="line">Input the name searched:</span><br><span class="line">zhangcheng</span><br><span class="line">姓 名：zhangcheng</span><br><span class="line">身份证：320106200101011819</span><br><span class="line">学 号：19070302</span><br><span class="line">专 业：computer</span><br><span class="line">年 龄：18</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:3</span><br><span class="line">学生总人数=2</span><br><span class="line">姓 名：zhangcheng</span><br><span class="line">身份证：320106200101011819</span><br><span class="line">学 号：19070302</span><br><span class="line">专 业：computer</span><br><span class="line">年 龄：18</span><br><span class="line">姓 名：wangcheng</span><br><span class="line">身份证：320101200201014011</span><br><span class="line">学 号：19070320</span><br><span class="line">专 业：accounting</span><br><span class="line">年 龄：17</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:0</span><br><span class="line">Thanks,see you...</span><br></pre></td></tr></table></figure>
 
 
                 
@@ -537,6 +496,273 @@
     
 
     
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'ajPRUJMtwKoFWXSbhp9PkKlP-gzGzoHsz',
+        appKey: 'evJ0rLCCin700Mq7Wc5CLEG2',
+        serverURLs: 'https://ajprujmt.lc-cn-n1-shared.com',
+        notify: 'false' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'en',
+        placeholder: 'just go go'
+    });
+</script>
+
+<!--酷Q推送-->
+
+
+    
 
     
 
@@ -663,6 +889,9 @@
 <!-- 代码块功能依赖 -->
 <script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
 
+
+  <!-- 是否加载使用自带的 prismjs. -->
+  <script type="text/javascript" src="/libs/prism/prism.min.js"></script>
 
 
 <!-- 代码语言 -->
@@ -827,11 +1056,11 @@
     
 
     <div class="container row center-align"
-         style="margin-bottom: 0px !important;">
+         style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2025</span>
+                <span id="year">2025</span>
             
             <a href="/about" target="_blank">t1g3r</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -861,6 +1090,60 @@
             <br>
 
             <!-- 运行天数提醒. -->
+            
+                <span id="sitetime"> Loading ...</span>
+                <script>
+                    var calcSiteTime = function () {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = "2025";
+                        var startMonth = "2";
+                        var startDate = "4";
+                        var startHour = "10";
+                        var startMinute = "6";
+                        var startSecond = "1";
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth() + 1;
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+
+                        // 区分是否有年份.
+                        var language = 'en';
+                        if (startYear === String(todayYear)) {
+                            document.getElementById("year").innerHTML = todayYear;
+                            var daysTip = 'This site has been running for ' + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                daysTip = '本站已运行 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                daysTip = '本站已運行 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = daysTip;
+                        } else {
+                            document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                            var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and '
+                                + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
+                        }
+                    }
+
+                    calcSiteTime();
+                </script>
             
             <br>
             
@@ -1069,7 +1352,7 @@ $(function () {
      
         <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
         <script src="/libs/others/TencentCaptcha.js"></script>
-        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
+        <button id="TencentCaptcha" data-appid="ajPRUJMtwKoFWXSbhp9PkKlP-gzGzoHsz" data-cbfn="callback" type="button" hidden></button>
     
 
     <!-- Baidu Analytics -->
