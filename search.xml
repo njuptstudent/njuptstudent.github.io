@@ -25,101 +25,6 @@
       </tags>
   </entry>
   <entry>
-    <title>typora&amp;markdown</title>
-    <url>/2025/02/04/typora-markdown/</url>
-    <content><![CDATA[<h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><h4 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h4><p>​	Typora 是一款由Abner Lee开发的轻量级 Markdown 编辑器。Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML （或HTML）文档。</p>
-<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>​	下载地址：<a href="https://typora.io/releases/all%EF%BC%8C%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8D%B3%E5%8F%AF%E3%80%82">https://typora.io/releases/all，下载安装即可。</a></p>
-<h4 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h4><p>​	打开Typora后，会显示空白的编辑页，左上角会显示7个菜单入口，简单认识下常用的功能。</p>
-<p><img src="/img/101.png"></p>
-<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><h4 id="块"><a href="#块" class="headerlink" title="块"></a>块</h4><h5 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h5><p>​	标题在行的开头使用1-6个<code>#</code>字符，对应于标题级别1-6。在Typora中输入<code># 标题内容</code>即可创建标题。注意：<code>#</code>与标题内容之间有个空格。</p>
-<p>快捷键：<code>Ctrl+1</code>、<code>Ctrl+2</code>、<code>Ctrl+3</code>、<code>Ctrl+4</code>、<code>Ctrl+5</code>、<code>Ctrl+6</code>；Ctrl+1-6 对应标题级别1-6。</p>
-<h5 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h5><p>​	引用在行的开头使用<code>&gt;</code>字符进行块引用。在Typora中输入<code>&gt;引用内容</code>即可生成块引用。块引用中继续输入<code>&gt;引用内容</code>，可以内嵌块引用。</p>
-<p>快捷键：<code>Ctrl+Shift+Q</code>。</p>
-<h5 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h5><h6 id="有序"><a href="#有序" class="headerlink" title="有序"></a>有序</h6><p>​	有序列表在行的开头输入<code>数字. 列表内容</code>可以创建有序列表，再按回车即可自动生成<code>数字+1.</code>的有序列表，即<code>1. 列表内容</code>回车后生成<code>2. 列表内容</code>。注意：<code>.</code>与列表内容之间有个空格。</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+Shift+[</code>。</p>
-</blockquote>
-<p>第一个列表</p>
-<p>第二个列表</p>
-<h6 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h6><p>​	无序列表在行的开头输入<code>- 列表内容</code>可以创建无序列表，再按回车即可自动生成下个无序列表。注意：<code>-</code>与列表内容之间有个空格。</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+Shift+]</code>。</p>
-</blockquote>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> 第一个列表</span><br><span class="line"><span class="bullet">-</span> 第二个列表</span><br></pre></td></tr></table></figure>
-
-<h6 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h6><p>​	任务列表在行的开头输入<code>- [ ] 列表内容</code> 、<code>- [x] 列表内容</code>可以创建未完成与已完成的任务列表。注意：<code>- [ ]</code>与列表内容之间有个空格。</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+Shift+X</code>。</p>
-</blockquote>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> [ ] 未完成</span><br><span class="line"><span class="bullet">-</span> [x] 已完成</span><br></pre></td></tr></table></figure>
-
-<h6 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h6><p>​	代码块在行的开头输入&#96;&#96;&#96;语言标识符，再按回车即可生成对应语言的代码块，包含语法高亮功能。</p>
-<p>快捷键：Ctrl+Shift+K+ 对应的代码格式（python、java、shell）。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-<h6 id="数学的模块"><a href="#数学的模块" class="headerlink" title="数学的模块"></a>数学的模块</h6><p>​	数学公式块在行的开头输入$$ + 回车键，即可生成接受Tex&#x2F;Latex源代码输入的区域。LaTex格式的数学表达式学习请参考LaTex&#x2F;数学。</p>
-<p>快捷键：Ctrl+Shift+M。</p>
-<p>$$<br>\lim\limits_{x \to \infty} \exp(-x) &#x3D; 0<br>$$</p>
-<h6 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h6><p>​	表格推荐直接使用快捷键<code>Ctrl+T</code>，可以自定义生成几行几列的表格，</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+T</code>。</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>\</th>
-<th>1</th>
-<th>2</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>2</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>3</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h6 id="水平分割线"><a href="#水平分割线" class="headerlink" title="水平分割线"></a>水平分割线</h6><p>​	水平线在行的开头输入<code>---</code> + 回车键即可生成水平线。</p>
-<hr>
-<h6 id="内容目录"><a href="#内容目录" class="headerlink" title="内容目录"></a>内容目录</h6><p>​	目录在行的开头输入<code>[toc]</code>+回车，即可生成文章目录，自动更新。</p>
-<blockquote>
-<p>快捷键：<code>鼠标右键-&gt;插入-&gt;内容目录</code>。</p>
-</blockquote>
-<h6 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h6><p>​	Typora 支持, sequence, flowchart and mermaid, 使用前要先从偏好设置—&gt;Markdown—&gt;面板—&gt;Markdown扩展语法中，勾选图表选项来启用该功能。</p>
-<h6 id="序列图"><a href="#序列图" class="headerlink" title="序列图"></a>序列图</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">jpdsg-&gt;&gt;spreng: Says Hello</span><br><span class="line">Note right of spreng: spreng thinks\nabout it</span><br><span class="line">spreng--&gt;&gt;jpdsg: How are you?</span><br><span class="line">jpdsg-&gt;&gt;spreng: I am good thanks!</span><br></pre></td></tr></table></figure>
-
-<h5 id="Span-元素"><a href="#Span-元素" class="headerlink" title="Span 元素"></a>Span 元素</h5><h6 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h6><p>​	快捷键：<code>Ctrl+K</code>。</p>
-<p><a href="https://njuptstudent.github.io/">nnn</a></p>
-<h6 id="URL网址"><a href="#URL网址" class="headerlink" title="URL网址"></a>URL网址</h6><p>​	文章中输入<code>&lt;URL网址&gt;</code>即可生成支持跳转的链接。使用<code>Ctrl</code>+点击此链接的方式跳转。Typora也支持自动链接标准URL。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">&lt;https://www.baidu.com/&gt;</span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">www.baidu.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-<h6 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h6><p>​	文章中输入<code>**文本**</code>即可给文本加粗。</p>
-<h6 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h6><p>​	文章中输入<code>^文本^</code>即可给文本添加上标效果。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">X^2^</span><br></pre></td></tr></table></figure>
-
-<h6 id="下标"><a href="#下标" class="headerlink" title="下标"></a>下标</h6><p>​	文章中输入<code>~文本~</code>即可给文本添加下标效果。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
-
-<h5 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h5><h6 id="嵌入内容"><a href="#嵌入内容" class="headerlink" title="嵌入内容"></a>嵌入内容</h6><p>​	文章中输入&lt;#iframe #src&#x3D;”在线视频嵌入代码或链接” #width&#x3D;”视频宽度” #height&#x3D;”视频高度”&gt;</iframe>即可插入视频。也可以通过在视频页面点击 “分享”&gt;“嵌入” 获取嵌入代码，然后在 Typora 中插入。（删去#</p>
-]]></content>
-      <categories>
-        <category>tech</category>
-      </categories>
-      <tags>
-        <tag>grammar</tag>
-        <tag>typora</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>前端那些事NO.1</title>
     <url>/2025/02/05/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8BNO-1/</url>
     <content><![CDATA[<h3 id="基本标签"><a href="#基本标签" class="headerlink" title="基本标签"></a>基本标签</h3><h5 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h5><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h6</span>&gt;</span><span class="tag">&lt;/<span class="name">h6</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -241,6 +146,101 @@
       </tags>
   </entry>
   <entry>
+    <title>typora&amp;markdown</title>
+    <url>/2025/02/04/typora-markdown/</url>
+    <content><![CDATA[<h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><h4 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h4><p>​	Typora 是一款由Abner Lee开发的轻量级 Markdown 编辑器。Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML （或HTML）文档。</p>
+<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>​	下载地址：<a href="https://typora.io/releases/all%EF%BC%8C%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8D%B3%E5%8F%AF%E3%80%82">https://typora.io/releases/all，下载安装即可。</a></p>
+<h4 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h4><p>​	打开Typora后，会显示空白的编辑页，左上角会显示7个菜单入口，简单认识下常用的功能。</p>
+<p><img src="/img/101.png"></p>
+<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><h4 id="块"><a href="#块" class="headerlink" title="块"></a>块</h4><h5 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h5><p>​	标题在行的开头使用1-6个<code>#</code>字符，对应于标题级别1-6。在Typora中输入<code># 标题内容</code>即可创建标题。注意：<code>#</code>与标题内容之间有个空格。</p>
+<p>快捷键：<code>Ctrl+1</code>、<code>Ctrl+2</code>、<code>Ctrl+3</code>、<code>Ctrl+4</code>、<code>Ctrl+5</code>、<code>Ctrl+6</code>；Ctrl+1-6 对应标题级别1-6。</p>
+<h5 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h5><p>​	引用在行的开头使用<code>&gt;</code>字符进行块引用。在Typora中输入<code>&gt;引用内容</code>即可生成块引用。块引用中继续输入<code>&gt;引用内容</code>，可以内嵌块引用。</p>
+<p>快捷键：<code>Ctrl+Shift+Q</code>。</p>
+<h5 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h5><h6 id="有序"><a href="#有序" class="headerlink" title="有序"></a>有序</h6><p>​	有序列表在行的开头输入<code>数字. 列表内容</code>可以创建有序列表，再按回车即可自动生成<code>数字+1.</code>的有序列表，即<code>1. 列表内容</code>回车后生成<code>2. 列表内容</code>。注意：<code>.</code>与列表内容之间有个空格。</p>
+<blockquote>
+<p>快捷键：<code>Ctrl+Shift+[</code>。</p>
+</blockquote>
+<p>第一个列表</p>
+<p>第二个列表</p>
+<h6 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h6><p>​	无序列表在行的开头输入<code>- 列表内容</code>可以创建无序列表，再按回车即可自动生成下个无序列表。注意：<code>-</code>与列表内容之间有个空格。</p>
+<blockquote>
+<p>快捷键：<code>Ctrl+Shift+]</code>。</p>
+</blockquote>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> 第一个列表</span><br><span class="line"><span class="bullet">-</span> 第二个列表</span><br></pre></td></tr></table></figure>
+
+<h6 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h6><p>​	任务列表在行的开头输入<code>- [ ] 列表内容</code> 、<code>- [x] 列表内容</code>可以创建未完成与已完成的任务列表。注意：<code>- [ ]</code>与列表内容之间有个空格。</p>
+<blockquote>
+<p>快捷键：<code>Ctrl+Shift+X</code>。</p>
+</blockquote>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> [ ] 未完成</span><br><span class="line"><span class="bullet">-</span> [x] 已完成</span><br></pre></td></tr></table></figure>
+
+<h6 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h6><p>​	代码块在行的开头输入&#96;&#96;&#96;语言标识符，再按回车即可生成对应语言的代码块，包含语法高亮功能。</p>
+<p>快捷键：Ctrl+Shift+K+ 对应的代码格式（python、java、shell）。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<h6 id="数学的模块"><a href="#数学的模块" class="headerlink" title="数学的模块"></a>数学的模块</h6><p>​	数学公式块在行的开头输入$$ + 回车键，即可生成接受Tex&#x2F;Latex源代码输入的区域。LaTex格式的数学表达式学习请参考LaTex&#x2F;数学。</p>
+<p>快捷键：Ctrl+Shift+M。</p>
+<p>$$<br>\lim\limits_{x \to \infty} \exp(-x) &#x3D; 0<br>$$</p>
+<h6 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h6><p>​	表格推荐直接使用快捷键<code>Ctrl+T</code>，可以自定义生成几行几列的表格，</p>
+<blockquote>
+<p>快捷键：<code>Ctrl+T</code>。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>\</th>
+<th>1</th>
+<th>2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h6 id="水平分割线"><a href="#水平分割线" class="headerlink" title="水平分割线"></a>水平分割线</h6><p>​	水平线在行的开头输入<code>---</code> + 回车键即可生成水平线。</p>
+<hr>
+<h6 id="内容目录"><a href="#内容目录" class="headerlink" title="内容目录"></a>内容目录</h6><p>​	目录在行的开头输入<code>[toc]</code>+回车，即可生成文章目录，自动更新。</p>
+<blockquote>
+<p>快捷键：<code>鼠标右键-&gt;插入-&gt;内容目录</code>。</p>
+</blockquote>
+<h6 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h6><p>​	Typora 支持, sequence, flowchart and mermaid, 使用前要先从偏好设置—&gt;Markdown—&gt;面板—&gt;Markdown扩展语法中，勾选图表选项来启用该功能。</p>
+<h6 id="序列图"><a href="#序列图" class="headerlink" title="序列图"></a>序列图</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">jpdsg-&gt;&gt;spreng: Says Hello</span><br><span class="line">Note right of spreng: spreng thinks\nabout it</span><br><span class="line">spreng--&gt;&gt;jpdsg: How are you?</span><br><span class="line">jpdsg-&gt;&gt;spreng: I am good thanks!</span><br></pre></td></tr></table></figure>
+
+<h5 id="Span-元素"><a href="#Span-元素" class="headerlink" title="Span 元素"></a>Span 元素</h5><h6 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h6><p>​	快捷键：<code>Ctrl+K</code>。</p>
+<p><a href="https://njuptstudent.github.io/">nnn</a></p>
+<h6 id="URL网址"><a href="#URL网址" class="headerlink" title="URL网址"></a>URL网址</h6><p>​	文章中输入<code>&lt;URL网址&gt;</code>即可生成支持跳转的链接。使用<code>Ctrl</code>+点击此链接的方式跳转。Typora也支持自动链接标准URL。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">&lt;https://www.baidu.com/&gt;</span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">www.baidu.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<h6 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h6><p>​	文章中输入<code>**文本**</code>即可给文本加粗。</p>
+<h6 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h6><p>​	文章中输入<code>^文本^</code>即可给文本添加上标效果。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">X^2^</span><br></pre></td></tr></table></figure>
+
+<h6 id="下标"><a href="#下标" class="headerlink" title="下标"></a>下标</h6><p>​	文章中输入<code>~文本~</code>即可给文本添加下标效果。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
+
+<h5 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h5><h6 id="嵌入内容"><a href="#嵌入内容" class="headerlink" title="嵌入内容"></a>嵌入内容</h6><p>​	文章中输入&lt;#iframe #src&#x3D;”在线视频嵌入代码或链接” #width&#x3D;”视频宽度” #height&#x3D;”视频高度”&gt;</iframe>即可插入视频。也可以通过在视频页面点击 “分享”&gt;“嵌入” 获取嵌入代码，然后在 Typora 中插入。（删去#</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>grammar</tag>
+        <tag>typora</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>前端那些事NO.4</title>
     <url>/2025/02/06/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8BNO-4/</url>
     <content><![CDATA[<h2 id="CSS-文本格式"><a href="#CSS-文本格式" class="headerlink" title="CSS 文本格式"></a>CSS 文本格式</h2><h4 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h4><p>​	This text is styled with some of the text formatting properties. The heading uses the text-align, text-transform, and color properties. The paragraph is indented, aligned, and the space between characters is specified. The underline is removed from the <a href="https://www.runoob.com/try/try.php?filename=trycss_text">“尝试一下”</a> link.</p>
@@ -359,28 +359,6 @@
       </tags>
   </entry>
   <entry>
-    <title>类与对象之学生信息管理系统NO.1</title>
-    <url>/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9FNO-1/</url>
-    <content><![CDATA[<p>最近准备陆续把之前敲过的代码放进来，顺序就……..(:</p>
-<p>​	在对类的定义和使用有了初步认识之后，可以尝试面向对象的风格设计一个简单的学生信息管理系统（：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">student</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	string ID;</span><br><span class="line">	string number;</span><br><span class="line">	string speciality;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">student</span>();</span><br><span class="line">	<span class="built_in">student</span>(string na, string id, string num, string spec, <span class="type">int</span> ag);</span><br><span class="line">	<span class="built_in">student</span>(<span class="type">const</span> student&amp; per);</span><br><span class="line">	<span class="function">string <span class="title">GetName</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetID</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetNumber</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetSpec</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">int</span> <span class="title">GetAge</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Input</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;student.h&quot;</span></span></span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>()</span><br><span class="line">&#123;</span><br><span class="line">	name = <span class="string">&quot; &quot;</span>;</span><br><span class="line">	age = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>(string na, string id, string num, string spec, <span class="type">int</span> ag):<span class="built_in">name</span>(na),<span class="built_in">ID</span>(id),<span class="built_in">number</span>(num),<span class="built_in">speciality</span>(spec),<span class="built_in">age</span>(age)</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>(<span class="type">const</span> student&amp; per)</span><br><span class="line">&#123;</span><br><span class="line">	name = per.name;</span><br><span class="line">	ID = per.ID;</span><br><span class="line">	number = per.number;</span><br><span class="line">	speciality = per.speciality;</span><br><span class="line">	age = per.age;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetName</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetID</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> ID;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetNumber</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">string</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetSpec</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> speciality;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">student::GetAge</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> age;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">student::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;姓 名：&quot;</span>;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;身份证：&quot;</span> &lt;&lt; ID &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;学 号：&quot;</span> &lt;&lt; number &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;专 业：&quot;</span> &lt;&lt; speciality &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年 龄：&quot;</span> &lt;&lt; age &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">student::Input</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入姓 名：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; name;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入身份证号：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; ID;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入年 龄：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; age;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入专 业：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; speciality;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入学 号：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; number;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;student.h&quot;</span></span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">menu</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">OutputStu</span><span class="params">(student* array)</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InputStu</span><span class="params">(student* array)</span></span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">SearchStu</span><span class="params">(student* array, string na)</span></span>;</span><br><span class="line"><span class="type">int</span> coo = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	student array[N];</span><br><span class="line">	<span class="type">int</span> choice;</span><br><span class="line">	string na;</span><br><span class="line">	<span class="keyword">do</span> &#123;</span><br><span class="line">		<span class="built_in">menu</span>();</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;Please input your choice:&quot;</span>;</span><br><span class="line">		cin &gt;&gt; choice;</span><br><span class="line">		<span class="keyword">switch</span> (choice)</span><br><span class="line">		&#123;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">1</span>:<span class="built_in">InputStu</span>(array);<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">2</span>:cout &lt;&lt; <span class="string">&quot;Input the name searched:&quot;</span> &lt;&lt; endl;</span><br><span class="line">			cin &gt;&gt; na;</span><br><span class="line">			<span class="type">int</span> i;</span><br><span class="line">			i = <span class="built_in">SearchStu</span>(array, na);</span><br><span class="line">			<span class="keyword">if</span> (i == N)</span><br><span class="line">				cout &lt;&lt; <span class="string">&quot;查无此人！\n&quot;</span>;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">				array[i].<span class="built_in">Display</span>();</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">3</span>:<span class="built_in">OutputStu</span>(array);<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">0</span>:cout &lt;&lt; <span class="string">&quot;Thanks,see you...&quot;</span> &lt;&lt; endl;<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">default</span>:cout &lt;&lt; <span class="string">&quot;Input error!&quot;</span> &lt;&lt; endl;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125; <span class="keyword">while</span> (choice);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">menu</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********1.录入信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********2.查询信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********3.浏览信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********0.退    出*********\n&quot;</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">OutputStu</span><span class="params">(student* array)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;学生总人数=&quot;</span> &lt;&lt; coo &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>;i &lt; coo;i++)</span><br><span class="line">		array[i].<span class="built_in">Display</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InputStu</span><span class="params">(student* array)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">char</span> ch;</span><br><span class="line">	<span class="keyword">do</span> &#123;</span><br><span class="line">		array[coo].<span class="built_in">Input</span>();</span><br><span class="line">		coo++;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;继续输入吗？（Y or N)\n&quot;</span>;</span><br><span class="line">		cin &gt;&gt; ch;</span><br><span class="line">	&#125; <span class="keyword">while</span> ((ch == <span class="string">&#x27;Y&#x27;</span>) || (ch == <span class="string">&#x27;y&#x27;</span>));</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">SearchStu</span><span class="params">(student* array, string na)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> i, j = N;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; coo;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span> (array[i].<span class="built_in">GetName</span>() == na)</span><br><span class="line">			j = i;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> j;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:1</span><br><span class="line">输入姓 名：zhangcheng</span><br><span class="line">输入身份证号：320106200101011819</span><br><span class="line">输入年 龄：18</span><br><span class="line">输入专 业：computer</span><br><span class="line">输入学 号：19070302</span><br><span class="line">继续输入吗？（Y or N)</span><br><span class="line">Y</span><br><span class="line">输入姓 名：wangcheng</span><br><span class="line">输入身份证号：320101200201014011</span><br><span class="line">输入年 龄：17</span><br><span class="line">输入专 业：accounting</span><br><span class="line">输入学 号：19070320</span><br><span class="line">继续输入吗？（Y or N)</span><br><span class="line">N</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:2</span><br><span class="line">Input the name searched:</span><br><span class="line">zhangcheng</span><br><span class="line">姓 名：zhangcheng</span><br><span class="line">身份证：320106200101011819</span><br><span class="line">学 号：19070302</span><br><span class="line">专 业：computer</span><br><span class="line">年 龄：18</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:3</span><br><span class="line">学生总人数=2</span><br><span class="line">姓 名：zhangcheng</span><br><span class="line">身份证：320106200101011819</span><br><span class="line">学 号：19070302</span><br><span class="line">专 业：computer</span><br><span class="line">年 龄：18</span><br><span class="line">姓 名：wangcheng</span><br><span class="line">身份证：320101200201014011</span><br><span class="line">学 号：19070320</span><br><span class="line">专 业：accounting</span><br><span class="line">年 龄：17</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:0</span><br><span class="line">Thanks,see you...</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>tech</category>
-      </categories>
-      <tags>
-        <tag>grammar</tag>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>类与对象之对象成员</title>
     <url>/2025/02/05/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%AF%B9%E8%B1%A1%E6%88%90%E5%91%98/</url>
     <content><![CDATA[<p>The function of good software is to make the complex appear to be simple.</p>
@@ -439,94 +417,6 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Product</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Product</span>();</span><br><span class="line">	<span class="built_in">Product</span>(string na);</span><br><span class="line">	<span class="built_in">Product</span>(string na, <span class="type">double</span> pr);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">output</span><span class="params">()</span></span>;</span><br><span class="line">	~<span class="built_in">Product</span>();</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">double</span> price;</span><br><span class="line">	string factory;</span><br><span class="line">	<span class="type">bool</span> easy_break;</span><br><span class="line">	string color;</span><br><span class="line">	<span class="type">double</span> high;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na, <span class="type">double</span> pr)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">	pr = price;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	name = na;</span><br><span class="line">	price = pr;</span><br><span class="line">	factory = fa;</span><br><span class="line">	easy_break = ea;</span><br><span class="line">	color = co;</span><br><span class="line">	high = h;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::output</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; price &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; factory&lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; easy_break &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; color &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; high &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::~<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Product <span class="title">p1</span><span class="params">(<span class="string">&quot;car&quot;</span>)</span></span>;</span><br><span class="line">	<span class="function">Product <span class="title">p2</span><span class="params">(<span class="string">&quot;glass&quot;</span>, <span class="number">3.00</span>)</span></span>;</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">SetProduct</span>(<span class="string">&quot;car&quot;</span>, <span class="number">100000.0</span>, <span class="string">&quot;nj&quot;</span>, <span class="number">0</span>, <span class="string">&quot;red&quot;</span>, <span class="number">1.5</span>);</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">output</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">car 100000</span><br><span class="line">nj 0</span><br><span class="line">red 1.5</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>tech</category>
-      </categories>
-      <tags>
-        <tag>grammar</tag>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>类与对象之构造函数</title>
-    <url>/2025/02/06/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/</url>
-    <content><![CDATA[<h2 id="Main-Point"><a href="#Main-Point" class="headerlink" title="Main Point"></a>Main Point</h2><ul>
-<li>掌握构造函数的定义，特点和作用</li>
-<li>掌握无参构造函数与带默认参数值的构造函数的定义与使用</li>
-<li>掌握复制构造函数的定义与使用</li>
-<li>掌握析构函数的定义与使用</li>
-</ul>
-<h2 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h2><p>​	构造函数是类的一种特殊的成员函数。</p>
-<p>特点：</p>
-<ol>
-<li>无返回值，不用void</li>
-<li>函数名与类名相同</li>
-<li>构造函数可以有参数，可以发生重载</li>
-<li>创建对象的时候，构造函数会自动调用，而且只调用一次</li>
-</ol>
-<h2 id="析构函数"><a href="#析构函数" class="headerlink" title="析构函数"></a>析构函数</h2><p>​	创建类的对象时，系统会自动调用构造函数。同样，当对象生命结束时，需要释放所占的内存资源，程序将自动调用类的析构函数来完成。</p>
-<p>特点：</p>
-<ol>
-<li>进行清理操作</li>
-<li>无返回值，不用void</li>
-<li>函数名于类名名称前加~</li>
-<li>析构函数无参，不能重载</li>
-<li>对象在销毁前会自动调用析构函数，而且仅调用一次</li>
-</ol>
-<h2 id="构造函数和析构函数实例"><a href="#构造函数和析构函数实例" class="headerlink" title="构造函数和析构函数实例"></a>构造函数和析构函数实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CDate</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> Date_Year, Date_Month, Date_Day;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="comment">//构造函数</span></span><br><span class="line">	<span class="comment">//无返回值无void</span></span><br><span class="line">	<span class="comment">//函数名与类名相同</span></span><br><span class="line">	<span class="comment">//可以有参数，可以重载</span></span><br><span class="line">	<span class="comment">//创建对象时，构造函数会自动调用，并且只调用一次</span></span><br><span class="line">	<span class="built_in">CDate</span>(<span class="type">int</span>, <span class="type">int</span>, <span class="type">int</span>);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_07.h&quot;</span></span></span><br><span class="line">CDate::<span class="built_in">CDate</span>(<span class="type">int</span> y, <span class="type">int</span> m, <span class="type">int</span> d)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Executing constructor...&quot;</span>;</span><br><span class="line">	Date_Year = y;</span><br><span class="line">	Date_Month = m;</span><br><span class="line">	Date_Day = d;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">CDate::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; Date_Year &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Month &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Day &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_07.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">CDate <span class="title">today</span><span class="params">(<span class="number">2025</span>, <span class="number">2</span>, <span class="number">5</span>)</span></span>;<span class="comment">//定义对象同时完成初始化</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;today is...\n&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	today = <span class="built_in">CDate</span>(<span class="number">2010</span>, <span class="number">3</span>, <span class="number">4</span>);<span class="comment">//定义无名对象</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;today is...\n&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">Executing constructor...today is...</span><br><span class="line">2025-2-5</span><br><span class="line">Executing constructor...today is...</span><br><span class="line">2010-3-4</span><br></pre></td></tr></table></figure>
-
-<h2 id="构造函数分类及调用"><a href="#构造函数分类及调用" class="headerlink" title="构造函数分类及调用"></a>构造函数分类及调用</h2><h4 id="两种分类方式"><a href="#两种分类方式" class="headerlink" title="两种分类方式"></a>两种分类方式</h4><ul>
-<li><p>有参</p>
-</li>
-<li><p>无参</p>
-</li>
-</ul>
-<h4 id="三种分类方式"><a href="#三种分类方式" class="headerlink" title="三种分类方式"></a>三种分类方式</h4><ul>
-<li>括号法</li>
-<li>显示法</li>
-<li>隐式转换法</li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="comment">//普通构造函数</span></span><br><span class="line">	<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;无参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">int</span> a)</span><br><span class="line">	&#123;</span><br><span class="line">		age = a;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;有参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//拷贝构造函数</span></span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">const</span> Person&amp; p)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">//将传入的人身上所有的属性拷贝到我身上。</span></span><br><span class="line">		age = p.age;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;拷贝构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">task1</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//括号法</span></span><br><span class="line">	<span class="comment">//Person p1;//默认构造函数</span></span><br><span class="line">	<span class="comment">//Person p2(10);//有参构造函数</span></span><br><span class="line">	<span class="comment">//Person p3(p2);//拷贝构造函数</span></span><br><span class="line">	<span class="comment">//默认构造函数不能写（）</span></span><br><span class="line">	<span class="comment">//显示法</span></span><br><span class="line">	Person p1;</span><br><span class="line">	Person p2 = <span class="built_in">Person</span>(<span class="number">10</span>);</span><br><span class="line">	Person p3 = <span class="built_in">Person</span> (p2);</span><br><span class="line">	<span class="comment">//Person(10);匿名对象</span></span><br><span class="line">	<span class="comment">//cout &lt;&lt; &quot;a\n&quot;;</span></span><br><span class="line">	<span class="comment">//隐式写法</span></span><br><span class="line">	Person p4 = <span class="number">10</span>;<span class="comment">//等价于Person p4=Person(10)</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">task1</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">无参构造函数。</span><br><span class="line">有参构造函数。</span><br><span class="line">拷贝构造函数。</span><br><span class="line">有参构造函数。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ]]></content>
       <categories>
@@ -628,6 +518,94 @@
       </tags>
   </entry>
   <entry>
+    <title>类与对象之构造函数</title>
+    <url>/2025/02/06/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<h2 id="Main-Point"><a href="#Main-Point" class="headerlink" title="Main Point"></a>Main Point</h2><ul>
+<li>掌握构造函数的定义，特点和作用</li>
+<li>掌握无参构造函数与带默认参数值的构造函数的定义与使用</li>
+<li>掌握复制构造函数的定义与使用</li>
+<li>掌握析构函数的定义与使用</li>
+</ul>
+<h2 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h2><p>​	构造函数是类的一种特殊的成员函数。</p>
+<p>特点：</p>
+<ol>
+<li>无返回值，不用void</li>
+<li>函数名与类名相同</li>
+<li>构造函数可以有参数，可以发生重载</li>
+<li>创建对象的时候，构造函数会自动调用，而且只调用一次</li>
+</ol>
+<h2 id="析构函数"><a href="#析构函数" class="headerlink" title="析构函数"></a>析构函数</h2><p>​	创建类的对象时，系统会自动调用构造函数。同样，当对象生命结束时，需要释放所占的内存资源，程序将自动调用类的析构函数来完成。</p>
+<p>特点：</p>
+<ol>
+<li>进行清理操作</li>
+<li>无返回值，不用void</li>
+<li>函数名于类名名称前加~</li>
+<li>析构函数无参，不能重载</li>
+<li>对象在销毁前会自动调用析构函数，而且仅调用一次</li>
+</ol>
+<h2 id="构造函数和析构函数实例"><a href="#构造函数和析构函数实例" class="headerlink" title="构造函数和析构函数实例"></a>构造函数和析构函数实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CDate</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> Date_Year, Date_Month, Date_Day;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="comment">//构造函数</span></span><br><span class="line">	<span class="comment">//无返回值无void</span></span><br><span class="line">	<span class="comment">//函数名与类名相同</span></span><br><span class="line">	<span class="comment">//可以有参数，可以重载</span></span><br><span class="line">	<span class="comment">//创建对象时，构造函数会自动调用，并且只调用一次</span></span><br><span class="line">	<span class="built_in">CDate</span>(<span class="type">int</span>, <span class="type">int</span>, <span class="type">int</span>);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_07.h&quot;</span></span></span><br><span class="line">CDate::<span class="built_in">CDate</span>(<span class="type">int</span> y, <span class="type">int</span> m, <span class="type">int</span> d)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Executing constructor...&quot;</span>;</span><br><span class="line">	Date_Year = y;</span><br><span class="line">	Date_Month = m;</span><br><span class="line">	Date_Day = d;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">CDate::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; Date_Year &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Month &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Day &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_07.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">CDate <span class="title">today</span><span class="params">(<span class="number">2025</span>, <span class="number">2</span>, <span class="number">5</span>)</span></span>;<span class="comment">//定义对象同时完成初始化</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;today is...\n&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	today = <span class="built_in">CDate</span>(<span class="number">2010</span>, <span class="number">3</span>, <span class="number">4</span>);<span class="comment">//定义无名对象</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;today is...\n&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">Executing constructor...today is...</span><br><span class="line">2025-2-5</span><br><span class="line">Executing constructor...today is...</span><br><span class="line">2010-3-4</span><br></pre></td></tr></table></figure>
+
+<h2 id="构造函数分类及调用"><a href="#构造函数分类及调用" class="headerlink" title="构造函数分类及调用"></a>构造函数分类及调用</h2><h4 id="两种分类方式"><a href="#两种分类方式" class="headerlink" title="两种分类方式"></a>两种分类方式</h4><ul>
+<li><p>有参</p>
+</li>
+<li><p>无参</p>
+</li>
+</ul>
+<h4 id="三种分类方式"><a href="#三种分类方式" class="headerlink" title="三种分类方式"></a>三种分类方式</h4><ul>
+<li>括号法</li>
+<li>显示法</li>
+<li>隐式转换法</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="comment">//普通构造函数</span></span><br><span class="line">	<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;无参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">int</span> a)</span><br><span class="line">	&#123;</span><br><span class="line">		age = a;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;有参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//拷贝构造函数</span></span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">const</span> Person&amp; p)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">//将传入的人身上所有的属性拷贝到我身上。</span></span><br><span class="line">		age = p.age;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;拷贝构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">task1</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//括号法</span></span><br><span class="line">	<span class="comment">//Person p1;//默认构造函数</span></span><br><span class="line">	<span class="comment">//Person p2(10);//有参构造函数</span></span><br><span class="line">	<span class="comment">//Person p3(p2);//拷贝构造函数</span></span><br><span class="line">	<span class="comment">//默认构造函数不能写（）</span></span><br><span class="line">	<span class="comment">//显示法</span></span><br><span class="line">	Person p1;</span><br><span class="line">	Person p2 = <span class="built_in">Person</span>(<span class="number">10</span>);</span><br><span class="line">	Person p3 = <span class="built_in">Person</span> (p2);</span><br><span class="line">	<span class="comment">//Person(10);匿名对象</span></span><br><span class="line">	<span class="comment">//cout &lt;&lt; &quot;a\n&quot;;</span></span><br><span class="line">	<span class="comment">//隐式写法</span></span><br><span class="line">	Person p4 = <span class="number">10</span>;<span class="comment">//等价于Person p4=Person(10)</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">task1</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">无参构造函数。</span><br><span class="line">有参构造函数。</span><br><span class="line">拷贝构造函数。</span><br><span class="line">有参构造函数。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>grammar</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>类与对象之析构函数和动态内存分配</title>
     <url>/2025/02/08/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%9E%90%E6%9E%84%E5%87%BD%E6%95%B0%E5%92%8C%E5%8A%A8%E6%80%81%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D/</url>
     <content><![CDATA[<p>​	程序中经常要为类成员申请动态内存空间。比如在构造函数中，使用new操作符申请了一块动态内存空间，那么该对象生命周期结束时，申请的动态内存空间如何释放呢？我们通过一个简单的类来学习在析构函数中释放动态内存空间。</p>
@@ -636,6 +614,28 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_11.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	CMessage Mes1;</span><br><span class="line">	<span class="function">CMessage <span class="title">Mes2</span><span class="params">(<span class="string">&quot;爱我中华！&quot;</span>)</span></span>;</span><br><span class="line">	CMessage* pm = <span class="keyword">new</span> <span class="built_in">CMessage</span>(<span class="string">&quot;我爱我的祖国&quot;</span>);</span><br><span class="line">	Mes<span class="number">1.</span><span class="built_in">show</span>();</span><br><span class="line">	Mes<span class="number">2.</span><span class="built_in">show</span>();</span><br><span class="line">	pm-&gt;<span class="built_in">show</span>();</span><br><span class="line">	<span class="keyword">delete</span> pm;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">中国一点也没有少！</span><br><span class="line">爱我中华！</span><br><span class="line">我爱我的祖国</span><br><span class="line">Destructor called.</span><br><span class="line">Destructor called.</span><br><span class="line">Destructor called.</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>grammar</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>类与对象之学生信息管理系统NO.1</title>
+    <url>/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9FNO-1/</url>
+    <content><![CDATA[<p>最近准备陆续把之前敲过的代码放进来，顺序就……..(:</p>
+<p>​	在对类的定义和使用有了初步认识之后，可以尝试面向对象的风格设计一个简单的学生信息管理系统（：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">student</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	string ID;</span><br><span class="line">	string number;</span><br><span class="line">	string speciality;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">student</span>();</span><br><span class="line">	<span class="built_in">student</span>(string na, string id, string num, string spec, <span class="type">int</span> ag);</span><br><span class="line">	<span class="built_in">student</span>(<span class="type">const</span> student&amp; per);</span><br><span class="line">	<span class="function">string <span class="title">GetName</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetID</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetNumber</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function">string <span class="title">GetSpec</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">int</span> <span class="title">GetAge</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Input</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;student.h&quot;</span></span></span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>()</span><br><span class="line">&#123;</span><br><span class="line">	name = <span class="string">&quot; &quot;</span>;</span><br><span class="line">	age = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>(string na, string id, string num, string spec, <span class="type">int</span> ag):<span class="built_in">name</span>(na),<span class="built_in">ID</span>(id),<span class="built_in">number</span>(num),<span class="built_in">speciality</span>(spec),<span class="built_in">age</span>(age)</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">student::<span class="built_in">student</span>(<span class="type">const</span> student&amp; per)</span><br><span class="line">&#123;</span><br><span class="line">	name = per.name;</span><br><span class="line">	ID = per.ID;</span><br><span class="line">	number = per.number;</span><br><span class="line">	speciality = per.speciality;</span><br><span class="line">	age = per.age;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetName</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetID</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> ID;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetNumber</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">string</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">string <span class="title">student::GetSpec</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> speciality;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">student::GetAge</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> age;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">student::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;姓 名：&quot;</span>;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;身份证：&quot;</span> &lt;&lt; ID &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;学 号：&quot;</span> &lt;&lt; number &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;专 业：&quot;</span> &lt;&lt; speciality &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;年 龄：&quot;</span> &lt;&lt; age &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">student::Input</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入姓 名：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; name;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入身份证号：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; ID;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入年 龄：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; age;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入专 业：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; speciality;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入学 号：&quot;</span>;</span><br><span class="line">	cin &gt;&gt; number;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;student.h&quot;</span></span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">menu</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">OutputStu</span><span class="params">(student* array)</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InputStu</span><span class="params">(student* array)</span></span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">SearchStu</span><span class="params">(student* array, string na)</span></span>;</span><br><span class="line"><span class="type">int</span> coo = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	student array[N];</span><br><span class="line">	<span class="type">int</span> choice;</span><br><span class="line">	string na;</span><br><span class="line">	<span class="keyword">do</span> &#123;</span><br><span class="line">		<span class="built_in">menu</span>();</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;Please input your choice:&quot;</span>;</span><br><span class="line">		cin &gt;&gt; choice;</span><br><span class="line">		<span class="keyword">switch</span> (choice)</span><br><span class="line">		&#123;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">1</span>:<span class="built_in">InputStu</span>(array);<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">2</span>:cout &lt;&lt; <span class="string">&quot;Input the name searched:&quot;</span> &lt;&lt; endl;</span><br><span class="line">			cin &gt;&gt; na;</span><br><span class="line">			<span class="type">int</span> i;</span><br><span class="line">			i = <span class="built_in">SearchStu</span>(array, na);</span><br><span class="line">			<span class="keyword">if</span> (i == N)</span><br><span class="line">				cout &lt;&lt; <span class="string">&quot;查无此人！\n&quot;</span>;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">				array[i].<span class="built_in">Display</span>();</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">3</span>:<span class="built_in">OutputStu</span>(array);<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">case</span> <span class="number">0</span>:cout &lt;&lt; <span class="string">&quot;Thanks,see you...&quot;</span> &lt;&lt; endl;<span class="keyword">break</span>;</span><br><span class="line">		<span class="keyword">default</span>:cout &lt;&lt; <span class="string">&quot;Input error!&quot;</span> &lt;&lt; endl;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">	&#125; <span class="keyword">while</span> (choice);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">menu</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********1.录入信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********2.查询信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********3.浏览信息*********\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;*********0.退    出*********\n&quot;</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">OutputStu</span><span class="params">(student* array)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;学生总人数=&quot;</span> &lt;&lt; coo &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>;i &lt; coo;i++)</span><br><span class="line">		array[i].<span class="built_in">Display</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InputStu</span><span class="params">(student* array)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">char</span> ch;</span><br><span class="line">	<span class="keyword">do</span> &#123;</span><br><span class="line">		array[coo].<span class="built_in">Input</span>();</span><br><span class="line">		coo++;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;继续输入吗？（Y or N)\n&quot;</span>;</span><br><span class="line">		cin &gt;&gt; ch;</span><br><span class="line">	&#125; <span class="keyword">while</span> ((ch == <span class="string">&#x27;Y&#x27;</span>) || (ch == <span class="string">&#x27;y&#x27;</span>));</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">SearchStu</span><span class="params">(student* array, string na)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> i, j = N;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; coo;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span> (array[i].<span class="built_in">GetName</span>() == na)</span><br><span class="line">			j = i;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> j;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:1</span><br><span class="line">输入姓 名：zhangcheng</span><br><span class="line">输入身份证号：320106200101011819</span><br><span class="line">输入年 龄：18</span><br><span class="line">输入专 业：computer</span><br><span class="line">输入学 号：19070302</span><br><span class="line">继续输入吗？（Y or N)</span><br><span class="line">Y</span><br><span class="line">输入姓 名：wangcheng</span><br><span class="line">输入身份证号：320101200201014011</span><br><span class="line">输入年 龄：17</span><br><span class="line">输入专 业：accounting</span><br><span class="line">输入学 号：19070320</span><br><span class="line">继续输入吗？（Y or N)</span><br><span class="line">N</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:2</span><br><span class="line">Input the name searched:</span><br><span class="line">zhangcheng</span><br><span class="line">姓 名：zhangcheng</span><br><span class="line">身份证：320106200101011819</span><br><span class="line">学 号：19070302</span><br><span class="line">专 业：computer</span><br><span class="line">年 龄：18</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:3</span><br><span class="line">学生总人数=2</span><br><span class="line">姓 名：zhangcheng</span><br><span class="line">身份证：320106200101011819</span><br><span class="line">学 号：19070302</span><br><span class="line">专 业：computer</span><br><span class="line">年 龄：18</span><br><span class="line">姓 名：wangcheng</span><br><span class="line">身份证：320101200201014011</span><br><span class="line">学 号：19070320</span><br><span class="line">专 业：accounting</span><br><span class="line">年 龄：17</span><br><span class="line">*********1.录入信息*********</span><br><span class="line">*********2.查询信息*********</span><br><span class="line">*********3.浏览信息*********</span><br><span class="line">*********0.退    出*********</span><br><span class="line">Please input your choice:0</span><br><span class="line">Thanks,see you...</span><br></pre></td></tr></table></figure>
 
 ]]></content>
       <categories>
