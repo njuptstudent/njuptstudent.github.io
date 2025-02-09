@@ -789,7 +789,16 @@ $(function () {
     
 
     
-
+    <!-- 引用 artitalk -->
+    <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+    <!-- 存放说说的容器 -->
+    <div id="artitalk_main"></div>
+    <script>
+    new Artitalk({
+    appId: 'ajPRUJMtwKoFWXSbhp9PkKlP-gzGzoHsz', // Your LeanCloud appId
+    appKey: 'evJ0rLCCin700Mq7Wc5CLEG2' // Your LeanCloud appKey
+    })
+    </script>
     <!--腾讯兔小巢-->
     
     
@@ -801,7 +810,7 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
-
+        
 </body>
 
 </html>
