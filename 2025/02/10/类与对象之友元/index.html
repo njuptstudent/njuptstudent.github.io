@@ -253,7 +253,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -338,14 +338,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    600
+                    788
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    2 Min
+                    3 Min
                 </div>
                 
 
@@ -402,7 +402,13 @@
 
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">好基友正在访问......客厅</span><br><span class="line">好基友正在访问......卧室</span><br></pre></td></tr></table></figure>
 
-<h3 id="课本实例"><a href="#课本实例" class="headerlink" title="课本实例"></a>课本实例</h3>
+<h3 id="课本实例"><a href="#课本实例" class="headerlink" title="课本实例"></a>课本实例</h3><h5 id="友元函数："><a href="#友元函数：" class="headerlink" title="友元函数："></a>友元函数：</h5><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Croster</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="function"><span class="keyword">friend</span> <span class="type">bool</span> <span class="title">Equal</span><span class="params">(Croster&amp;, Croster&amp;)</span></span>;</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">int</span> Math;</span><br><span class="line">	<span class="type">const</span> <span class="type">double</span> Score;<span class="comment">//定义学分常数据成员</span></span><br><span class="line">	<span class="type">double</span> GPA;<span class="comment">//绩点</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Croster</span>(string na = <span class="string">&quot;undef&quot;</span>, <span class="type">int</span> m = <span class="number">100</span>, <span class="type">double</span> s = <span class="number">3</span>);</span><br><span class="line">	<span class="function"><span class="type">double</span> <span class="title">GetGPA</span><span class="params">()</span> <span class="type">const</span></span>;<span class="comment">//常数据成员函数返回绩点</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l4_08.h&quot;</span></span></span><br><span class="line">Croster::<span class="built_in">Croster</span>(string na, <span class="type">int</span> m, <span class="type">double</span> s) :<span class="built_in">name</span>(na), <span class="built_in">Math</span>(m), <span class="built_in">Score</span>(s)</span><br><span class="line">&#123;</span><br><span class="line">	GPA = Math / <span class="number">100.0</span> * Score;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">double</span> <span class="title">Croster::GetGPA</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> GPA;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">Equal</span><span class="params">(Croster &amp;A, Croster &amp;B)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (A.GPA==B.GPA)</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l4_08.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Croster <span class="title">stuA</span><span class="params">(<span class="string">&quot;李梅&quot;</span>, <span class="number">96</span>, <span class="number">3</span>)</span>, <span class="title">stuB</span><span class="params">(<span class="string">&quot;孙立&quot;</span>, <span class="number">98</span>, <span class="number">3</span>)</span></span>;</span><br><span class="line">	<span class="keyword">if</span> (<span class="built_in">Equal</span>(stuA, stuB))</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;GPA is same\n&quot;</span>;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;GPA is different\n&quot;</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h5 id="其他的大同小异，就不赘述了…………"><a href="#其他的大同小异，就不赘述了…………" class="headerlink" title="其他的大同小异，就不赘述了………….."></a>其他的大同小异，就不赘述了…………..</h5>
                 
             </div>
             <hr/>
@@ -1113,7 +1119,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total Words:&nbsp;<span
-                        class="white-color">10.8k</span>
+                        class="white-color">11k</span>
             
             
             
