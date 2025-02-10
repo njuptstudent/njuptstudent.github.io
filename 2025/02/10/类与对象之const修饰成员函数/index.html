@@ -4,9 +4,16 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="typora&amp;markdown, Mr.Smith">
-    <meta name="description" content="Typora基本介绍​	Typora 是一款由Abner Lee开发的轻量级 Markdown 编辑器。Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML （或HTML）文档。
-安">
+    <meta name="keywords" content="类与对象之const修饰成员函数, Mr.Smith">
+    <meta name="description" content="常函数
+成员函数加const后我们称这个函数为常函数
+
+常函数内不可修改成员属性
+
+成员属性声明时加关键字mutable后，在常函数中依然可以修改
+
+类型	函数名（形式参数表）	const
+### 常对象- 声明对象前加const称该对象为">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -18,7 +25,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>typora&amp;markdown | Mr.Smith</title>
+    <title>类与对象之const修饰成员函数 | Mr.Smith</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -247,12 +254,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">typora&amp;markdown</h1>
+                    <h1 class="description center-align post-title">类与对象之const修饰成员函数</h1>
                 </div>
             </div>
         </div>
@@ -280,8 +287,8 @@
                                 <span class="chip bg-color">grammar</span>
                             </a>
                         
-                            <a href="/tags/typora/">
-                                <span class="chip bg-color">typora</span>
+                            <a href="/tags/C/">
+                                <span class="chip bg-color">C++</span>
                             </a>
                         
                     </div>
@@ -305,21 +312,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2025-02-04
+                    2025-02-10
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2025-02-05
+                    2025-02-10
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    1k
+                    653
                 </div>
                 
 
@@ -349,89 +356,37 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><h4 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h4><p>​	Typora 是一款由Abner Lee开发的轻量级 Markdown 编辑器。Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML （或HTML）文档。</p>
-<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>​	下载地址：<a target="_blank" rel="noopener" href="https://typora.io/releases/all%EF%BC%8C%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8D%B3%E5%8F%AF%E3%80%82">https://typora.io/releases/all，下载安装即可。</a></p>
-<h4 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h4><p>​	打开Typora后，会显示空白的编辑页，左上角会显示7个菜单入口，简单认识下常用的功能。</p>
-<p><img src="/img/101.png"></p>
-<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><h4 id="块"><a href="#块" class="headerlink" title="块"></a>块</h4><h5 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h5><p>​	标题在行的开头使用1-6个<code>#</code>字符，对应于标题级别1-6。在Typora中输入<code># 标题内容</code>即可创建标题。注意：<code>#</code>与标题内容之间有个空格。</p>
-<p>快捷键：<code>Ctrl+1</code>、<code>Ctrl+2</code>、<code>Ctrl+3</code>、<code>Ctrl+4</code>、<code>Ctrl+5</code>、<code>Ctrl+6</code>；Ctrl+1-6 对应标题级别1-6。</p>
-<h5 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h5><p>​	引用在行的开头使用<code>&gt;</code>字符进行块引用。在Typora中输入<code>&gt;引用内容</code>即可生成块引用。块引用中继续输入<code>&gt;引用内容</code>，可以内嵌块引用。</p>
-<p>快捷键：<code>Ctrl+Shift+Q</code>。</p>
-<h5 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h5><h6 id="有序"><a href="#有序" class="headerlink" title="有序"></a>有序</h6><p>​	有序列表在行的开头输入<code>数字. 列表内容</code>可以创建有序列表，再按回车即可自动生成<code>数字+1.</code>的有序列表，即<code>1. 列表内容</code>回车后生成<code>2. 列表内容</code>。注意：<code>.</code>与列表内容之间有个空格。</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+Shift+[</code>。</p>
-</blockquote>
-<p>第一个列表</p>
-<p>第二个列表</p>
-<h6 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h6><p>​	无序列表在行的开头输入<code>- 列表内容</code>可以创建无序列表，再按回车即可自动生成下个无序列表。注意：<code>-</code>与列表内容之间有个空格。</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+Shift+]</code>。</p>
-</blockquote>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> 第一个列表</span><br><span class="line"><span class="bullet">-</span> 第二个列表</span><br></pre></td></tr></table></figure>
+                <h3 id="常函数"><a href="#常函数" class="headerlink" title="常函数"></a>常函数</h3><ul>
+<li><p>成员函数加const后我们称这个函数为常函数</p>
+</li>
+<li><p>常函数内不可修改成员属性</p>
+</li>
+<li><p>成员属性声明时加关键字mutable后，在常函数中依然可以修改</p>
+</li>
+<li><pre><code>类型	函数名（形式参数表）	const
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">### 常对象</span><br><span class="line"></span><br><span class="line">- 声明对象前加const称该对象为常对象</span><br><span class="line"></span><br><span class="line">- 常对象只能调用常函数</span><br><span class="line"></span><br><span class="line">- ```</span><br><span class="line">  const	类型名  常数据成员名</span><br></pre></td></tr></table></figure>
+</code></pre>
+</li>
+</ul>
+<h3 id="简单实例"><a href="#简单实例" class="headerlink" title="简单实例"></a>简单实例</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="type">int</span> A_age;</span><br><span class="line">	<span class="keyword">mutable</span> <span class="type">int</span> B_age;<span class="comment">//特殊变量mutable,即使在常函数中也能修改</span></span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">showperson</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		<span class="comment">//this-&gt;A_age = 20;无法修改</span></span><br><span class="line">		<span class="comment">//this-&gt;B_age = 30;可以</span></span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;年龄：&quot;</span> &lt;&lt; B_age&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<h6 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h6><p>​	任务列表在行的开头输入<code>- [ ] 列表内容</code> 、<code>- [x] 列表内容</code>可以创建未完成与已完成的任务列表。注意：<code>- [ ]</code>与列表内容之间有个空格。</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+Shift+X</code>。</p>
-</blockquote>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">-</span> [ ] 未完成</span><br><span class="line"><span class="bullet">-</span> [x] 已完成</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">test01</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Person p;</span><br><span class="line">	p.B_age = <span class="number">80</span>;</span><br><span class="line">	p.<span class="built_in">showperson</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//常对象</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">test02</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">const</span> Person p;</span><br><span class="line">	<span class="comment">//p.A_age=20会报错</span></span><br><span class="line">	p.B_age = <span class="number">30</span>;<span class="comment">//在常对象下也可以修改</span></span><br><span class="line">	<span class="comment">//常对象只能调用常函数</span></span><br><span class="line">	p.<span class="built_in">showperson</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h6 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h6><p>​	代码块在行的开头输入&#96;&#96;&#96;语言标识符，再按回车即可生成对应语言的代码块，包含语法高亮功能。</p>
-<p>快捷键：Ctrl+Shift+K+ 对应的代码格式（python、java、shell）。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;hello world&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">test01</span>();</span><br><span class="line">	<span class="built_in">test02</span>();</span><br><span class="line">	<span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h6 id="数学的模块"><a href="#数学的模块" class="headerlink" title="数学的模块"></a>数学的模块</h6><p>​	数学公式块在行的开头输入$$ + 回车键，即可生成接受Tex&#x2F;Latex源代码输入的区域。LaTex格式的数学表达式学习请参考LaTex&#x2F;数学。</p>
-<p>快捷键：Ctrl+Shift+M。</p>
-<p>$$<br>\lim\limits_{x \to \infty} \exp(-x) &#x3D; 0<br>$$</p>
-<h6 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h6><p>​	表格推荐直接使用快捷键<code>Ctrl+T</code>，可以自定义生成几行几列的表格，</p>
-<blockquote>
-<p>快捷键：<code>Ctrl+T</code>。</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>\</th>
-<th>1</th>
-<th>2</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>2</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>3</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-<h6 id="水平分割线"><a href="#水平分割线" class="headerlink" title="水平分割线"></a>水平分割线</h6><p>​	水平线在行的开头输入<code>---</code> + 回车键即可生成水平线。</p>
-<hr>
-<h6 id="内容目录"><a href="#内容目录" class="headerlink" title="内容目录"></a>内容目录</h6><p>​	目录在行的开头输入<code>[toc]</code>+回车，即可生成文章目录，自动更新。</p>
-<blockquote>
-<p>快捷键：<code>鼠标右键-&gt;插入-&gt;内容目录</code>。</p>
-</blockquote>
-<h6 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h6><p>​	Typora 支持, sequence, flowchart and mermaid, 使用前要先从偏好设置—&gt;Markdown—&gt;面板—&gt;Markdown扩展语法中，勾选图表选项来启用该功能。</p>
-<h6 id="序列图"><a href="#序列图" class="headerlink" title="序列图"></a>序列图</h6><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">jpdsg-&gt;&gt;spreng: Says Hello</span><br><span class="line">Note right of spreng: spreng thinks\nabout it</span><br><span class="line">spreng--&gt;&gt;jpdsg: How are you?</span><br><span class="line">jpdsg-&gt;&gt;spreng: I am good thanks!</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">年龄：80</span><br><span class="line">年龄：30</span><br></pre></td></tr></table></figure>
 
-<h5 id="Span-元素"><a href="#Span-元素" class="headerlink" title="Span 元素"></a>Span 元素</h5><h6 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h6><p>​	快捷键：<code>Ctrl+K</code>。</p>
-<p><a href="https://njuptstudent.github.io/">nnn</a></p>
-<h6 id="URL网址"><a href="#URL网址" class="headerlink" title="URL网址"></a>URL网址</h6><p>​	文章中输入<code>&lt;URL网址&gt;</code>即可生成支持跳转的链接。使用<code>Ctrl</code>+点击此链接的方式跳转。Typora也支持自动链接标准URL。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml">&lt;https://www.baidu.com/&gt;</span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">www.baidu.com</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 
-<h6 id="粗体"><a href="#粗体" class="headerlink" title="粗体"></a>粗体</h6><p>​	文章中输入<code>**文本**</code>即可给文本加粗。</p>
-<h6 id="上下标"><a href="#上下标" class="headerlink" title="上下标"></a>上下标</h6><p>​	文章中输入<code>^文本^</code>即可给文本添加上标效果。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">X^2^</span><br></pre></td></tr></table></figure>
 
-<h6 id="下标"><a href="#下标" class="headerlink" title="下标"></a>下标</h6><p>​	文章中输入<code>~文本~</code>即可给文本添加下标效果。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">H~2~O</span><br></pre></td></tr></table></figure>
+<h3 id="课本实例"><a href="#课本实例" class="headerlink" title="课本实例"></a>课本实例</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Croster</span></span><br><span class="line">&#123;</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">int</span> Math;</span><br><span class="line">	<span class="type">const</span> <span class="type">double</span> Score;<span class="comment">//定义学分常数据成员</span></span><br><span class="line">	<span class="type">double</span> GPA;<span class="comment">//绩点</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Croster</span>(string na = <span class="string">&quot;undef&quot;</span>, <span class="type">int</span> m = <span class="number">100</span>, <span class="type">double</span> s = <span class="number">3</span>);</span><br><span class="line">	<span class="function"><span class="type">double</span> <span class="title">GetGPA</span><span class="params">()</span> <span class="type">const</span></span>;<span class="comment">//常数据成员函数返回绩点</span></span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span> <span class="type">const</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<h5 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h5><h6 id="嵌入内容"><a href="#嵌入内容" class="headerlink" title="嵌入内容"></a>嵌入内容</h6><p>​	文章中输入&lt;#iframe #src&#x3D;”在线视频嵌入代码或链接” #width&#x3D;”视频宽度” #height&#x3D;”视频高度”&gt;</iframe>即可插入视频。也可以通过在视频页面点击 “分享”&gt;“嵌入” 获取嵌入代码，然后在 Typora 中插入。（删去#</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l4_07.h&quot;</span></span></span><br><span class="line">Croster::<span class="built_in">Croster</span>(string na, <span class="type">int</span> m, <span class="type">double</span> s) :<span class="built_in">name</span>(na), <span class="built_in">Math</span>(m), <span class="built_in">Score</span>(s)</span><br><span class="line">&#123;</span><br><span class="line">	GPA = Math / <span class="number">100.0</span> * Score;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">double</span> <span class="title">Croster::GetGPA</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> GPA;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Croster::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;This is void Display().\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; <span class="string">&quot;get &quot;</span> &lt;&lt; Math &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Your GPA is &quot;</span> &lt;&lt; <span class="built_in">GetGPA</span>() &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Croster::Display</span><span class="params">()</span><span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;This is void Display() const.\n&quot;</span>;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; <span class="string">&quot;get &quot;</span> &lt;&lt; Math &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Your GPA is &quot;</span> &lt;&lt; <span class="built_in">GetGPA</span>() &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l4_07.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function"><span class="type">const</span> Croster <span class="title">stu_A</span><span class="params">(<span class="string">&quot;赵衍&quot;</span>, <span class="number">92</span>, <span class="number">3</span>)</span></span>;<span class="comment">//定义常对象</span></span><br><span class="line">	<span class="function">Croster <span class="title">stu_B</span><span class="params">(<span class="string">&quot;孙立&quot;</span>,<span class="number">98</span>,<span class="number">3</span>)</span></span>;</span><br><span class="line">	stu_A.<span class="built_in">Display</span>();</span><br><span class="line">	stu_B.<span class="built_in">Display</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This is void Display() const.</span><br><span class="line">赵衍get 92</span><br><span class="line">Your GPA is 2.76</span><br><span class="line">This is void Display().</span><br><span class="line">孙立get 98</span><br><span class="line">Your GPA is 2.94</span><br></pre></td></tr></table></figure>
+
+<p>​	该程序中的Display()函数有重载的版本，一个是常成员函数，另一个是普通成员函数，函数手表的最后是否有const加以区分。从运行结果可知，同样是调用Display()函数，常对象的调用的一定是常成员函数void Display() const，而普通对象在调用时遵循这样的原则：如果有普通成员函数的重载版本，则首先调用普通成员函数；否则，自动调用常成员函数，因为普通对象也是可以调用常函数的。</p>
 
                 
             </div>
@@ -458,7 +413,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://njuptstudent.github.io/2025/02/04/typora-markdown/">https://njuptstudent.github.io/2025/02/04/typora-markdown/</a>
+                    <a href="https://njuptstudent.github.io/2025/02/10/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8Bconst%E4%BF%AE%E9%A5%B0%E6%88%90%E5%91%98%E5%87%BD%E6%95%B0/">https://njuptstudent.github.io/2025/02/10/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8Bconst%E4%BF%AE%E9%A5%B0%E6%88%90%E5%91%98%E5%87%BD%E6%95%B0/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -500,8 +455,8 @@
                                     <span class="chip bg-color">grammar</span>
                                 </a>
                             
-                                <a href="/tags/typora/">
-                                    <span class="chip bg-color">typora</span>
+                                <a href="/tags/C/">
+                                    <span class="chip bg-color">C++</span>
                                 </a>
                             
                         </div>
@@ -847,17 +802,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2025/02/05/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8BNO-1/">
+                <a href="/2025/02/10/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8Bconst%E4%BF%AE%E9%A5%B0%E6%88%90%E5%91%98%E5%87%BD%E6%95%B0/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="前端那些事NO.1">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="类与对象之const修饰成员函数">
                         
-                        <span class="card-title">前端那些事NO.1</span>
+                        <span class="card-title">类与对象之const修饰成员函数</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -867,9 +823,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2025-02-05
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-10
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -882,6 +838,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -889,8 +846,8 @@
                         <span class="chip bg-color">grammar</span>
                     </a>
                     
-                    <a href="/tags/HTML/">
-                        <span class="chip bg-color">HTML</span>
+                    <a href="/tags/C/">
+                        <span class="chip bg-color">C++</span>
                     </a>
                     
                 </div>
@@ -904,13 +861,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2025/02/04/hello-world/">
+                <a href="/2025/02/10/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8B%E4%B9%8B%E4%BB%BF%E4%BA%AC%E4%B8%9C%E8%BE%B9%E6%A1%86/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="前端那些事之仿京东边框">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">前端那些事之仿京东边框</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -921,7 +878,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-10
                             </span>
                         <span class="publish-author">
                             
@@ -938,8 +895,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/begining/">
-                        <span class="chip bg-color">begining</span>
+                    <a href="/tags/HTML/">
+                        <span class="chip bg-color">HTML</span>
+                    </a>
+                    
+                    <a href="/tags/project/">
+                        <span class="chip bg-color">project</span>
                     </a>
                     
                 </div>
