@@ -13,7 +13,10 @@
 成员属性声明时加关键字mutable后，在常函数中依然可以修改
 
 类型	函数名（形式参数表）	const
-### 常对象- 声明对象前加const称该对象为">
+
+
+常对象
+声明对象前加const称该对象为常对象">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -363,9 +366,15 @@
 </li>
 <li><p>成员属性声明时加关键字mutable后，在常函数中依然可以修改</p>
 </li>
-<li><pre><code>类型	函数名（形式参数表）	const
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">### 常对象</span><br><span class="line"></span><br><span class="line">- 声明对象前加const称该对象为常对象</span><br><span class="line"></span><br><span class="line">- 常对象只能调用常函数</span><br><span class="line"></span><br><span class="line">- ```</span><br><span class="line">  const	类型名  常数据成员名</span><br></pre></td></tr></table></figure>
-</code></pre>
+<li><p>类型	函数名（形式参数表）	const</p>
+</li>
+</ul>
+<h3 id="常对象"><a href="#常对象" class="headerlink" title="常对象"></a>常对象</h3><ul>
+<li><p>声明对象前加const称该对象为常对象</p>
+</li>
+<li><p>常对象只能调用常函数</p>
+</li>
+<li><p>const	类型名  常数据成员名</p>
 </li>
 </ul>
 <h3 id="简单实例"><a href="#简单实例" class="headerlink" title="简单实例"></a>简单实例</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="type">int</span> A_age;</span><br><span class="line">	<span class="keyword">mutable</span> <span class="type">int</span> B_age;<span class="comment">//特殊变量mutable,即使在常函数中也能修改</span></span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">showperson</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		<span class="comment">//this-&gt;A_age = 20;无法修改</span></span><br><span class="line">		<span class="comment">//this-&gt;B_age = 30;可以</span></span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;年龄：&quot;</span> &lt;&lt; B_age&lt;&lt;endl;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
