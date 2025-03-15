@@ -4,13 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="类与对象之小task, Mr.Smith">
-    <meta name="description" content="task​	设计一个产品类Product,允许通过如下方式创建产品对象。
-
-通过指定产品名创建。
-通过指定产品名和产品价格创建。
-通过指定产品名，产品价格，出厂日期（对象成员）创建。
-Product还应该包含如下属性：生产厂家，易碎标记，有">
+    <meta name="keywords" content="支票透支了怎么办, Mr.Smith">
+    <meta name="description" content="​	在一定的范围内，支票透支后“好心”的银行也会让你取出来，但之后吗……理性是少不了的
+:(
+#pragma once#include&amp;lt;iostream&amp;gt;#include&amp;lt;string&amp;gt;using namespace">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +19,7 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>类与对象之小task | Mr.Smith</title>
+    <title>支票透支了怎么办 | Mr.Smith</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -264,12 +261,12 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">类与对象之小task</h1>
+                    <h1 class="description center-align post-title">支票透支了怎么办</h1>
                 </div>
             </div>
         </div>
@@ -293,12 +290,12 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/grammar/">
-                                <span class="chip bg-color">grammar</span>
-                            </a>
-                        
                             <a href="/tags/C/">
                                 <span class="chip bg-color">C++</span>
+                            </a>
+                        
+                            <a href="/tags/project/">
+                                <span class="chip bg-color">project</span>
                             </a>
                         
                     </div>
@@ -322,28 +319,28 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2025-02-07
+                    2025-03-15
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2025-02-09
+                    2025-03-15
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    354
+                    1.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    5 Min
                 </div>
                 
 
@@ -366,18 +363,18 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="task"><a href="#task" class="headerlink" title="task"></a>task</h1><p>​	设计一个产品类Product,允许通过如下方式创建产品对象。</p>
-<ol>
-<li>通过指定产品名创建。</li>
-<li>通过指定产品名和产品价格创建。</li>
-<li>通过指定产品名，产品价格，出厂日期（对象成员）创建。</li>
-<li>Product还应该包含如下属性：生产厂家，易碎标记，有效日期（使用对象成员）。设计该类时，至少增加3个其他属性。成员函数包括访问和修改这些属性的操作。</li>
-<li>在main()中定义对象，并输出相关信息。</li>
-</ol>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Product</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Product</span>();</span><br><span class="line">	<span class="built_in">Product</span>(string na);</span><br><span class="line">	<span class="built_in">Product</span>(string na, <span class="type">double</span> pr);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span>;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">output</span><span class="params">()</span></span>;</span><br><span class="line">	~<span class="built_in">Product</span>();</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	string name;</span><br><span class="line">	<span class="type">double</span> price;</span><br><span class="line">	string factory;</span><br><span class="line">	<span class="type">bool</span> easy_break;</span><br><span class="line">	string color;</span><br><span class="line">	<span class="type">double</span> high;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::<span class="built_in">Product</span>(string na, <span class="type">double</span> pr)</span><br><span class="line">&#123;</span><br><span class="line">	na = name;</span><br><span class="line">	pr = price;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::SetProduct</span><span class="params">(string na, <span class="type">double</span> pr, string fa, <span class="type">bool</span> ea, string co, <span class="type">double</span> h)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	name = na;</span><br><span class="line">	price = pr;</span><br><span class="line">	factory = fa;</span><br><span class="line">	easy_break = ea;</span><br><span class="line">	color = co;</span><br><span class="line">	high = h;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Product::output</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; name &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; price &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; factory&lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; easy_break &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; color &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; high &lt;&lt; <span class="string">&quot; &quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">Product::~<span class="built_in">Product</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">Product <span class="title">p1</span><span class="params">(<span class="string">&quot;car&quot;</span>)</span></span>;</span><br><span class="line">	<span class="function">Product <span class="title">p2</span><span class="params">(<span class="string">&quot;glass&quot;</span>, <span class="number">3.00</span>)</span></span>;</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">SetProduct</span>(<span class="string">&quot;car&quot;</span>, <span class="number">100000.0</span>, <span class="string">&quot;nj&quot;</span>, <span class="number">0</span>, <span class="string">&quot;red&quot;</span>, <span class="number">1.5</span>);</span><br><span class="line">	p<span class="number">1.</span><span class="built_in">output</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+                <p>​	在一定的范围内，支票透支后“好心”的银行也会让你取出来，但之后吗……理性是少不了的</p>
+<p>:(</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">pragma</span> once</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Brass类表示一个基本的银行账户</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Brass</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    string fullName; <span class="comment">// 客户姓名</span></span><br><span class="line">    <span class="type">long</span> acctNum;    <span class="comment">// 账户号码</span></span><br><span class="line">    <span class="type">double</span> balance;  <span class="comment">// 账户余额</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="comment">// 构造函数，初始化客户姓名、账户号码和余额</span></span><br><span class="line">    <span class="built_in">Brass</span>(<span class="type">const</span> string&amp; s = <span class="string">&quot;Nullbody&quot;</span>, <span class="type">long</span> an = <span class="number">-1</span>, <span class="type">double</span> bal = <span class="number">0.0</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 存款函数</span></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">Deposit</span><span class="params">(<span class="type">double</span> amt)</span></span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 虚函数，取款函数</span></span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">Withdraw</span><span class="params">(<span class="type">double</span> amt)</span></span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 返回账户余额</span></span><br><span class="line">    <span class="function"><span class="type">double</span> <span class="title">Balance</span><span class="params">()</span><span class="type">const</span></span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 虚函数，显示账户信息</span></span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ViewAcct</span><span class="params">()</span><span class="type">const</span></span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 虚析构函数</span></span><br><span class="line">    <span class="keyword">virtual</span> ~<span class="built_in">Brass</span>();</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// BrassPlus类继承自Brass类，表示一个具有透支功能的银行账户</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">BrassPlus</span> :<span class="keyword">public</span> Brass</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="type">double</span> maxLoan;   <span class="comment">// 最大贷款额</span></span><br><span class="line">    <span class="type">double</span> rate;      <span class="comment">// 贷款利率</span></span><br><span class="line">    <span class="type">double</span> owesBank;  <span class="comment">// 欠银行的钱</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="comment">// 构造函数，初始化客户姓名、账户号码、余额、最大贷款额和贷款利率</span></span><br><span class="line">    <span class="built_in">BrassPlus</span>(<span class="type">const</span> string&amp; s = <span class="string">&quot;Nullbody&quot;</span>, <span class="type">long</span> an = <span class="number">-1</span>, <span class="type">double</span> bal = <span class="number">0.0</span>, <span class="type">double</span> m1 = <span class="number">500</span>, <span class="type">double</span> r = <span class="number">0.011125</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 构造函数，使用Brass对象初始化，并设置最大贷款额和贷款利率</span></span><br><span class="line">    <span class="built_in">BrassPlus</span>(<span class="type">const</span> Brass&amp; ba, <span class="type">double</span> m1 = <span class="number">500</span>, <span class="type">double</span> r = <span class="number">0.11125</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 虚函数，显示账户信息</span></span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ViewAcct</span><span class="params">()</span><span class="type">const</span></span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 虚函数，取款函数</span></span><br><span class="line">    <span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">Withdraw</span><span class="params">(<span class="type">double</span> amt)</span></span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 重置最大贷款额</span></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">ResertMax</span><span class="params">(<span class="type">double</span> m)</span> </span>&#123;</span><br><span class="line">        maxLoan = m;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 重置贷款利率</span></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">ResertRate</span><span class="params">(<span class="type">double</span> r)</span> </span>&#123;</span><br><span class="line">        rate = r;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 重置欠银行的钱为0</span></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">ResertOwes</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        owesBank = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">car 100000</span><br><span class="line">nj 0</span><br><span class="line">red 1.5</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Brass.h&quot;</span></span></span><br><span class="line"><span class="keyword">typedef</span> ios_base::fmtflags format;</span><br><span class="line"><span class="keyword">typedef</span> streamsize precis;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 设置格式</span></span><br><span class="line"><span class="function">format <span class="title">setFormat</span><span class="params">()</span></span>;</span><br><span class="line"><span class="comment">// 恢复格式</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">restore</span><span class="params">(format f, precis p)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// BrassPlus 构造函数</span></span><br><span class="line">BrassPlus::<span class="built_in">BrassPlus</span>(<span class="type">const</span> string&amp; s, <span class="type">long</span> an, <span class="type">double</span> bal, <span class="type">double</span> m1, <span class="type">double</span> r)</span><br><span class="line">&#123;</span><br><span class="line">    maxLoan = m1;</span><br><span class="line">    owesBank = <span class="number">0.0</span>;</span><br><span class="line">    rate = r;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// BrassPlus 构造函数</span></span><br><span class="line">BrassPlus::<span class="built_in">BrassPlus</span>(<span class="type">const</span> Brass&amp; ba, <span class="type">double</span> m1, <span class="type">double</span> r)</span><br><span class="line">&#123;</span><br><span class="line">    maxLoan = m1;</span><br><span class="line">    owesBank = <span class="number">0.0</span>;</span><br><span class="line">    rate = r;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 查看账户信息</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">BrassPlus::ViewAcct</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    format initialstate = <span class="built_in">setFormat</span>();</span><br><span class="line">    precis prec = cout.<span class="built_in">precision</span>(<span class="number">2</span>);</span><br><span class="line">    Brass::<span class="built_in">ViewAcct</span>();</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Maxium load: $&quot;</span> &lt;&lt; maxLoan &lt;&lt; endl;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Owed to bank: $&quot;</span> &lt;&lt; owesBank &lt;&lt; endl;</span><br><span class="line">    cout.<span class="built_in">precision</span>(<span class="number">3</span>);</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Loan Rate: &quot;</span> &lt;&lt; <span class="number">100</span> * rate &lt;&lt; <span class="string">&quot;%\n&quot;</span>;</span><br><span class="line">    <span class="built_in">restore</span>(initialstate, prec);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 提现</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">BrassPlus::Withdraw</span><span class="params">(<span class="type">double</span> amt)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    format initialstate = <span class="built_in">setFormat</span>();</span><br><span class="line">    precis prec = cout.<span class="built_in">precision</span>(<span class="number">2</span>);</span><br><span class="line">    <span class="type">double</span> bal = <span class="built_in">Balance</span>();</span><br><span class="line">    <span class="keyword">if</span> (amt &lt;= bal)</span><br><span class="line">        Brass::<span class="built_in">Withdraw</span>(amt);</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (amt &lt;= bal + maxLoan - owesBank)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="type">double</span> advance = amt - bal;</span><br><span class="line">        owesBank += advance * (<span class="number">1.0</span> + rate);</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Bank advance: $&quot;</span> &lt;&lt; advance &lt;&lt; endl;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Finance charge : $&quot;</span> &lt;&lt; advance * rate &lt;&lt; endl;</span><br><span class="line">        <span class="built_in">Deposit</span>(advance);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Credit limit exceeded. Transaction cancelled.\n&quot;</span>;</span><br><span class="line">    <span class="built_in">restore</span>(initialstate, prec);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Brass 构造函数</span></span><br><span class="line">Brass::<span class="built_in">Brass</span>(<span class="type">const</span> string&amp; s, <span class="type">long</span> an, <span class="type">double</span> bal)</span><br><span class="line">&#123;</span><br><span class="line">    fullName = s;</span><br><span class="line">    acctNum = an;</span><br><span class="line">    balance = bal;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 存款</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Brass::Deposit</span><span class="params">(<span class="type">double</span> amt)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (amt &lt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;Negative deposit not allowed; deposit is cancelled.\n&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        balance += amt;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 提现</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Brass::Withdraw</span><span class="params">(<span class="type">double</span> amt)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    format initialstate = <span class="built_in">setFormat</span>();</span><br><span class="line">    precis prec = cout.<span class="built_in">precision</span>(<span class="number">2</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取余额</span></span><br><span class="line"><span class="function"><span class="type">double</span> <span class="title">Brass::Balance</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> balance;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 查看账户信息</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Brass::ViewAcct</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    format initialstate = <span class="built_in">setFormat</span>();</span><br><span class="line">    precis prec = cout.<span class="built_in">precision</span>(<span class="number">2</span>);</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Client: &quot;</span> &lt;&lt; fullName &lt;&lt; endl;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Account Number: &quot;</span> &lt;&lt; acctNum &lt;&lt; endl;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Balance: $&quot;</span> &lt;&lt; balance &lt;&lt; endl;</span><br><span class="line">    <span class="built_in">restore</span>(initialstate, prec);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Brass 析构函数</span></span><br><span class="line">Brass::~<span class="built_in">Brass</span>()</span><br><span class="line">&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 设置格式</span></span><br><span class="line"><span class="function">format <span class="title">setFormat</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> cout.<span class="built_in">setf</span>(ios_base::fixed, ios_base::floatfield);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 恢复格式</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">restore</span><span class="params">(format f, precis p)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout.<span class="built_in">setf</span>(f, ios_base::floatfield);</span><br><span class="line">    cout.<span class="built_in">precision</span>(p);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Brass.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">// 创建一个Brass对象Piggy，账户名为&quot;porcelot pigg&quot;，账户号为381299，初始余额为4000.00</span></span><br><span class="line">    <span class="function">Brass <span class="title">Piggy</span><span class="params">(<span class="string">&quot;porcelot pigg&quot;</span>, <span class="number">381299</span>, <span class="number">4000.00</span>)</span></span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 创建一个BrassPlus对象Hoggy，账户名为&quot;Horation Hogg&quot;，账户号为382288，初始余额为3000.00</span></span><br><span class="line">    <span class="function">BrassPlus <span class="title">Hoggy</span><span class="params">(<span class="string">&quot;Horation Hogg&quot;</span>, <span class="number">382288</span>, <span class="number">3000.00</span>)</span></span>;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 显示Piggy账户信息</span></span><br><span class="line">    Piggy.<span class="built_in">ViewAcct</span>();</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 显示Hoggy账户信息</span></span><br><span class="line">    Hoggy.<span class="built_in">ViewAcct</span>();</span><br><span class="line">    cout &lt;&lt; endl;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 向Hoggy账户存入1000美元</span></span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Depositing $1000 into the hogg Account:\n&quot;</span>;</span><br><span class="line">    Hoggy.<span class="built_in">Deposit</span>(<span class="number">1000.00</span>);</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;New balance: $&quot;</span> &lt;&lt; Hoggy.<span class="built_in">Balance</span>() &lt;&lt; endl;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 从Piggy账户取出4200美元</span></span><br><span class="line">    Piggy.<span class="built_in">Withdraw</span>(<span class="number">4200.00</span>);</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Piggy account balance: $&quot;</span> &lt;&lt; Piggy.<span class="built_in">Balance</span>() &lt;&lt; endl;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 从Hoggy账户取出4200美元</span></span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Withdrawing $4200 from the Hogg Account:\n&quot;</span>;</span><br><span class="line">    Hoggy.<span class="built_in">Withdraw</span>(<span class="number">4200.00</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 显示Hoggy账户信息</span></span><br><span class="line">    Hoggy.<span class="built_in">ViewAcct</span>();</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 暂停系统，等待用户输入</span></span><br><span class="line">    <span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><em><strong>结果：</strong></em></p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">Client:porcelot pigg</span><br><span class="line">Account Number:<span class="number">381299</span></span><br><span class="line">Balance: $<span class="number">4000.00</span></span><br><span class="line"></span><br><span class="line">Client:Nullbody</span><br><span class="line">Account Number:<span class="number">-1</span></span><br><span class="line">Balance: $<span class="number">0.00</span></span><br><span class="line">Maxium load: $<span class="number">500.00</span></span><br><span class="line">Owed to bank: $<span class="number">0.00</span></span><br><span class="line">Loan Rate: <span class="number">1.113</span>%</span><br><span class="line"></span><br><span class="line">Depositing $<span class="number">1000</span> into the hogg Account:</span><br><span class="line">Nem balance: $<span class="number">1000</span></span><br><span class="line">Pigg account balance:$<span class="number">4000.00</span></span><br><span class="line">Withdrawing $<span class="number">4200</span> from the Hogg Account:</span><br><span class="line">Credit limit exceeded.Transaction cancelled.</span><br><span class="line">Client:Nullbody</span><br><span class="line">Account Number:<span class="number">-1</span></span><br><span class="line">Balance: $<span class="number">1000.00</span></span><br><span class="line">Maxium load: $<span class="number">500.00</span></span><br><span class="line">Owed to bank: $<span class="number">0.00</span></span><br><span class="line">Loan Rate: <span class="number">1.113</span>%</span><br></pre></td></tr></table></figure>
+
+<p>特别鸣谢Github Copilot生成的注释）</p>
 
                 
             </div>
@@ -394,7 +391,7 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">T1g3r</a>
+                    <a href="/about" rel="external nofollow noreferrer">t1g3r</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -404,7 +401,7 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://njuptstudent.github.io/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%B0%8Ftask/">https://njuptstudent.github.io/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%B0%8Ftask/</a>
+                    <a href="https://njuptstudent.github.io/2025/03/15/%E6%94%AF%E7%A5%A8%E9%80%8F%E6%94%AF%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/">https://njuptstudent.github.io/2025/03/15/%E6%94%AF%E7%A5%A8%E9%80%8F%E6%94%AF%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -417,7 +414,7 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                     All articles in this blog are used except for special statements
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     reprint policy. If reproduced, please indicate source
-                    <a href="/about" target="_blank">T1g3r</a>
+                    <a href="/about" target="_blank">t1g3r</a>
                     !
                 </span>
             </div>
@@ -442,12 +439,12 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/grammar/">
-                                    <span class="chip bg-color">grammar</span>
-                                </a>
-                            
                                 <a href="/tags/C/">
                                     <span class="chip bg-color">C++</span>
+                                </a>
+                            
+                                <a href="/tags/project/">
+                                    <span class="chip bg-color">project</span>
                                 </a>
                             
                         </div>
@@ -793,17 +790,18 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9FNO-1/">
+                <a href="/2025/03/15/%E6%94%AF%E7%A5%A8%E9%80%8F%E6%94%AF%E4%BA%86%E6%80%8E%E4%B9%88%E5%8A%9E/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="类与对象之学生信息管理系统NO.1">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="支票透支了怎么办">
                         
-                        <span class="card-title">类与对象之学生信息管理系统NO.1</span>
+                        <span class="card-title">支票透支了怎么办</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -813,9 +811,9 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2025-02-07
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-15
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -828,6 +826,7 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -850,13 +849,13 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%8B%B7%E8%B4%9D%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E7%9A%84%E8%B0%83%E7%94%A8/">
+                <a href="/2025/03/15/%E5%AD%A6%E7%94%9F%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F3rd/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="类与对象之拷贝构造函数的调用">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="学生信息管理系统3rd">
                         
-                        <span class="card-title">类与对象之拷贝构造函数的调用</span>
+                        <span class="card-title">学生信息管理系统3rd</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -867,7 +866,7 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-15
                             </span>
                         <span class="publish-author">
                             
@@ -884,12 +883,12 @@ Product还应该包含如下属性：生产厂家，易碎标记，有">
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/grammar/">
-                        <span class="chip bg-color">grammar</span>
-                    </a>
-                    
                     <a href="/tags/C/">
                         <span class="chip bg-color">C++</span>
+                    </a>
+                    
+                    <a href="/tags/project/">
+                        <span class="chip bg-color">project</span>
                     </a>
                     
                 </div>
