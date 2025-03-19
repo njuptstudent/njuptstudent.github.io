@@ -4,9 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="每日名言2025_3_17, Mr.Smith">
-    <meta name="description" content="只要我还能感受到内心那把既黯淡又炽热的火，那就是我，活着的我——我感谢生命让我得以燃烧。&amp;#x2F;《加缪手记》
-">
+    <meta name="keywords" content="程序猿的时间, Mr.Smith">
+    <meta name="description" content="Homework(low)#include&amp;lt;iostream&amp;gt;#include&amp;lt;string&amp;gt;using namespace std;class Time&amp;#123;private:    int Hour;    ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -18,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>每日名言2025_3_17 | Mr.Smith</title>
+    <title>程序猿的时间 | Mr.Smith</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -260,12 +259,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">每日名言2025_3_17</h1>
+                    <h1 class="description center-align post-title">程序猿的时间</h1>
                 </div>
             </div>
         </div>
@@ -289,8 +288,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/sayings/">
-                                <span class="chip bg-color">sayings</span>
+                            <a href="/tags/C/">
+                                <span class="chip bg-color">C++</span>
+                            </a>
+                        
+                            <a href="/tags/project/">
+                                <span class="chip bg-color">project</span>
                             </a>
                         
                     </div>
@@ -301,8 +304,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/daily/" class="post-category">
-                                daily
+                            <a href="/categories/tech/" class="post-category">
+                                tech
                             </a>
                         
                     </div>
@@ -314,28 +317,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2025-03-17
+                    2025-03-19
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2025-03-17
+                    2025-03-19
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    44
+                    610
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    3 Min
                 </div>
                 
 
@@ -358,7 +361,14 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>只要我还能感受到内心那把既黯淡又炽热的火，那就是我，活着的我——<br>我感谢生命让我得以燃烧。<br>&#x2F;《加缪手记》</p>
+                <h3 id="Homework-low"><a href="#Homework-low" class="headerlink" title="Homework(low)"></a>Homework(low)</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Time</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">    <span class="type">int</span> Hour;</span><br><span class="line">    <span class="type">int</span> Minute;</span><br><span class="line">    <span class="type">int</span> Second;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="built_in">Time</span>() :<span class="built_in">Hour</span>(<span class="number">0</span>), <span class="built_in">Minute</span>(<span class="number">0</span>), <span class="built_in">Second</span>(<span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">Time</span>(<span class="type">int</span> h, <span class="type">int</span> m, <span class="type">int</span> s);</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">AddTime</span><span class="params">()</span></span>;</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">Reset</span><span class="params">(Time &amp;t)</span></span>;</span><br><span class="line">    <span class="function">Time <span class="title">sum</span><span class="params">(<span class="type">const</span> Time&amp; t)</span><span class="type">const</span></span>;</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">show</span><span class="params">()</span> <span class="type">const</span></span>;</span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">input</span><span class="params">()</span></span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Time.h&quot;</span></span></span><br><span class="line">Time::<span class="built_in">Time</span>(<span class="type">int</span> h, <span class="type">int</span> m, <span class="type">int</span> s)</span><br><span class="line">&#123;</span><br><span class="line">    Hour = h;</span><br><span class="line">    Minute = m;</span><br><span class="line">    Second = s;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Time::Reset</span><span class="params">(Time&amp;t)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    t.<span class="built_in">input</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Time::show</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout &lt;&lt; Hour &lt;&lt; <span class="string">&quot; hours,&quot;</span> &lt;&lt; Minute &lt;&lt; <span class="string">&quot; minutes, &quot;</span> &lt;&lt; Second &lt;&lt; <span class="string">&quot; second&quot;</span> &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Time::input</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;小时：&quot;</span>;</span><br><span class="line">    cin &gt;&gt; Hour;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;分钟：&quot;</span>;</span><br><span class="line">    cin &gt;&gt; Minute;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;秒钟：&quot;</span>;</span><br><span class="line">    cin &gt;&gt; Second;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Time::AddTime</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> h, m, s;</span><br><span class="line">    cin &gt;&gt; h;</span><br><span class="line">    cin &gt;&gt; m;</span><br><span class="line">    cin &gt;&gt; s;</span><br><span class="line">    Second += s;</span><br><span class="line">    Minute += s / <span class="number">60</span>;</span><br><span class="line">    Second %= <span class="number">60</span>;</span><br><span class="line">    Minute += m;</span><br><span class="line">    Hour += Minute / <span class="number">60</span>;</span><br><span class="line">    Minute %= <span class="number">60</span>;</span><br><span class="line">    Hour += h;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">Time <span class="title">Time::sum</span><span class="params">(<span class="type">const</span> Time&amp; t)</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    Time sum; </span><br><span class="line">    sum.Second = Second + t.Second;</span><br><span class="line">    sum.Minute = Minute + t.Minute + sum.Second / <span class="number">60</span>;</span><br><span class="line">    sum.Hour = Hour + t.Hour + sum.Minute / <span class="number">60</span>;</span><br><span class="line">    sum.Minute %= <span class="number">60</span>;</span><br><span class="line">    sum.Second %= <span class="number">60</span>;</span><br><span class="line">    <span class="keyword">return</span> sum;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;Time.h&quot;</span></span></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">chose</span><span class="params">(<span class="type">char</span> a)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (a == <span class="string">&#x27;Y&#x27;</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">char</span> a,b;</span><br><span class="line">	Time coding;</span><br><span class="line">	Time fixing;</span><br><span class="line">	Time total;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入编码时间：\n&quot;</span>;</span><br><span class="line">	coding.<span class="built_in">input</span>();</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;coding  time=&quot;</span>;</span><br><span class="line">	coding.<span class="built_in">show</span>();</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;是否需要重新设定时间(Y/N)\n&quot;</span>;</span><br><span class="line">	cin &gt;&gt; a;</span><br><span class="line">	<span class="keyword">if</span> (a)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;输入重新设定的编码时间：\n&quot;</span>;</span><br><span class="line">		coding.<span class="built_in">Reset</span>(coding);</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;After reseting coding time=&quot;</span>;</span><br><span class="line">		coding.<span class="built_in">show</span>();</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		coding.<span class="built_in">show</span>();</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;输入DEBUG时间：\n&quot;</span>;</span><br><span class="line">	fixing.<span class="built_in">input</span>();</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;fixing time=&quot;</span>;</span><br><span class="line">	fixing.<span class="built_in">show</span>();</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;是否需要增加设定时间(Y/N)\n&quot;</span>;</span><br><span class="line">	cin &gt;&gt; b;</span><br><span class="line">	<span class="keyword">if</span> (b)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;请输入增加的DEBUG时间（h/m/s)：\n&quot;</span>;</span><br><span class="line">		fixing.<span class="built_in">AddTime</span>();</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;After adding fixing time=&quot;</span>;</span><br><span class="line">		fixing.<span class="built_in">show</span>();</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">	&#123;</span><br><span class="line">		fixing.<span class="built_in">show</span>();</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">	total = coding.<span class="built_in">sum</span>(fixing);</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;sum=&quot;</span>;</span><br><span class="line">	total.<span class="built_in">show</span>();</span><br><span class="line">	cout &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">输出结果：</span><br><span class="line">输入编码时间：</span><br><span class="line">小时：3</span><br><span class="line">分钟：23</span><br><span class="line">秒钟：34</span><br><span class="line">coding  time=3 hours,23 minutes, 34 second</span><br><span class="line"></span><br><span class="line">是否需要重新设定时间(Y/N)</span><br><span class="line">Y</span><br><span class="line">输入重新设定的编码时间：</span><br><span class="line">小时：2</span><br><span class="line">分钟：44</span><br><span class="line">秒钟：8</span><br><span class="line">After reseting coding time=2 hours,44 minutes, 8 second</span><br><span class="line"></span><br><span class="line">输入DEBUG时间：</span><br><span class="line">小时：3</span><br><span class="line">分钟：23</span><br><span class="line">秒钟：33</span><br><span class="line">fixing time=3 hours,23 minutes, 33 second</span><br><span class="line"></span><br><span class="line">是否需要增加设定时间(Y/N)</span><br><span class="line">Y</span><br><span class="line">请输入增加的DEBUG时间（h/m/s)：</span><br><span class="line">1 22 35</span><br><span class="line">After adding fixing time=4 hours,45 minutes, 8 second</span><br><span class="line"></span><br><span class="line">sum=7 hours,29 minutes, 16 second</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 
                 
             </div>
@@ -385,7 +395,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://njuptstudent.github.io/2025/03/17/%E6%AF%8F%E6%97%A5%E5%90%8D%E8%A8%802025-3-17/">https://njuptstudent.github.io/2025/03/17/%E6%AF%8F%E6%97%A5%E5%90%8D%E8%A8%802025-3-17/</a>
+                    <a href="https://njuptstudent.github.io/2025/03/19/%E7%A8%8B%E5%BA%8F%E7%8C%BF%E7%9A%84%E6%97%B6%E9%97%B4/">https://njuptstudent.github.io/2025/03/19/%E7%A8%8B%E5%BA%8F%E7%8C%BF%E7%9A%84%E6%97%B6%E9%97%B4/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -423,8 +433,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/sayings/">
-                                    <span class="chip bg-color">sayings</span>
+                                <a href="/tags/C/">
+                                    <span class="chip bg-color">C++</span>
+                                </a>
+                            
+                                <a href="/tags/project/">
+                                    <span class="chip bg-color">project</span>
                                 </a>
                             
                         </div>
@@ -770,9 +784,64 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
+            <div class="card">
+                <a href="/2025/03/19/%E7%A8%8B%E5%BA%8F%E7%8C%BF%E7%9A%84%E6%97%B6%E9%97%B4/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="程序猿的时间">
+                        
+                        <span class="card-title">程序猿的时间</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-19
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/tech/" class="post-category">
+                                    tech
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/C/">
+                        <span class="chip bg-color">C++</span>
+                    </a>
+                    
+                    <a href="/tags/project/">
+                        <span class="chip bg-color">project</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2025/03/17/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%B7%B1%E5%A4%8D%E5%88%B6/">
                     <div class="card-image">
@@ -790,9 +859,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2025-03-17
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-17
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -814,55 +883,6 @@
                     
                     <a href="/tags/C/">
                         <span class="chip bg-color">C++</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2025/03/16/Career-Plan/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Career_Plan">
-                        
-                        <span class="card-title">Career_Plan</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-16
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/daily/" class="post-category">
-                                    daily
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/plan/">
-                        <span class="chip bg-color">plan</span>
                     </a>
                     
                 </div>
@@ -1060,7 +1080,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total Words:&nbsp;<span
-                        class="white-color">25.4k</span>
+                        class="white-color">26k</span>
             
             
             
