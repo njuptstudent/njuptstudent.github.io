@@ -4,17 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="类与对象之构造函数, Mr.Smith">
-    <meta name="description" content="Main Point
-掌握构造函数的定义，特点和作用
-掌握无参构造函数与带默认参数值的构造函数的定义与使用
-掌握复制构造函数的定义与使用
-掌握析构函数的定义与使用
-
-构造函数​	构造函数是类的一种特殊的成员函数。
-特点：
-
-无返回值，不用v">
+    <meta name="keywords" content="QT3rd定时器, Mr.Smith">
+    <meta name="description" content="计时器，可以实现图片自动放映的功能QTimer（仅展示示例源码，需要的私我：）void Widget::timeoutSlot()&amp;#123;    QString Path(&amp;quot;D:........&amp;quot;);//这里存放你自">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -26,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>类与对象之构造函数 | Mr.Smith</title>
+    <title>QT3rd定时器 | Mr.Smith</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -268,12 +259,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">类与对象之构造函数</h1>
+                    <h1 class="description center-align post-title">QT3rd定时器</h1>
                 </div>
             </div>
         </div>
@@ -297,12 +288,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/grammar/">
-                                <span class="chip bg-color">grammar</span>
-                            </a>
-                        
-                            <a href="/tags/C/">
-                                <span class="chip bg-color">C++</span>
+                            <a href="/tags/QT/">
+                                <span class="chip bg-color">QT</span>
                             </a>
                         
                     </div>
@@ -326,28 +313,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2025-02-06
+                    2025-03-23
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2025-02-09
+                    2025-03-23
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    748
+                    280
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    3 Min
+                    1 Min
                 </div>
                 
 
@@ -370,82 +357,14 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Main-Point"><a href="#Main-Point" class="headerlink" title="Main Point"></a>Main Point</h2><ul>
-<li>掌握构造函数的定义，特点和作用</li>
-<li>掌握无参构造函数与带默认参数值的构造函数的定义与使用</li>
-<li>掌握复制构造函数的定义与使用</li>
-<li>掌握析构函数的定义与使用</li>
-</ul>
-<h2 id="构造函数"><a href="#构造函数" class="headerlink" title="构造函数"></a>构造函数</h2><p>​	构造函数是类的一种特殊的成员函数。</p>
-<p>特点：</p>
-<ol>
-<li>无返回值，不用void</li>
-<li>函数名与类名相同</li>
-<li>构造函数可以有参数，可以发生重载</li>
-<li>创建对象的时候，构造函数会自动调用，而且只调用一次</li>
-</ol>
-<h2 id="析构函数"><a href="#析构函数" class="headerlink" title="析构函数"></a>析构函数</h2><p>​	创建类的对象时，系统会自动调用构造函数。同样，当对象生命结束时，需要释放所占的内存资源，程序将自动调用类的析构函数来完成。</p>
-<p>特点：</p>
-<ol>
-<li>进行清理操作</li>
-<li>无返回值，不用void</li>
-<li>函数名于类名名称前加~</li>
-<li>析构函数无参，不能重载</li>
-<li>对象在销毁前会自动调用析构函数，而且仅调用一次</li>
-</ol>
-<h2 id="构造函数和析构函数实例"><a href="#构造函数和析构函数实例" class="headerlink" title="构造函数和析构函数实例"></a>构造函数和析构函数实例</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CDate</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> Date_Year, Date_Month, Date_Day;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="comment">//构造函数</span></span><br><span class="line">	<span class="comment">//无返回值无void</span></span><br><span class="line">	<span class="comment">//函数名与类名相同</span></span><br><span class="line">	<span class="comment">//可以有参数，可以重载</span></span><br><span class="line">	<span class="comment">//创建对象时，构造函数会自动调用，并且只调用一次</span></span><br><span class="line">	<span class="built_in">CDate</span>(<span class="type">int</span>, <span class="type">int</span>, <span class="type">int</span>);</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">Display</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+                <h1 id="计时器，可以实现图片自动放映的功能"><a href="#计时器，可以实现图片自动放映的功能" class="headerlink" title="计时器，可以实现图片自动放映的功能"></a>计时器，可以实现图片自动放映的功能</h1><h2 id="QTimer（仅展示示例源码，需要的私我：）"><a href="#QTimer（仅展示示例源码，需要的私我：）" class="headerlink" title="QTimer（仅展示示例源码，需要的私我：）"></a>QTimer（仅展示示例源码，需要的私我：）</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Widget::timeoutSlot</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="function">QString <span class="title">Path</span><span class="params">(<span class="string">&quot;D:........&quot;</span>)</span></span>;<span class="comment">//这里存放你自己的路径</span></span><br><span class="line">    Path += QString::<span class="built_in">number</span>(picID);<span class="comment">//出于简单考虑，图片路径为1.jpg,2,jpg...picID表示数字</span></span><br><span class="line">    Path += <span class="string">&quot;.jpg&quot;</span>;</span><br><span class="line">    QImage img;</span><br><span class="line">    img.<span class="built_in">load</span>(Path);<span class="comment">//存入路径</span></span><br><span class="line">    ui-&gt;label-&gt;<span class="built_in">setPixmap</span>(QPixmap::<span class="built_in">fromImage</span>(img));<span class="comment">//显示图片</span></span><br><span class="line">    picID++;</span><br><span class="line">    <span class="keyword">if</span>(picID==<span class="number">5</span>)<span class="comment">//假设总共5张</span></span><br><span class="line">    &#123;</span><br><span class="line">        picID=<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_07.h&quot;</span></span></span><br><span class="line">CDate::<span class="built_in">CDate</span>(<span class="type">int</span> y, <span class="type">int</span> m, <span class="type">int</span> d)</span><br><span class="line">&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Executing constructor...&quot;</span>;</span><br><span class="line">	Date_Year = y;</span><br><span class="line">	Date_Month = m;</span><br><span class="line">	Date_Day = d;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">CDate::Display</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; Date_Year &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Month &lt;&lt; <span class="string">&quot;-&quot;</span> &lt;&lt; Date_Day &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line">Widget::<span class="built_in">Widget</span>(QWidget *parent)<span class="comment">//构造函数</span></span><br><span class="line">    : <span class="built_in">QWidget</span>(parent)</span><br><span class="line">    , <span class="built_in">ui</span>(<span class="keyword">new</span> Ui::Widget)</span><br><span class="line">&#123;</span><br><span class="line">    ui-&gt;<span class="built_in">setupUi</span>(<span class="keyword">this</span>);</span><br><span class="line">    picID=<span class="number">1</span>;</span><br><span class="line">    timer=<span class="keyword">new</span> QTimer;</span><br><span class="line">    QImage img;</span><br><span class="line">    img.<span class="built_in">load</span>(<span class="string">&quot;D:&quot;</span>);</span><br><span class="line">    ui-&gt;label-&gt;<span class="built_in">setPixmap</span>(QPixmap::<span class="built_in">fromImage</span>(img));<span class="comment">//展示第一张图</span></span><br><span class="line">    <span class="built_in">connect</span>(timer,&amp;QTimer::timeout,<span class="keyword">this</span>,&amp;Widget::timeoutSlot);<span class="comment">//当 QTimer 对象的间隔时间到达时，它会发出 timeout 信号。Qt 的事件循环会自动检测到这个信号，并调用与之相连的槽函数 </span></span><br><span class="line">        Widget::<span class="built_in">timeoutSlot</span>()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;l3_07.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">CDate <span class="title">today</span><span class="params">(<span class="number">2025</span>, <span class="number">2</span>, <span class="number">5</span>)</span></span>;<span class="comment">//定义对象同时完成初始化</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;today is...\n&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	today = <span class="built_in">CDate</span>(<span class="number">2010</span>, <span class="number">3</span>, <span class="number">4</span>);<span class="comment">//定义无名对象</span></span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;today is...\n&quot;</span>;</span><br><span class="line">	today.<span class="built_in">Display</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">Executing constructor...today is...</span><br><span class="line">2025-2-5</span><br><span class="line">Executing constructor...today is...</span><br><span class="line">2010-3-4</span><br></pre></td></tr></table></figure>
-
-<h2 id="构造函数分类及调用"><a href="#构造函数分类及调用" class="headerlink" title="构造函数分类及调用"></a>构造函数分类及调用</h2><h4 id="两种分类方式"><a href="#两种分类方式" class="headerlink" title="两种分类方式"></a>两种分类方式</h4><ul>
-<li><p>有参</p>
-</li>
-<li><p>无参</p>
-</li>
-</ul>
-<h4 id="三种分类方式"><a href="#三种分类方式" class="headerlink" title="三种分类方式"></a>三种分类方式</h4><ul>
-<li>括号法</li>
-<li>显示法</li>
-<li>隐式转换法</li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="type">int</span> age;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="comment">//普通构造函数</span></span><br><span class="line">	<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;无参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">int</span> a)</span><br><span class="line">	&#123;</span><br><span class="line">		age = a;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;有参构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">Person</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;析构。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//拷贝构造函数</span></span><br><span class="line">	<span class="built_in">Person</span>(<span class="type">const</span> Person&amp; p)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="comment">//将传入的人身上所有的属性拷贝到我身上。</span></span><br><span class="line">		age = p.age;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;拷贝构造函数。\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">task1</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">//括号法</span></span><br><span class="line">	<span class="comment">//Person p1;//默认构造函数</span></span><br><span class="line">	<span class="comment">//Person p2(10);//有参构造函数</span></span><br><span class="line">	<span class="comment">//Person p3(p2);//拷贝构造函数</span></span><br><span class="line">	<span class="comment">//默认构造函数不能写（）</span></span><br><span class="line">	<span class="comment">//显示法</span></span><br><span class="line">	Person p1;</span><br><span class="line">	Person p2 = <span class="built_in">Person</span>(<span class="number">10</span>);</span><br><span class="line">	Person p3 = <span class="built_in">Person</span> (p2);</span><br><span class="line">	<span class="comment">//Person(10);匿名对象</span></span><br><span class="line">	<span class="comment">//cout &lt;&lt; &quot;a\n&quot;;</span></span><br><span class="line">	<span class="comment">//隐式写法</span></span><br><span class="line">	Person p4 = <span class="number">10</span>;<span class="comment">//等价于Person p4=Person(10)</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">task1</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">无参构造函数。</span><br><span class="line">有参构造函数。</span><br><span class="line">拷贝构造函数。</span><br><span class="line">有参构造函数。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br><span class="line">析构。</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>QTimer开始和结束按键比较简单this-&gt;start()，this-&gt;stop()。</p>
+<h2 id="QObject"><a href="#QObject" class="headerlink" title="QObject"></a>QObject</h2><p>计时器的实现也可以使用这种方式，两者差别不大，注意一下开始和结束改为this-&gt;startTimer(),this-&gt;killTimer().</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>老规矩，看看效果</p>
+<iframe src="https://www.bilibili.com/video/BV1a5XbYrEaK/?spm_id_from=333.1391.0.0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%"  height="580" quality="high" > </iframe>
 
                 
             </div>
@@ -472,7 +391,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://njuptstudent.github.io/2025/02/06/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/">https://njuptstudent.github.io/2025/02/06/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0/</a>
+                    <a href="https://njuptstudent.github.io/2025/03/23/QT3rd%E5%AE%9A%E6%97%B6%E5%99%A8/">https://njuptstudent.github.io/2025/03/23/QT3rd%E5%AE%9A%E6%97%B6%E5%99%A8/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -510,12 +429,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/grammar/">
-                                    <span class="chip bg-color">grammar</span>
-                                </a>
-                            
-                                <a href="/tags/C/">
-                                    <span class="chip bg-color">C++</span>
+                                <a href="/tags/QT/">
+                                    <span class="chip bg-color">QT</span>
                                 </a>
                             
                         </div>
@@ -861,17 +776,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2025/02/07/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%8B%B7%E8%B4%9D%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E7%9A%84%E8%B0%83%E7%94%A8/">
+                <a href="/2025/03/23/QT3rd%E5%AE%9A%E6%97%B6%E5%99%A8/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="类与对象之拷贝构造函数的调用">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="QT3rd定时器">
                         
-                        <span class="card-title">类与对象之拷贝构造函数的调用</span>
+                        <span class="card-title">QT3rd定时器</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -881,9 +797,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2025-02-07
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-23
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -896,15 +812,12 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/grammar/">
-                        <span class="chip bg-color">grammar</span>
-                    </a>
-                    
-                    <a href="/tags/C/">
-                        <span class="chip bg-color">C++</span>
+                    <a href="/tags/QT/">
+                        <span class="chip bg-color">QT</span>
                     </a>
                     
                 </div>
@@ -918,13 +831,13 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2025/02/06/%E5%89%8D%E7%AB%AF%E9%82%A3%E4%BA%9B%E4%BA%8BNO-4/">
+                <a href="/2025/03/22/QT2nd/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="前端那些事NO.4">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="QT2nd">
                         
-                        <span class="card-title">前端那些事NO.4</span>
+                        <span class="card-title">QT2nd</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -935,7 +848,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-02-06
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-22
                             </span>
                         <span class="publish-author">
                             
@@ -952,12 +865,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/grammar/">
-                        <span class="chip bg-color">grammar</span>
-                    </a>
-                    
-                    <a href="/tags/CSS/">
-                        <span class="chip bg-color">CSS</span>
+                    <a href="/tags/QT/">
+                        <span class="chip bg-color">QT</span>
                     </a>
                     
                 </div>
