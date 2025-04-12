@@ -4,8 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="类与对象之深复制, Mr.Smith">
-    <meta name="description" content="#pragma once#include&amp;lt;iostream&amp;gt;#include&amp;lt;cstring&amp;gt;using namespace std;class CMessage&amp;#123;private:	char* pmessa">
+    <meta name="keywords" content="valarray类, Mr.Smith">
+    <meta name="description" content="valarrayvalarray类是由头文件valarray支持的。顾名思义，这个类用于处理数值，它支持诸如将数组中所有元素的值向家已经在数组中找出最值等操作。
+#include&amp;lt;iostream&amp;gt;#include&amp;lt;str">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>类与对象之深复制 | Mr.Smith</title>
+    <title>valarray类 | Mr.Smith</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -259,12 +260,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">类与对象之深复制</h1>
+                    <h1 class="description center-align post-title">valarray类</h1>
                 </div>
             </div>
         </div>
@@ -317,28 +318,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2025-03-17
+                    2025-04-12
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>Update Date:&nbsp;&nbsp;
-                    2025-03-17
+                    2025-04-12
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    155
+                    666
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    1 Min
+                    4 Min
                 </div>
                 
 
@@ -361,11 +362,17 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">pragma</span> once</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">CMessage</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">	<span class="type">char</span>* pmessage;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">CMessage</span>(<span class="type">const</span> <span class="type">char</span>* text = <span class="string">&quot;中国一点也不能少！&quot;</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		pmessage = <span class="keyword">new</span> <span class="type">char</span>[<span class="built_in">strlen</span>(text) + <span class="number">1</span>];</span><br><span class="line">		<span class="built_in">strcpy_s</span>(pmessage, <span class="built_in">strlen</span>(text) + <span class="number">1</span>, text);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="type">void</span> <span class="title">show</span><span class="params">()</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		cout &lt;&lt; pmessage &lt;&lt; endl;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">CMessage</span>(<span class="type">const</span> CMessage&amp; oMes)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="type">size_t</span> len = <span class="built_in">strlen</span>(oMes.pmessage) + <span class="number">1</span>;</span><br><span class="line">		pmessage = <span class="keyword">new</span> <span class="type">char</span>[len];</span><br><span class="line">		<span class="built_in">strcpy_s</span>(pmessage, len, oMes.pmessage);</span><br><span class="line">	&#125;</span><br><span class="line">	~<span class="built_in">CMessage</span>()</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;Destructor called!&quot;</span> &lt;&lt; endl;</span><br><span class="line">		<span class="keyword">delete</span>[]pmessage;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">CMessage <span class="title">Mes1</span><span class="params">(<span class="string">&quot;爱我中华!&quot;</span>)</span></span>;</span><br><span class="line">	<span class="function">CMessage <span class="title">Mes2</span><span class="params">(Mes1)</span></span>;</span><br><span class="line">	Mes<span class="number">1.</span><span class="built_in">show</span>();</span><br><span class="line">	Mes<span class="number">2.</span><span class="built_in">show</span>();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+                <h1 id="valarray"><a href="#valarray" class="headerlink" title="valarray"></a>valarray</h1><p>valarray类是由头文件valarray支持的。顾名思义，这个类用于处理数值，它支持诸如将数组中所有元素的值向家已经在数组中找出最值等操作。</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;valarray&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">爱我中华!</span><br><span class="line">爱我中华!</span><br><span class="line">Destructor called!</span><br><span class="line">Destructor called!</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Student</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">typedef</span> valarray&lt;<span class="type">double</span>&gt; ArrayDb;</span><br><span class="line">	string name;</span><br><span class="line">	ArrayDb scores;</span><br><span class="line">	<span class="function">ostream&amp; <span class="title">arr_out</span><span class="params">(std::ostream&amp; os)</span><span class="type">const</span></span>;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="built_in">Student</span>():<span class="built_in">name</span>(<span class="string">&quot;Null Student&quot;</span>),<span class="built_in">scores</span>()&#123; &#125;</span><br><span class="line">	<span class="function"><span class="keyword">explicit</span> <span class="title">Student</span><span class="params">(<span class="type">const</span> string &amp;s)</span>:name(s),scores()&#123;</span> &#125;</span><br><span class="line">	<span class="function"><span class="keyword">explicit</span> <span class="title">Student</span><span class="params">(<span class="type">int</span> n)</span>:name(<span class="string">&quot;Nully&quot;</span>),scores(n)&#123;</span> &#125;</span><br><span class="line">	<span class="built_in">Student</span>(<span class="type">const</span> string&amp;s,<span class="type">int</span> n):<span class="built_in">name</span>(s),<span class="built_in">scores</span>(n)&#123; &#125;</span><br><span class="line">	<span class="built_in">Student</span>(<span class="type">const</span> string&amp;s,<span class="type">const</span> ArrayDb&amp;a):<span class="built_in">name</span>(s),<span class="built_in">scores</span>(a)&#123; &#125;</span><br><span class="line">	<span class="built_in">Student</span>(<span class="type">const</span> <span class="type">char</span>*str,<span class="type">const</span> <span class="type">double</span>*pd,<span class="type">int</span> n):<span class="built_in">name</span>(str),<span class="built_in">scores</span>(pd,n)&#123;&#125;</span><br><span class="line">	~<span class="built_in">Student</span>()&#123; &#125;</span><br><span class="line">	<span class="function"><span class="type">double</span> <span class="title">Average</span><span class="params">()</span><span class="type">const</span></span>;</span><br><span class="line">	<span class="function"><span class="type">const</span> string&amp; <span class="title">Name</span><span class="params">()</span><span class="type">const</span></span>;</span><br><span class="line">	<span class="type">double</span>&amp; <span class="keyword">operator</span>[](<span class="type">int</span> i);</span><br><span class="line">	<span class="type">double</span> <span class="keyword">operator</span>[](<span class="type">int</span> i)<span class="type">const</span>;</span><br><span class="line">	<span class="keyword">friend</span> istream&amp; <span class="keyword">operator</span>&gt;&gt;(istream&amp; is, Student&amp; stu);</span><br><span class="line">	<span class="function"><span class="keyword">friend</span> istream&amp; <span class="title">getline</span><span class="params">(istream&amp; is, Student&amp; stu)</span></span>;</span><br><span class="line">	<span class="keyword">friend</span> ostream&amp; <span class="keyword">operator</span>&lt;&lt;(ostream&amp; os, Student&amp; stu);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<p>本章是对《类与对象之析构函数和动态内存分配》的一个补充（</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function">ostream&amp; <span class="title">Student::arr_out</span><span class="params">(std::ostream&amp; os)</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> i;</span><br><span class="line">	<span class="type">int</span> lim = scores.<span class="built_in">size</span>();</span><br><span class="line">	<span class="keyword">if</span> (lim &gt; <span class="number">0</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; lim;i++)</span><br><span class="line">		&#123;</span><br><span class="line">			os &lt;&lt; scores[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">			<span class="keyword">if</span> (i % <span class="number">5</span> == <span class="number">4</span>)</span><br><span class="line">				cout &lt;&lt; endl;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> (i % <span class="number">5</span> != <span class="number">0</span>)</span><br><span class="line">			os &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		os &lt;&lt; <span class="string">&quot;empty array&quot;</span>;</span><br><span class="line">	<span class="keyword">return</span> os;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">double</span> <span class="title">Student::Average</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (scores.<span class="built_in">size</span>() &gt; <span class="number">0</span>)</span><br><span class="line">		<span class="keyword">return</span> scores.<span class="built_in">sum</span>() / scores.<span class="built_in">size</span>();</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">const</span> string&amp; <span class="title">Student::Name</span><span class="params">()</span> <span class="type">const</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">double</span>&amp; Student::<span class="keyword">operator</span>[](<span class="type">int</span> i)</span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">return</span> scores[i];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">double</span> Student::<span class="keyword">operator</span>[](<span class="type">int</span> i) <span class="type">const</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">return</span> scores[i];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">istream&amp; <span class="keyword">operator</span>&gt;&gt;(istream&amp; is, Student&amp; stu)</span><br><span class="line">&#123;</span><br><span class="line">	is &gt;&gt; stu.name;</span><br><span class="line">	<span class="keyword">return</span> is;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function">istream&amp; <span class="title">getline</span><span class="params">(istream&amp; is, Student&amp; stu)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="built_in">getline</span>(is, stu.name);</span><br><span class="line">	<span class="keyword">return</span> is;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ostream&amp; <span class="keyword">operator</span>&lt;&lt;(ostream&amp; os, Student&amp; stu)</span><br><span class="line">&#123;</span><br><span class="line">	os &lt;&lt; <span class="string">&quot;Scores for&quot;</span> &lt;&lt; stu.name &lt;&lt; <span class="string">&quot;:\n&quot;</span>;</span><br><span class="line">	stu.<span class="built_in">arr_out</span>(os);</span><br><span class="line">	<span class="keyword">return</span> os;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">set</span><span class="params">(Student&amp; sa, <span class="type">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Please enter the student&#x27;s name:&quot;</span>;</span><br><span class="line">	<span class="built_in">getline</span>(cin, sa);</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Please enter &quot;</span> &lt;&lt; n &lt;&lt; <span class="string">&quot; quze scores:\n&quot;</span>;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>;i &lt; n;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		cin &gt;&gt; sa[i];</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">while</span> (cin.<span class="built_in">get</span>() != <span class="string">&#x27;\n&#x27;</span>)</span><br><span class="line">		<span class="keyword">continue</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> pupils = <span class="number">3</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> quzzes = <span class="number">5</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">set</span><span class="params">(Student&amp; sa, <span class="type">int</span> n)</span></span>;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	Student ada[pupils] = &#123; <span class="built_in">Student</span>(quzzes),<span class="built_in">Student</span>(quzzes),<span class="built_in">Student</span>(quzzes) &#125;;</span><br><span class="line">	<span class="type">int</span> i;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; pupils;++i)</span><br><span class="line">		<span class="built_in">set</span>(ada[i], quzzes);</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;\nStudent List:\n&quot;</span>;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; pupils;++i)</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;\nResults:&quot;</span>;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span>;i &lt; pupils;++i)</span><br><span class="line">	&#123;</span><br><span class="line">		cout &lt;&lt; endl &lt;&lt; ada[i];</span><br><span class="line">		cout &lt;&lt; <span class="string">&quot;average:&quot;</span> &lt;&lt; ada[i].<span class="built_in">Average</span>() &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; <span class="string">&quot;Done&quot;</span> &lt;&lt; endl;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Please enter the student&#x27;s name:Gil Bayts</span><br><span class="line">Please enter 5 quze scores:</span><br><span class="line">92 94 96 93 95</span><br><span class="line">Please enter the student&#x27;s name:Pat Roone</span><br><span class="line">Please enter 5 quze scores:</span><br><span class="line">83 89 72 78 95</span><br><span class="line">Please enter the student&#x27;s name:Fleur O&#x27;Day</span><br><span class="line">Please enter 5 quze scores:</span><br><span class="line">92 89 96 74 64</span><br><span class="line"></span><br><span class="line">Student List:</span><br><span class="line"></span><br><span class="line">Results:</span><br><span class="line">Results:</span><br><span class="line">Results:</span><br><span class="line">Scores forGil Bayts:</span><br><span class="line">92 94 96 93 95</span><br><span class="line">average:94</span><br><span class="line"></span><br><span class="line">Scores forPat Roone:</span><br><span class="line">83 89 72 78 95</span><br><span class="line">average:83.4</span><br><span class="line"></span><br><span class="line">Scores forFleur O&#x27;Day:</span><br><span class="line">92 89 96 74 64</span><br><span class="line">average:83</span><br><span class="line">Done</span><br></pre></td></tr></table></figure>
+
 
                 
             </div>
@@ -392,7 +399,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://njuptstudent.github.io/2025/03/17/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%B7%B1%E5%A4%8D%E5%88%B6/">https://njuptstudent.github.io/2025/03/17/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%E4%B9%8B%E6%B7%B1%E5%A4%8D%E5%88%B6/</a>
+                    <a href="https://njuptstudent.github.io/2025/04/12/valarray%E7%B1%BB/">https://njuptstudent.github.io/2025/04/12/valarray%E7%B1%BB/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -781,17 +788,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
-                <a href="/2025/03/19/%E7%A8%8B%E5%BA%8F%E7%8C%BF%E7%9A%84%E6%97%B6%E9%97%B4/">
+                <a href="/2025/04/12/valarray%E7%B1%BB/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="程序猿的时间">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="valarray类">
                         
-                        <span class="card-title">程序猿的时间</span>
+                        <span class="card-title">valarray类</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -801,9 +809,63 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2025-03-19
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-04-12
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/tech/" class="post-category">
+                                    tech
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/grammar/">
+                        <span class="chip bg-color">grammar</span>
+                    </a>
+                    
+                    <a href="/tags/C/">
+                        <span class="chip bg-color">C++</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2025/03/30/QT4thclock/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="QT4thclock">
+                        
+                        <span class="card-title">QT4thclock</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-30
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -819,61 +881,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/C/">
-                        <span class="chip bg-color">C++</span>
-                    </a>
-                    
-                    <a href="/tags/project/">
-                        <span class="chip bg-color">project</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2025/03/17/%E6%AF%8F%E6%97%A5%E5%90%8D%E8%A8%80/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="每日积累">
-                        
-                        <span class="card-title">每日积累</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-03-17
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/daily/" class="post-category">
-                                    daily
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/sayings/">
-                        <span class="chip bg-color">sayings</span>
+                    <a href="/tags/QT/">
+                        <span class="chip bg-color">QT</span>
                     </a>
                     
                 </div>
